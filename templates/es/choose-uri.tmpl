@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Modificar {printer_name}:A&ntilde;adir impresora}</H2>
+<H2 CLASS="title">{op=modify-printer?Modify {printer_name}:Add Printer}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -8,33 +8,33 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Conexi&oacute;n:</TH>
+<TH CLASS="label">Connection:</TH>
 <TD><INPUT TYPE="URL" SIZE="60" MAXLENGTH="1023" NAME="DEVICE_URI" VALUE="{current_device_uri?{current_device_uri}:{device_uri}}"></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD>Ejemplos:
+<TD>Examples:
 <PRE>
-    http://nombre_ordenador:631/ipp/
-    http://nombre_ordenador:631/ipp/puerto1
+    http://hostname:631/ipp/
+    http://hostname:631/ipp/port1
 
-    ipp://nombre_ordenador/ipp/
-    ipp://nombre_ordenador/ipp/puerto1
+    ipp://hostname/ipp/
+    ipp://hostname/ipp/port1
 
-    lpd://nombre_ordenador/cola
+    lpd://hostname/queue
 
-    socket://nombre_ordenador
-    socket://nombre_ordenador:9100
+    socket://hostname
+    socket://hostname:9100
 </PRE>
 
-<P>Vea <A HREF="/help/network.html" TARGET="_blank">"Impresoras
-en red"</A> para escoger el URI adecuado a usar con su impresora.</P>
+<P>See <A HREF="/help/network.html" TARGET="_blank">"Network
+Printers"</A> for the correct URI to use with your printer.</P>
 
 </TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Siguiente"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 
