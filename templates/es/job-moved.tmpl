@@ -1,4 +1,4 @@
-<H2 CLASS="title">{job_id?Mover trabajo {job_id}:Mover todos los trabajos}</H2>
+<H2 CLASS="title">{job_id?Move Job {job_id}:Move All Jobs}</H2>
 
-<P>Se {job_id?ha movido el <A HREF="/jobs/{job_id}">Trabajo {job_id}</A>:han movido todos los trabajos} a
+<P>{job_id?<A HREF="/jobs/{job_id}">Job {job_id}</A>:All jobs} moved to
 <A HREF="/{is_class?classes:printers}/{job_printer_name}">{job_printer_name}</A>.</P>
