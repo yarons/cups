@@ -1,0 +1,3 @@
+files:
+  - source: /doc/index.html.in
+    translation: /doc/%two_letters_code%/index.html.in
