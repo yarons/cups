@@ -1,4 +1,4 @@
-<H2 CLASS="title">{printer_name} の変更</H2>
+<H2 CLASS="title">Modify {printer_name}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -11,28 +11,28 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">説明:</TH>
+<TH CLASS="label">Description:</TH>
 <TD><INPUT TYPE="TEXT" NAME="PRINTER_INFO" VALUE="{?printer_info}" SIZE="40" MAXLENGTH="127"><BR>
-<SMALL>("両面ありHP LaserJet" のように人が読みやすい説明)</SMALL></TD>
+<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">場所:</TH>
+<TH CLASS="label">Location:</TH>
 <TD><INPUT TYPE="TEXT" NAME="PRINTER_LOCATION" VALUE="{?printer_location}" SIZE="40" MAXLENGTH="127"><BR>
-<SMALL>("研究室1" のように人が読みやすい場所)</SMALL></TD>
+<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">接続:</TH>
+<TH CLASS="label">Connection:</TH>
 <TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
-<TH CLASS="label">共有:</TH>
+<TH CLASS="label">Sharing:</TH>
 <TD><INPUT TYPE="CHECKBOX" NAME="PRINTER_IS_SHARED" ID="PRINTER_IS_SHARED" {PRINTER_IS_SHARED=1?CHECKED:}>
-<LABEL FOR="PRINTER_IS_SHARED">このプリンターを共有する</LABEL></TD>
+<LABEL FOR="PRINTER_IS_SHARED">Share This Printer</LABEL></TD>
 </TR>
 <TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="続ける"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 
