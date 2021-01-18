@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Rediger {printer_name}:Tilføj printer}</H2>
+<H2 CLASS="title">{op=modify-printer?Modify {printer_name}:Add Printer}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -7,11 +7,11 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Forbindelse:</TH>
+<TH CLASS="label">Connection:</TH>
 <TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
-<TH CLASS="label">Baudhastighed:</TH>
+<TH CLASS="label">Baud Rate:</TH>
 <TD><SELECT NAME="BAUDRATE">
 {[baudrates]<OPTION {?baudrate={baudrates}?SELECTED:}>{baudrates}}
 </SELECT></TD>
@@ -19,30 +19,30 @@
 <TR>
 <TH CLASS="label">Parity:</TH>
 <TD><SELECT NAME="PARITY">
-<OPTION VALUE="none" {?parity=none?SELECTED:}>Ingen
-<OPTION VALUE="even" {?parity=even?SELECTED:}>Lige
-<OPTION VALUE="odd" {?parity=odd?SELECTED:}>Ulige
+<OPTION VALUE="none" {?parity=none?SELECTED:}>None
+<OPTION VALUE="even" {?parity=even?SELECTED:}>Even
+<OPTION VALUE="odd" {?parity=odd?SELECTED:}>Odd
 </SELECT></TD>
 </TR>
 <TR>
-<TH CLASS="label">Databit:</TH>
+<TH CLASS="label">Data Bits:</TH>
 <TD><SELECT NAME="BITS">
 <OPTION {?bits=8?SELECTED:}>8
 <OPTION {?bits=7?SELECTED:}>7
 </SELECT></TD>
 </TR>
 <TR>
-<TH CLASS="label">Flowstyring:</TH>
+<TH CLASS="label">Flow Control:</TH>
 <TD><SELECT NAME="FLOW">
-<OPTION VALUE="none" {?flow=none?SELECTED:}>Ingen
-<OPTION VALUE="soft" {?flow=soft?SELECTED:}>XON/XOFF (software)
-<OPTION VALUE="hard" {?flow=hard?SELECTED:}>RTS/CTS (hardware)
-<OPTION VALUE="dtrdsr" {?flow=dtrdsr?SELECTED:}>DTR/DSR (hardware)
+<OPTION VALUE="none" {?flow=none?SELECTED:}>None
+<OPTION VALUE="soft" {?flow=soft?SELECTED:}>XON/XOFF (Software)
+<OPTION VALUE="hard" {?flow=hard?SELECTED:}>RTS/CTS (Hardware)
+<OPTION VALUE="dtrdsr" {?flow=dtrdsr?SELECTED:}>DTR/DSR (Hardware)
 </SELECT></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Fortsæt"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 
