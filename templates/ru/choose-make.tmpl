@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Изменение {printer_name}:Добавление принтера}</H2>
+<H2 CLASS="title">{op=modify-printer?Modify {printer_name}:Add Printer}</H2>
 
 <FORM METHOD="POST" ACTION="/admin" ENCTYPE="multipart/form-data">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -11,28 +11,28 @@
 
 <TABLE>
 {op=modify-printer?:<TR>
-<TH CLASS="label">Название:</TH>
+<TH CLASS="label">Name:</TH>
 <TD><INPUT TYPE="HIDDEN" NAME="PRINTER_NAME" VALUE="{printer_name}">{printer_name}</TD>
 </TR>}
 <TR>
-<TH CLASS="label">Описание:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_INFO" VALUE="{printer_info}">{printer_info}</TD>
+<TH CLASS="label">Description:</TH>
+<TD><input type="HIDDEN" name="PRINTER_INFO" value="{printer_info}">{printer_info}</TD>
 </TR>
 <TR>
-<TH CLASS="label">Расположение:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_LOCATION" VALUE="{printer_location}">{printer_location}</TD>
+<TH CLASS="label">Location:</TH>
+<TD><input type="HIDDEN" name="PRINTER_LOCATION" value="{printer_location}">{printer_location}</TD>
 </TR>
 <TR>
-<TH CLASS="label">Подключение:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
+<TH CLASS="label">Connection:</TH>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
-<TH CLASS="label">Совместный доступ:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_IS_SHARED" VALUE="{?printer_is_shared}">
-{?printer_is_shared=?Нет совместного доступа:{?printer_is_shared=0?Нет совместного доступа:Разрешить совместный доступ}} к этому принтеру</TD>
+<TH CLASS="label">Sharing:</TH>
+<TD><input type="HIDDEN" name="PRINTER_IS_SHARED" value="{?printer_is_shared}">
+{?printer_is_shared=?Do Not:{?printer_is_shared=0?Do Not:}} Share This Printer</TD>
 </TR>
 <TR>
-<TH CLASS="label">Создать:</TH>
+<TH CLASS="label">Make:</TH>
 <TD>
 <SELECT NAME="PPD_MAKE" SIZE="10">
 {[ppd_make]<OPTION VALUE="{ppd_make}" {?current_make={ppd_make}?SELECTED:}>{ppd_make}}
@@ -41,20 +41,20 @@
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Продолжить"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 <TR>
 <TD></TD>
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TH CLASS="label">или использовать файл PPD:</TH>
+<TH CLASS="label">Or Provide a PPD File:</TH>
 <TD><INPUT TYPE="HIDDEN" NAME="MAX_FILE_SIZE" VALUE="262144"><INPUT
 TYPE="FILE" NAME="PPD_FILE"></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?Добавить принтер:Сохранить}"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?Add Printer:Modify Printer}"></TD>
 </TR>
 </TABLE>
 
