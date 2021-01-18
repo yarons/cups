@@ -1,4 +1,4 @@
-<H2 CLASS="title">Новая группа</H2>
+<H2 CLASS="title">Add Class</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -6,22 +6,22 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Название:</TH>
+<TH CLASS="label">Name:</TH>
 <TD><INPUT TYPE="TEXT" NAME="PRINTER_NAME" SIZE="40" MAXLENGTH="127"><BR>
-<SMALL>(может содержать любые символы, кроме "/", "#" и пробела)</SMALL></TD>
+<SMALL>(May contain any printable characters except "/", "#", and space)</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Описание:</TH>
+<TH CLASS="label">Description:</TH>
 <TD><INPUT TYPE="TEXT" NAME="PRINTER_INFO" SIZE="40" MAXLENGTH="127"><BR>
-<SMALL>(Расширенное описание группы, например, "Дуплексный принтер")</SMALL></TD>
+<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Расположение:</TH>
+<TH CLASS="label">Location:</TH>
 <TD><INPUT TYPE="TEXT" NAME="PRINTER_LOCATION" SIZE="40" MAXLENGTH="127"><BR>
-<SMALL>(Месторасположение группы, например, "Кабинет 55")</SMALL></TD>
+<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Состав группы:</TH>
+<TH CLASS="label">Members:</TH>
 <TD>
 <SELECT NAME="MEMBER_URIS" SIZE="10" MULTIPLE>
 {[member_uris]<OPTION VALUE="{member_uris}" {?member_selected}>{member_names}}
@@ -30,7 +30,7 @@
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Добавить группу"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Add Class"></TD>
 </TR>
 </TABLE>
 
