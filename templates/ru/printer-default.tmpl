@@ -1,8 +1,9 @@
-<H2 CLASS="title">Установка {is_class?группы:принтера} {printer_name} по умолчанию</H2>
+<H2 CLASS="title">Set {is_class?Class:Printer} {printer_name} As Default</H2>
 
-<P>{is_class?Группа:Принтер} <A
+<P>{is_class?Class:Printer} <A
 HREF="/{is_class?classes:printers}/{printer_name}">{printer_name}</A>
-установлены на сервере по умолчанию для новых заданий.</P>
+has been made the default printer on the server.</P>
 
-<BLOCKQUOTE><B>Примечания:</B> вы можете переопределить это поведение с помощью команды
- <TT>lpoptions</TT>.</BLOCKQUOTE>
+<BLOCKQUOTE><B>Note:</B> Any user default that has been set via
+the <TT>lpoptions</TT> command will override this default
+setting.</BLOCKQUOTE>
