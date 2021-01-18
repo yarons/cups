@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Изменение {printer_name}:Добавление принтера}</H2>
+<H2 CLASS="title">{op=modify-printer?Modify {printer_name}:Add Printer}</H2>
 
 {CUPS_GET_DEVICES_DONE?<FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -7,12 +7,12 @@
 
 <TABLE>
 {op=add-printer?:<TR>
-<TH CLASS="label">Сейчас подключен\:</TH>
+<TH CLASS="label">Current Connection\:</TH>
 <TD><INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{current_device_uri}" VALUE="{current_device_uri}" CHECKED>
 <LABEL FOR="{current_device_uri}">{current_device_uri}</LABEL></TD>
 </TR>}
 <TR>
-<TH CLASS="label">Установленные принтеры\:</TH>
+<TH CLASS="label">Local Printers\:</TH>
 <TD>
 {[device_uri]{device_class!network?<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}"
 VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
@@ -21,7 +21,7 @@ VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
 </TD>
 </TR>
 <TR>
-<TH CLASS="label">Найденные сетевые принтеры\:</TH>
+<TH CLASS="label">Discovered Network Printers\:</TH>
 <TD>
 {[device_uri]{device_class=network?{device_uri~[a-z]+://?<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}"
 VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
@@ -31,7 +31,7 @@ VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
 </TR>
 <TR>
 <TR>
-<TH CLASS="label">Другие сетевые принтеры\:</TH>
+<TH CLASS="label">Other Network Printers\:</TH>
 <TD>
 {[device_uri]{device_class=network?{device_uri~[a-z]+://?:<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}"
 VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
@@ -41,9 +41,9 @@ VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Продолжить"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 
-</FORM>:<P><IMG SRC="/images/wait.gif" WIDTH="16" HEIGHT="16" ALIGN="ABSMIDDLE"
-ALT="Ожидание"> Поиск принтеров...</P>}
+</FORM>:<P><img src="/images/wait.gif" width="16" height="16" align="ABSMIDDLE"
+alt="Busy Indicator"> Looking for printers...</P>}
