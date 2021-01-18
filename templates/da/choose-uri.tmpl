@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Rediger {printer_name}:Tilføj printer}</H2>
+<H2 CLASS="title">{op=modify-printer?Modify {printer_name}:Add Printer}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -8,33 +8,33 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Forbindelse:</TH>
+<TH CLASS="label">Connection:</TH>
 <TD><INPUT TYPE="URL" SIZE="60" MAXLENGTH="1023" NAME="DEVICE_URI" VALUE="{current_device_uri?{current_device_uri}:{device_uri}}"></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD>Eksempler:
+<TD>Examples:
 <PRE>
-    http://værtsnavn:631/ipp/
-    http://værtsnavn:631/ipp/port1
+    http://hostname:631/ipp/
+    http://hostname:631/ipp/port1
 
-    ipp://værtsnavn/ipp/
-    ipp://værtsnavn/ipp/port1
+    ipp://hostname/ipp/
+    ipp://hostname/ipp/port1
 
-    lpd://værtsnavn/kø
+    lpd://hostname/queue
 
-    socket://værtsnavn
-    socket://værtsnavn:9100
+    socket://hostname
+    socket://hostname:9100
 </PRE>
 
-<P>Se <A HREF="/help/network.html" TARGET="_blank">"Netværksprintere
-"</A> for den korrekte URI til brug med din printer.</P>
+<P>See <A HREF="/help/network.html" TARGET="_blank">"Network
+Printers"</A> for the correct URI to use with your printer.</P>
 
 </TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Fortsæt"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 
