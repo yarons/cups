@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9">
     <meta name="viewport" content="width=device-width">
-	<title>Home - CUPS @CUPS_VERSION@@CUPS_REVISION@</title>
+    <title>Home - CUPS @CUPS_VERSION@@CUPS_REVISION@</title>
   </head>
   <body>
     <div class="header">
@@ -46,7 +46,7 @@
 	  <p><a href="help/cupspm.html">CUPS Programming Manual</a></p>
 	  <P><A HREF="help/api-filter.html">Разработка фильтров и модулей</A></P>
 	  <P><A HREF="http://www.cups.org/lists.php?LIST=cups-devel">Форум разработчиков</A></P>
-</div>
+	</div>
       </div>
     </div>
     <div class="footer">CUPS а также логотип CUPS являются зарегистрированными торговыми марками <A HREF="http://www.apple.com">Apple Inc.</A> Авторские права на CUPS принадлежат (2007-2019) компании Apple Inc. Все права защищены.</div>
