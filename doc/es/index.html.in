@@ -30,14 +30,14 @@
 	<div class="thirds">
 	  <h2>CUPS para usuarios</h2>
 	  <p><a href="help/overview.html">Descripci&oacute;n de CUPS</a></p>
-	  <p><a href="help/options.html">Impresi&oacute;n desde la l&iacute;nea de comandos y opciones</a></p>
+	  <p><a href="help/network.html">Uso de impresoras de red</a></p>
 	  <p><a href="http://www.cups.org/lists.php?LIST=cups">Foro de usuarios</a></p>
 	</div>
 	<div class="thirds">
 	  <h2>CUPS para administradores</h2>
 	  <p><a href="help/admin.html">A&ntilde;adir impresoras y clases</a></p>
 	  <p><a href="help/policies.html">Gesti&oacute;n de pol&iacute;ticas de funcionamiento</a></p>
-	  <p><a href="help/network.html">Uso de impresoras de red</a></p>
+	  <p><a href="help/network.html">Using Network Printers</a></p>
 	  <p><a href="help/firewalls.html">Firewalls</a></p>
 	  <p><a href="help/man-cupsd.conf.html">Referencia de cupsd.conf</a></p>
 	</div>
