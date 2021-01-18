@@ -1,4 +1,4 @@
-<H2 CLASS="title">Rediger {printer_name}</H2>
+<H2 CLASS="title">Modify {printer_name}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -11,28 +11,28 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Beskrivelse:</TH>
+<TH CLASS="label">Description:</TH>
 <TD><INPUT TYPE="TEXT" NAME="PRINTER_INFO" VALUE="{?printer_info}" SIZE="40" MAXLENGTH="127"><BR>
-<SMALL>(beskrivelse der kan læses af mennesker, såsom "HP LaserJet med Duplexer")</SMALL></TD>
+<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Placering:</TH>
+<TH CLASS="label">Location:</TH>
 <TD><INPUT TYPE="TEXT" NAME="PRINTER_LOCATION" VALUE="{?printer_location}" SIZE="40" MAXLENGTH="127"><BR>
-<SMALL>(placering der kan læses af mennesker, såsom "Rum 1")</SMALL></TD>
+<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Forbindelse:</TH>
+<TH CLASS="label">Connection:</TH>
 <TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
-<TH CLASS="label">Deling:</TH>
+<TH CLASS="label">Sharing:</TH>
 <TD><INPUT TYPE="CHECKBOX" NAME="PRINTER_IS_SHARED" ID="PRINTER_IS_SHARED" {PRINTER_IS_SHARED=1?CHECKED:}>
-<LABEL FOR="PRINTER_IS_SHARED">Del printeren</LABEL></TD>
+<LABEL FOR="PRINTER_IS_SHARED">Share This Printer</LABEL></TD>
 </TR>
 <TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Fortsæt"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 
