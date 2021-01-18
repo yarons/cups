@@ -1,9 +1,9 @@
-<H2 CLASS="title">{is_class?Klasse:Drucker} {printer_name} als Standard festlegen</H2>
+<H2 CLASS="title">Set {is_class?Class:Printer} {printer_name} As Default</H2>
 
-<P>{is_class?Die Klasse:Der Drucker} <A
+<P>{is_class?Class:Printer} <A
 HREF="/{is_class?classes:printers}/{printer_name}">{printer_name}</A>
-wurde {is_class?zur Standardklasse:zum Standarddrucker} gemacht.</P>
+has been made the default printer on the server.</P>
 
-<BLOCKQUOTE><B>Hinweis:</B> Die Einstellungen {is_class?der Standardklasse:des Standarddruckers}
-welche von Benutzern mittels dem <TT>lpoptions</TT> Befehl gesetzt wurden,
-überschreiben diese Einstellung.</BLOCKQUOTE>
+<BLOCKQUOTE><B>Note:</B> Any user default that has been set via
+the <TT>lpoptions</TT> command will override this default
+setting.</BLOCKQUOTE>
