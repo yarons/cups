@@ -47,12 +47,12 @@
     <INPUT TYPE="CHECKBOX" NAME="REMOTE_ADMIN" ID="REMOTE_ADMIN" {?remote_admin}><LABEL FOR="REMOTE_ADMIN">  לאפשר ניהול מאוחר</LABEL><BR>
     {have_gssapi?<INPUT TYPE="CHECKBOX" NAME="KERBEROS" ID="KERBEROS" {?kerberos}><LABEL FOR="KERBEROS"> להשתמש באימות Kerberos (<A HREF="/help/kerberos.html?TOPIC=Getting+Started">שאלות נפוצות</A>)</LABEL><BR>:}
     <INPUT TYPE="CHECKBOX" NAME="USER_CANCEL_ANY" ID="USER_CANCEL_ANY" {?user_cancel_any}><LABEL FOR="USER_CANCEL_ANY">  לאפשר למשתמשים לבטל כל משימה שהיא (לא רק של עצמם)</LABEL><BR>
-    <INPUT TYPE="CHECKBOX" NAME="PRESERVE_JOBS" ID="PRESERVE_JOBS" {?preserve_jobs}><LABEL FOR="PRESERVE_JOBS">  Preserve job history</LABEL><BR>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maximum jobs (0 for no limit)\:
+    <INPUT TYPE="CHECKBOX" NAME="PRESERVE_JOBS" ID="PRESERVE_JOBS" {?preserve_jobs}><LABEL FOR="PRESERVE_JOBS">  לשמר את היסטוריית המשימות</LABEL><BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;כמות המשימות המרבית (0 לביטול ההגבלה)\:
     <INPUT TYPE="TEXT" NAME="MAX_JOBS" VALUE="{?max_jobs}" SIZE="6"><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retain Metadata\:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;לשמר נתוני על\:
     <INPUT TYPE="TEXT" NAME="PRESERVE_JOB_HISTORY" VALUE="{?preserve_job_history}" SIZE="6"><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retain Documents\:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;לשמר מסמכים\:
     <INPUT TYPE="TEXT" NAME="PRESERVE_JOB_FILES" VALUE="{?preserve_job_files}" SIZE="6"><BR>
     <INPUT TYPE="CHECKBOX" NAME="DEBUG_LOGGING" ID="DEBUG_LOGGING" {?debug_logging}><LABEL FOR="DEBUG_LOGGING">  Save debugging information for troubleshooting</LABEL><BR>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max log file size\:
