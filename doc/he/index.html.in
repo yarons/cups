@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9">
     <meta name="viewport" content="width=device-width">
-    <title>Home - CUPS @CUPS_VERSION@@CUPS_REVISION@</title>
+    <title>דף הבית - CUPS @CUPS_VERSION@@CUPS_REVISION@</title>
   </head>
   <body>
     <div class="header">
@@ -24,31 +24,31 @@
     <div class="body">
       <div class="row">
 	<h1>CUPS @CUPS_VERSION@</h1>
-	<p>CUPS is the standards-based, open source printing system developed by <a href="http://www.apple.com/">Apple Inc.</a> for macOS<sup>&reg;</sup> and other UNIX<sup>&reg;</sup>-like operating systems.</p>
+	<p>CUPS היא מערכת הדפסה בקוד פתוח מבוססת תקנים שמפותחת על ידי <a href="http://www.apple.com/">Apple Inc.‎</a> עבור macOS<sup>&reg;</sup>‎ ומערכות דמויות UNIX<sup>&reg;</sup>‎ נוספות.</p>
       </div>
       <div class="row">
 	<div class="thirds">
 	  <h2>CUPS למשתמשים</h2>
 	  <p><a href="help/overview.html">סקירה של CUPS</a></p>
-	  <p><a href="help/options.html">Command-Line Printing and Options</a></p>
+	  <p><a href="help/options.html">הדפסה ואפשרויות דרך שורת הפקודה</a></p>
 	  <p><a href="http://www.cups.org/lists.php?LIST=cups">פורום המשתמשים</a></p>
 	</div>
 	<div class="thirds">
-	  <h2>CUPS for Administrators</h2>
-	  <p><a href="help/admin.html">Adding Printers and Classes</a></p>
-	  <p><a href="help/policies.html">Managing Operation Policies</a></p>
-	  <p><a href="help/network.html">Using Network Printers</a></p>
-	  <p><a href="help/firewalls.html">Firewalls</a></p>
-	  <p><a href="help/man-cupsd.conf.html">cupsd.conf Reference</a></p>
+	  <h2>CUPS למנהלים</h2>
+	  <p><a href="help/admin.html">הוספת מדפסות ומחלקות</a></p>
+	  <p><a href="help/policies.html">ניהול מדיניות פעילות</a></p>
+	  <p><a href="help/network.html">שימוש במדפסות רשת</a></p>
+	  <p><a href="help/firewalls.html">חומות אש</a></p>
+	  <p><a href="help/man-cupsd.conf.html">מדריך על cupsd.conf</a></p>
 	</div>
 	<div class="thirds">
-	  <h2>CUPS for Developers</h2>
-	  <p><a href="help/cupspm.html">CUPS Programming Manual</a></p>
-	  <p><a href="help/api-filter.html">Filter and Backend Programming</a></p>
-	  <p><a href="http://www.cups.org/lists.php?LIST=cups-devel">Developer Forum</a></p>
+	  <h2>CUPS למפתחים</h2>
+	  <p><a href="help/cupspm.html">המדריך לפיתוח מול CUPS</a></p>
+	  <p><a href="help/api-filter.html">פיתוח מסננים ומנגנונים</a></p>
+	  <p><a href="http://www.cups.org/lists.php?LIST=cups-devel">פורום המפתחים</a></p>
 	</div>
       </div>
     </div>
-    <div class="footer">CUPS and the CUPS logo are trademarks of <a href="http://www.apple.com">Apple Inc.</a> Copyright &copy; 2007-2019 Apple Inc. All rights reserved.</div>
+    <div class="footer">CUPS והלוגו של CUPS הם סימני מסחר של <a href="http://www.apple.com">Apple Inc.‎</a> כל הזכויות שמורות &copy; 2007‏-2019 ל־Apple Inc.</div>
   </body>
 </html>
