@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Modify {printer_name}:Add Printer}</H2>
+<H2 CLASS="title">{op=modify-printer?שינוי {printer_name}:הוספת מדפסת}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -8,12 +8,12 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Connection:</TH>
+<TH CLASS="label">חיבור:</TH>
 <TD><INPUT TYPE="URL" SIZE="60" MAXLENGTH="1023" NAME="DEVICE_URI" VALUE="{current_device_uri?{current_device_uri}:{device_uri}}"></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD>Examples:
+<TD>דוגמאות:
 <PRE>
     http://hostname:631/ipp/
     http://hostname:631/ipp/port1
