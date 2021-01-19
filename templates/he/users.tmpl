@@ -4,16 +4,16 @@
 <INPUT TYPE="HIDDEN" NAME="PRINTER_NAME" VALUE="{printer_name}">
 {IS_CLASS?<INPUT TYPE="HIDDEN" NAME="IS_CLASS" VALUE="{IS_CLASS}">:}
 
-<H2 CLASS="title">Allowed Users For {printer_name}</H2>
+<H2 CLASS="title">משתמשים מורשים עבור {printer_name}</H2>
 
 <TABLE>
 <TR>
-<TH CLASS="label">Users:</TH>
+<TH CLASS="label">משתמשים:</TH>
 <TD>
 <input type='TEXT' name='users' size='60' value='{?requesting_user_name_allowed}{?requesting_user_name_denied}'>
 <br>
-<input type='RADIO' name='type' value='requesting-user-name-allowed' id='requesting-user-name-allowed' {requesting_user_name_allowed?checked:}><LABEL FOR='requesting-user-name-allowed'>Allow these users to print</LABEL>
-<INPUT TYPE='RADIO' NAME='type' VALUE='requesting-user-name-denied' ID='requesting-user-name-denied' {requesting_user_name_denied?checked:}><LABEL FOR='requesting-user-name-denied'>Prevent these users from printing</LABEL>
+<input type='RADIO' name='type' value='requesting-user-name-allowed' id='requesting-user-name-allowed' {requesting_user_name_allowed?checked:}><LABEL FOR='requesting-user-name-allowed'>לאפשר למשתמשים האלו להדפיס</LABEL>
+<INPUT TYPE='RADIO' NAME='type' VALUE='requesting-user-name-denied' ID='requesting-user-name-denied' {requesting_user_name_denied?checked:}><LABEL FOR='requesting-user-name-denied'>למנוע מהמשתמשים האלה להדפיס</LABEL>
 </TD>
 </TR>
 <TR>
