@@ -1,8 +1,8 @@
 <FORM ACTION="/help/{?HELPFILE}" METHOD="GET">
 {TOPIC?<INPUT TYPE="HIDDEN" NAME="TOPIC" VALUE="{TOPIC}">:}
 
-<P ALIGN="CENTER"><B>Search in
-{HELPTITLE?{HELPTITLE}:{TOPIC?{TOPIC}:All Documents}}:</B> <INPUT
+<P ALIGN="CENTER"><B>Поиск
+{HELPTITLE?в {HELPTITLE}:{TOPIC?в {TOPIC}:по справке}}:</B> <INPUT
 TYPE="SEARCH" NAME="QUERY" VALUE="{?QUERY}" SIZE="40" PLACEHOLDER=""
 AUTOSAVE="org.cups.help" RESULTS="20">
 <INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="Search">
@@ -14,9 +14,9 @@ AUTOSAVE="org.cups.help" RESULTS="20">
 <DIV CLASS="sidebar"><TABLE CLASS="inset" SUMMARY="Contents">
 <TR><TD>
 
-<H3 CLASS="title">Online Help Documents</H3>
+<H3 CLASS="title">Документация</H3>
 
-<P CLASS="l0"><A HREF="/help/{QUERY??QUERY={QUERY}:}">All Documents</A></P>
+<P CLASS="l0"><A HREF="/help/{QUERY??QUERY={QUERY}:}">Все разделы</A></P>
 <HR>
 
 {[BMTEXT]<P CLASS="l{BMINDENT}"><A HREF="{BMLINK}">{BMTEXT}</A></P>
@@ -24,18 +24,19 @@ AUTOSAVE="org.cups.help" RESULTS="20">
 </TD></TR>
 </TABLE></DIV>
 
-{QUERY?<P>Search Results in {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:All Documents}}\:</P>
+{QUERY?<P>Результаты поиска в {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:всей справке}}\:</P>
 {QTEXT?<UL>
 {[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (in <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
 {QTEXT?</UL>:}
-:<P>No matches found.</P>}
+:<P>Не найдено совпадений.</P>}
 <HR NOSHADE>:}
 {HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="View Printable Version"></FORM>:
 
-<H1>Online Help</H1>
+<H1>Справка</H1>
 
-<P>This is the CUPS online help interface. Enter search words above or click on any of the documentation links to display online help information.</P>
+<P>Это справка CUPS. Введите выше слова для поиска в справке и нажмите "Поиск", чтобы показать результаты поиска.</P>
 
-<P>If you are new to CUPS, read the "<a href="/help/overview.html">Overview of CUPS</a>" page.</P>
+<P>Если вы пока мало знакомы с CUPS, прочтите раздел "<a
+href="/help/overview.html">Введение в CUPS</a>".</P>
 
-<P>The <A HREF="http://www.cups.org/">CUPS home page</A> also provides many resources including user discussion forums, answers to frequently-asked questions, and a form for submitting bug reports and feature requests.</P>}
+<P><A HREF="http://www.cups.org/">Веб-сайт CUPS</A> так же содержит большое количество ресурсов для пользователей, включая форум, ответы на часто задаваемые вопросы и форму для регистрации ошибок и пожеланий.</P>}
