@@ -1,4 +1,4 @@
-<H2 CLASS="title">Modify {printer_name}</H2>
+<H2 CLASS="title">Modificar {printer_name}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -11,23 +11,23 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Description:</TH>
+<TH CLASS="label">Descri&ccedil;&atilde;o:</TH>
 <TD><input type="TEXT" name="PRINTER_INFO" value="{?printer_info}" size="40" maxlength="127"><br>
-<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
+<SMALL>(Descri&ccedil;&atilde;o leg&iacute;vel para humanos, tal como "HP LaserJet com Duplexador")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Location:</TH>
+<TH CLASS="label">Localiza&ccedil;&atilde;o:</TH>
 <TD><input type="TEXT" name="PRINTER_LOCATION" value="{?printer_location}" size="40" maxlength="127"><br>
-<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
+<SMALL>(Localiza&ccedil;&atilde;o leg&iacute;vel para humanos, tal como "Laborat&oacute;rio 1")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Connection:</TH>
+<TH CLASS="label">Conex&atilde;o:</TH>
 <TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
-<TH CLASS="label">Sharing:</TH>
+<TH CLASS="label">Compartilhamento:</TH>
 <TD><input type="CHECKBOX" name="PRINTER_IS_SHARED" id="PRINTER_IS_SHARED" {printer_is_shared=1?checked:}>
-<LABEL FOR="PRINTER_IS_SHARED">Share This Printer</LABEL></TD>
+<LABEL FOR="PRINTER_IS_SHARED">Compartilhar esta impressora</LABEL></TD>
 </TR>
 <TR>
 <TR>
