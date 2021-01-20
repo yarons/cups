@@ -1,4 +1,4 @@
-<H2 CLASS="title">Modify {printer_name}</H2>
+<H2 CLASS="title">Изменение принтера {printer_name}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -11,23 +11,23 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Description:</TH>
+<TH CLASS="label">Описание:</TH>
 <TD><input type="TEXT" name="PRINTER_INFO" value="{?printer_info}" size="40" maxlength="127"><br>
-<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
+<SMALL>(расширенное описание принтера, например,  "HP LaserJet с дуплексной печатью")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Location:</TH>
+<TH CLASS="label">Расположение:</TH>
 <TD><input type="TEXT" name="PRINTER_LOCATION" value="{?printer_location}" size="40" maxlength="127"><br>
-<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
+<SMALL>(местоположение принтера, например, "Кабинет 55")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Connection:</TH>
+<TH CLASS="label">Подключение:</TH>
 <TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
-<TH CLASS="label">Sharing:</TH>
+<TH CLASS="label">Совместный доступ:</TH>
 <TD><input type="CHECKBOX" name="PRINTER_IS_SHARED" id="PRINTER_IS_SHARED" {printer_is_shared=1?checked:}>
-<LABEL FOR="PRINTER_IS_SHARED">Share This Printer</LABEL></TD>
+<LABEL FOR="PRINTER_IS_SHARED">Разрешить совместный доступ к этому принтеру</LABEL></TD>
 </TR>
 <TR>
 <TR>
