@@ -1,15 +1,15 @@
 <H2 CLASS="title"><A HREF="{printer_uri_supported}">{printer_name}</A>
-({printer_state=3?Idle:{printer_state=4?Processing:Paused}},
-{printer_is_accepting_jobs=0?Rejecting Jobs:Accepting Jobs},
-{server_is_sharing_printers=0?Not:{printer_is_shared=0?Not:}} Shared{default_name={printer_name}?, Server Default:})</H2>
+({printer_state=3?Idle:{printer_state=4?בעיבוד:מושהית}},
+{printer_is_accepting_jobs=0?דוחה משימות:מקבלת משימות},
+{server_is_sharing_printers=0?לא:{printer_is_shared=0?לא:}} משותפת{default_name={printer_name}?, בררת המחדל של השרת:})</H2>
 
 <FORM METHOD="POST" ACTION="{printer_uri_supported}" NAME="maintenance">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
 <SELECT NAME="OP" ONCHANGE="document.maintenance.submit();">
 <OPTION VALUE="">תחזוקה</OPTION>
 <OPTION VALUE="print-test-page">הדפסת דף בדיקה</OPTION>
-{printer_state=5?<OPTION VALUE="start-class">Resume Class</OPTION>:<OPTION VALUE="stop-class">Pause Class</OPTION>}
-{printer_is_accepting_jobs=0?<OPTION VALUE="accept-jobs">Accept Jobs</OPTION>:<OPTION VALUE="reject-jobs">Reject Jobs</OPTION>}
+{printer_state=5?<OPTION VALUE="start-class">להמשיך פעילות מחלקה</OPTION>:<OPTION VALUE="stop-class">להשהות פעילות מחלקה</OPTION>}
+{printer_is_accepting_jobs=0?<OPTION VALUE="accept-jobs">לקבל משימות</OPTION>:<OPTION VALUE="reject-jobs">לדחות משימות</OPTION>}
 <OPTION VALUE="move-jobs">העברת כל המשימות</OPTION>
 <OPTION VALUE="purge-jobs">ביטול כל המשימות</OPTION>
 </SELECT>
