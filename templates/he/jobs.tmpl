@@ -11,10 +11,10 @@
 <TD>{?job_originating_user_name=?מניעה:{job_originating_user_name}}&nbsp;</TD>
 <TD>{job_k_octets} ק״ב&nbsp;</TD>
 <TD>{job_impressions_completed=0?לא ידוע:{?job_impressions_completed}}&nbsp;</TD>
-<TD>{job_state=3?pending since<BR>{?time_at_creation=?Unknown:{time_at_creation}}:{job_state=4?held since<BR>{?time_at_creation=?Unknown:{time_at_creation}}:
-{job_state=5?processing since<BR>{?time_at_processing=?Unknown:{time_at_processing}}:{job_state=6?stopped:
-{job_state=7?canceled at<BR>{?time_at_completed=?Unknown:{time_at_completed}}:{job_state=8?aborted:completed at<BR>{?time_at_completed=?Unknown:{time_at_completed}}}}}}}}&nbsp;{job_printer_state_message?<BR>
-<EM>"{job_printer_state_message}"</EM>:}</TD>
+<TD>{job_state=3?ממתינה מאז<BR>{?time_at_creation=?לא ידוע:{time_at_creation}}:{job_state=4?מוחזקת מאז<BR>{?time_at_creation=?לא ידוע:{time_at_creation}}:
+{job_state=5?בעיבוד מאז<BR>{?time_at_processing=?לא ידוע:{time_at_processing}}:{job_state=6?נעצרה:
+{job_state=7?בוטלה <BR>{?time_at_completed=?במועד לא ידוע:ב־{time_at_completed}}:{job_state=8?הופסקה:הושלמה<BR>{?time_at_completed=?במועד לא ידוע:ב־{time_at_completed}}}}}}}}&nbsp;{job_printer_state_message?<BR>
+<EM>„{job_printer_state_message}”</EM>:}</TD>
 <TD>
 {job_preserved>0?{job_state>5?
 <FORM ACTION="/jobs/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="restart-job"><INPUT TYPE="HIDDEN" NAME="job_id" VALUE="{job_id}"><INPUT TYPE="HIDDEN" NAME="job_printer_uri" VALUE="{job_printer_uri}"><INPUT TYPE="SUBMIT" VALUE="Reprint Job"></FORM>:}:}
