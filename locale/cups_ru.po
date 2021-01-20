@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: cups\n"
 "Report-Msgid-Bugs-To: https://github.com/apple/cups/issues\n"
 "POT-Creation-Date: 2019-12-18 20:19-0500\n"
-"PO-Revision-Date: 2021-01-18 22:46\n"
+"PO-Revision-Date: 2021-01-20 20:28\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -18,157 +18,158 @@ msgstr ""
 "X-Crowdin-File-ID: 162\n"
 
 msgid "\t\t(all)"
-msgstr ""
+msgstr "\t\t(все)"
 
 msgid "\t\t(none)"
-msgstr ""
+msgstr "\t\t(нет)"
 
 #, c-format
 msgid "\t%d entries"
-msgstr ""
+msgstr "\tзаписей: %d"
 
 #, c-format
 msgid "\t%s"
 msgstr ""
 
 msgid "\tAfter fault: continue"
-msgstr ""
+msgstr "\tПосле ошибки: продолжить"
 
 #, c-format
 msgid "\tAlerts: %s"
-msgstr ""
+msgstr "\tПредупреждения: %s"
 
 msgid "\tBanner required"
-msgstr ""
+msgstr "\tТребуется баннер"
 
 msgid "\tCharset sets:"
-msgstr ""
+msgstr "\tНабор символов устанавливает:"
 
 msgid "\tConnection: direct"
-msgstr ""
+msgstr "\tПодключение: прямое"
 
 msgid "\tConnection: remote"
-msgstr ""
+msgstr "\tПодключение: удаленное"
 
 msgid "\tContent types: any"
-msgstr ""
+msgstr "\tТип содержимого: любой"
 
 msgid "\tDefault page size:"
-msgstr ""
+msgstr "\tРазмер страницы по умолчанию:"
 
 msgid "\tDefault pitch:"
-msgstr ""
+msgstr "\tВысота по умолчанию:"
 
 msgid "\tDefault port settings:"
-msgstr ""
+msgstr "\tНастройки порта по умолчанию:"
 
 #, c-format
 msgid "\tDescription: %s"
-msgstr ""
+msgstr "\tОписание: %s"
 
 msgid "\tForm mounted:"
-msgstr ""
+msgstr "\tФорма подключения:"
 
 msgid "\tForms allowed:"
-msgstr ""
+msgstr "\tРазрешенные формы:"
 
 #, c-format
 msgid "\tInterface: %s.ppd"
-msgstr ""
+msgstr "\tИнтерфейс: %s.ppd"
 
 #, c-format
 msgid "\tInterface: %s/ppd/%s.ppd"
-msgstr ""
+msgstr "\tИнтерфейс: %s/ppd/%s.ppd"
 
 #, c-format
 msgid "\tLocation: %s"
-msgstr ""
+msgstr "\tРасположение: %s"
 
 msgid "\tOn fault: no alert"
-msgstr ""
+msgstr "\tПри ошибке: не выводить предупреждение"
 
 msgid "\tPrinter types: unknown"
-msgstr ""
+msgstr "\tТип принтера: неизвестен"
 
 #, c-format
 msgid "\tStatus: %s"
-msgstr ""
+msgstr "\tСтатус: %s"
 
 msgid "\tUsers allowed:"
-msgstr ""
+msgstr "\tРазрешенные пользователи:"
 
 msgid "\tUsers denied:"
-msgstr ""
+msgstr "\tЗапрещенные пользователи:"
 
 msgid "\tdaemon present"
-msgstr ""
+msgstr "\tдемон присутствует"
 
 msgid "\tno entries"
-msgstr ""
+msgstr "\tнет записей"
 
 #, c-format
 msgid "\tprinter is on device '%s' speed -1"
-msgstr ""
+msgstr "\tпринтер на скорости -1 устройства «%s»"
 
 msgid "\tprinting is disabled"
-msgstr ""
+msgstr "\tпечать отключена"
 
 msgid "\tprinting is enabled"
-msgstr ""
+msgstr "\tпечать включена"
 
 #, c-format
 msgid "\tqueued for %s"
-msgstr ""
+msgstr "\tочередь для %s"
 
 msgid "\tqueuing is disabled"
-msgstr ""
+msgstr "\tочередь отключена"
 
 msgid "\tqueuing is enabled"
-msgstr ""
+msgstr "\tочередь включена"
 
 msgid "\treason unknown"
-msgstr ""
+msgstr "\tпричина неизвестна"
 
 msgid "\n"
 "    DETAILED CONFORMANCE TEST RESULTS"
-msgstr ""
+msgstr "\n"
+"    ПОДРОБНЫЕ РЕЗУЛЬТАТЫ ТЕСТА СООТВЕТСТВИЯ"
 
 msgid "                REF: Page 15, section 3.1."
-msgstr ""
+msgstr "                REF: Стр. 15, раздел 3.1."
 
 msgid "                REF: Page 15, section 3.2."
-msgstr ""
+msgstr "                REF: Стр. 15, раздел 3.2."
 
 msgid "                REF: Page 19, section 3.3."
-msgstr ""
+msgstr "                REF: Стр. 19, раздел 3.3."
 
 msgid "                REF: Page 20, section 3.4."
-msgstr ""
+msgstr "                REF: Стр. 20, раздел 3.4."
 
 msgid "                REF: Page 27, section 3.5."
-msgstr ""
+msgstr "                REF: Стр. 27, раздел 3.5."
 
 msgid "                REF: Page 42, section 5.2."
-msgstr ""
+msgstr "                REF: Стр. 42, раздел 5.2."
 
 msgid "                REF: Pages 16-17, section 3.2."
-msgstr ""
+msgstr "                REF: Стр. 16-17, раздел 3.2."
 
 msgid "                REF: Pages 42-45, section 5.2."
-msgstr ""
+msgstr "                REF: Стр. 42-45, раздел 5.2."
 
 msgid "                REF: Pages 45-46, section 5.2."
-msgstr ""
+msgstr "                REF: Стр. 45-46, раздел 5.2."
 
 msgid "                REF: Pages 48-49, section 5.2."
-msgstr ""
+msgstr "                REF: Стр. 48-49, раздел 5.2."
 
 msgid "                REF: Pages 52-54, section 5.2."
-msgstr ""
+msgstr "                REF: Стр. 52-54, раздел 5.2."
 
 #, c-format
 msgid "        %-39.39s %.0f bytes"
-msgstr ""
+msgstr "        %-39.39s %.0f байт"
 
 #, c-format
 msgid "        PASS    Default%s"
@@ -221,134 +222,146 @@ msgstr ""
 
 #, c-format
 msgid "        WARN    %s has no corresponding options."
-msgstr ""
+msgstr "\tWARN\t%s не содержит соответствующих параметров."
 
 #, c-format
 msgid "        WARN    %s shares a common prefix with %s\n"
 "                REF: Page 15, section 3.2."
-msgstr ""
+msgstr "\tWARN\t%s использует общий префикс совместно с %s\n"
+"                REF: Стр. 15, раздел 3.2."
 
 #, c-format
 msgid "        WARN    Duplex option keyword %s may not work as expected and should be named Duplex.\n"
 "                REF: Page 122, section 5.17"
-msgstr ""
+msgstr "\tWARN\tКлючевое слово параметра дуплекса %s может привести к некорректным результатам. Используйте имя 'Duplex'\n"
+"                REF: Стр. 122, раздел 5.17"
 
 msgid "        WARN    File contains a mix of CR, LF, and CR LF line endings."
-msgstr ""
+msgstr "\tWARN\tФайл содержит комбинацию окончаний строки CR, LF, CR LF"
 
 msgid "        WARN    LanguageEncoding required by PPD 4.3 spec.\n"
 "                REF: Pages 56-57, section 5.3."
-msgstr ""
+msgstr "\tWARN\tLanguageEncoding требуется спецификацией PPD 4.3.\n"
+"                REF: Стр. 56-57, раздел 5.3."
 
 #, c-format
 msgid "        WARN    Line %d only contains whitespace."
-msgstr ""
+msgstr "\tWARN\tСтрока %d содержит только пробелы."
 
 msgid "        WARN    Manufacturer required by PPD 4.3 spec.\n"
 "                REF: Pages 58-59, section 5.3."
-msgstr ""
+msgstr "\tWARN\tManufacturer требуется спецификацией PPD 4.3.\n"
+"                REF: Стр. 58-59, раздел 5.3."
 
 msgid "        WARN    Non-Windows PPD files should use lines ending with only LF, not CR LF."
-msgstr ""
+msgstr "\tWARN\tPPD-файлы не из Windows должны использовать строки только с окончанием LF, а не с CR LF"
 
 #, c-format
 msgid "        WARN    Obsolete PPD version %.1f.\n"
 "                REF: Page 42, section 5.2."
-msgstr ""
+msgstr "\tWARN\tУстаревшая версия PPD %.1f.\n"
+"                REF: Стр. 42, раздел 5.2."
 
 msgid "        WARN    PCFileName longer than 8.3 in violation of PPD spec.\n"
 "                REF: Pages 61-62, section 5.3."
-msgstr ""
+msgstr "\tWARN\tPCFileName длиннее чем 8.3 нарушает спецификацию PPD.\n"
+"                REF: Стр. 61-62, раздел 5.3."
 
 msgid "        WARN    PCFileName should contain a unique filename.\n"
 "                REF: Pages 61-62, section 5.3."
-msgstr ""
+msgstr "\tWARN\tPCFilename должен содержать уникальное название\n"
+"                REF: Стр. 61-62, раздел 5.3."
 
 msgid "        WARN    Protocols contains PJL but JCL attributes are not set.\n"
 "                REF: Pages 78-79, section 5.7."
-msgstr ""
+msgstr "\tWARN\tProtocols содержит PJL, но атрибуты JCL не настроены.\n"
+"                REF: Стр. 78-79, раздел 5.7."
 
 msgid "        WARN    Protocols contains both PJL and BCP; expected TBCP.\n"
 "                REF: Pages 78-79, section 5.7."
-msgstr ""
+msgstr "\tWARN\tProtocols содержит PJL и BCP; ожидается TBCP.\n"
+"                REF: Стр. 78-79, раздел 5.7."
 
 msgid "        WARN    ShortNickName required by PPD 4.3 spec.\n"
 "                REF: Pages 64-65, section 5.3."
-msgstr ""
+msgstr "\tWARN\tShortNickName требуется спецификацией PPD 4.3.\n"
+"                REF: Стр. 64-65, раздел 5.3."
 
 #, c-format
 msgid "      %s  \"%s %s\" conflicts with \"%s %s\"\n"
 "                (constraint=\"%s %s %s %s\")."
-msgstr ""
+msgstr "\t%s   \"%s %s\" конфликтует с \"%s %s\"\n"
+"                (constraint=\"%s %s %s %s\")."
 
 #, c-format
 msgid "      %s  %s %s does not exist."
-msgstr ""
+msgstr "\t%s  %s %s не существует."
 
 #, c-format
 msgid "      %s  %s file \"%s\" has the wrong capitalization."
-msgstr ""
+msgstr "\t%s  %s файл \"%s\" имеет неверный регистр."
 
 #, c-format
 msgid "      %s  Bad %s choice %s.\n"
 "                REF: Page 122, section 5.17"
-msgstr ""
+msgstr "\t%s  Неверный %s выбор %s.\n"
+"                REF: Стр. 122, раздел 5.17"
 
 #, c-format
 msgid "      %s  Bad UTF-8 \"%s\" translation string for option %s, choice %s."
-msgstr ""
+msgstr "\t%s Неверный перевод UTF-8 \"%s\" для параметра %s, выбора %s"
 
 #, c-format
 msgid "      %s  Bad UTF-8 \"%s\" translation string for option %s."
-msgstr ""
+msgstr "\t%s Неверный перевод UTF-8 \"%s\" для параметра %s"
 
 #, c-format
 msgid "      %s  Bad cupsFilter value \"%s\"."
-msgstr ""
+msgstr "\t%s Неверное значение cupsFilter \"%s\"."
 
 #, c-format
 msgid "      %s  Bad cupsFilter2 value \"%s\"."
-msgstr ""
+msgstr "\t%s Неверное значение cupsFilter2 \"%s\"."
 
 #, c-format
 msgid "      %s  Bad cupsICCProfile %s."
-msgstr ""
+msgstr "\t%s Неверный cupsICCProfile %s."
 
 #, c-format
 msgid "      %s  Bad cupsPreFilter value \"%s\"."
-msgstr ""
+msgstr "\t%s Неверное значение cupsPreFilter \"%s\"."
 
 #, c-format
 msgid "      %s  Bad cupsUIConstraints %s: \"%s\""
-msgstr ""
+msgstr "\t%s Неверное значение cupsUIConstraints %s: \"%s\""
 
 #, c-format
 msgid "      %s  Bad language \"%s\"."
-msgstr ""
+msgstr "\t%s Неверный язык \"%s\"."
 
 #, c-format
 msgid "      %s  Bad permissions on %s file \"%s\"."
-msgstr ""
+msgstr "\t%s Неверные права %s для файла \"%s\"."
 
 #, c-format
 msgid "      %s  Bad spelling of %s - should be %s."
-msgstr ""
+msgstr "      %s Ошибки в %s - должно быть %s."
 
 #, c-format
 msgid "      %s  Cannot provide both APScanAppPath and APScanAppBundleID."
-msgstr ""
+msgstr "\t%s Невозможно предоставить APScanAppPath и APScanAppBundleID вместе."
 
 #, c-format
 msgid "      %s  Default choices conflicting."
-msgstr ""
+msgstr "\t%s\tЗначения, используемые по умолчанию, конфликтуют."
 
 #, c-format
 msgid "      %s  Empty cupsUIConstraints %s"
-msgstr ""
+msgstr "      %s Пустой cupsUIConstraints %s"
 
 #, c-format
 msgid "      %s  Missing \"%s\" translation string for option %s, choice %s."
-msgstr ""
+msgstr "\t%s Перевод \"%s\" отсутствует для параметра %s, выбора %s"
 
 #, c-format
 msgid "      %s  Missing \"%s\" translation string for option %s."
@@ -356,351 +369,389 @@ msgstr ""
 
 #, c-format
 msgid "      %s  Missing %s file \"%s\"."
-msgstr ""
+msgstr "\t%s отсутствует %s файл \"%s\"."
 
 #, c-format
 msgid "      %s  Missing REQUIRED PageRegion option.\n"
 "                REF: Page 100, section 5.14."
-msgstr ""
+msgstr "\t%s Обязательный параметр PageRegion отсутствует.\n"
+"\t\t REF: Стр. 100, раздел 5.14."
 
 #, c-format
 msgid "      %s  Missing REQUIRED PageSize option.\n"
 "                REF: Page 99, section 5.14."
-msgstr ""
+msgstr "\t%s Обязательный параметр PageSize отсутствует.\n"
+"                REF: Стр. 99, раздел 5.14."
 
 #, c-format
 msgid "      %s  Missing choice *%s %s in UIConstraints \"*%s %s *%s %s\"."
-msgstr ""
+msgstr "      %s Выбор *%s %s отсутствует в UIConstraints \"*%s %s *%s %s\"."
 
 #, c-format
 msgid "      %s  Missing choice *%s %s in cupsUIConstraints %s: \"%s\""
-msgstr ""
+msgstr "      %s Выбор *%s %s отсутствует в cupsUIConstraints %s: \"%s\""
 
 #, c-format
 msgid "      %s  Missing cupsUIResolver %s"
-msgstr ""
+msgstr "\t%s cupsUIResolver отсутствует %s"
 
 #, c-format
 msgid "      %s  Missing option %s in UIConstraints \"*%s %s *%s %s\"."
-msgstr ""
+msgstr "\t%s Отсутствует параметр %s у UIConstraints \"*%s %s *%s %s\"."
 
 #, c-format
 msgid "      %s  Missing option %s in cupsUIConstraints %s: \"%s\""
-msgstr ""
+msgstr "\t%s Отсутствует параметр %s у cupsUIConstraints %s: \"%s\""
 
 #, c-format
 msgid "      %s  No base translation \"%s\" is included in file."
-msgstr ""
+msgstr "\t%s Основной перевод \"%s\" не включен в файл."
 
 #, c-format
 msgid "      %s  REQUIRED %s does not define choice None.\n"
 "                REF: Page 122, section 5.17"
-msgstr ""
+msgstr "\t ТРЕБУЕТСЯ %s: %s не определяет выбор \"Нет\".\n"
+"                REF: Стр. 122, раздел 5.17"
 
 #, c-format
 msgid "      %s  Size \"%s\" defined for %s but not for %s."
-msgstr ""
+msgstr "\t%s Размер \"%s\" определен для %s, но не определен для %s."
 
 #, c-format
 msgid "      %s  Size \"%s\" has unexpected dimensions (%gx%g)."
-msgstr ""
+msgstr "\t%s  Размер \"%s\"  имеет неверное значение (%gx%g)."
 
 #, c-format
 msgid "      %s  Size \"%s\" should be \"%s\"."
-msgstr ""
+msgstr "\t%s  Размер \"%s\" должен быть \"%s\"."
 
 #, c-format
 msgid "      %s  Size \"%s\" should be the Adobe standard name \"%s\"."
-msgstr ""
+msgstr "\t%s  Размер \"%s\" должен быть в формате Adobe standard name \"%s\"."
 
 #, c-format
 msgid "      %s  cupsICCProfile %s hash value collides with %s."
-msgstr ""
+msgstr "\tХеш-значение %s cupsICCProfile %s конфликтует с %s."
 
 #, c-format
 msgid "      %s  cupsUIResolver %s causes a loop."
-msgstr ""
+msgstr "\t%s cupsUIResolver %s создает цикл."
 
 #, c-format
 msgid "      %s  cupsUIResolver %s does not list at least two different options."
-msgstr ""
+msgstr "\t%s В cupsUIResolver %s не перечислено как минимум два параметра."
 
 #, c-format
 msgid "      **FAIL**  %s must be 1284DeviceID\n"
 "                REF: Page 72, section 5.5"
-msgstr ""
+msgstr "\t**FAIL** %s должно соответствовать 1284DeviceID\n"
+"                REF: Стр. 72, раздел 5.5"
 
 #, c-format
 msgid "      **FAIL**  Bad Default%s %s\n"
 "                REF: Page 40, section 4.5."
-msgstr ""
+msgstr "\t**FAIL**  Неверный Default%s %s\n"
+"                REF: Стр. 40, раздел 4.5."
 
 #, c-format
 msgid "      **FAIL**  Bad DefaultImageableArea %s\n"
 "                REF: Page 102, section 5.15."
-msgstr ""
+msgstr "\t**FAIL** Неверный DefaultImageableArea %s\n"
+"                REF: Стр. 102, раздел 5.15."
 
 #, c-format
 msgid "      **FAIL**  Bad DefaultPaperDimension %s\n"
 "                REF: Page 103, section 5.15."
-msgstr ""
+msgstr "\t**FAIL** Неверный DefaultPaperDimension %s\n"
+"                REF: Стр. 103, раздел 5.15."
 
 #, c-format
 msgid "      **FAIL**  Bad FileVersion \"%s\"\n"
 "                REF: Page 56, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  Неверный FileVersion \"%s\"\n"
+"                REF: Стр. 56, раздел 5.3."
 
 #, c-format
 msgid "      **FAIL**  Bad FormatVersion \"%s\"\n"
 "                REF: Page 56, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  Неверный FormatVersion \"%s\"\n"
+"                REF: Стр. 56, раздел 5.3."
 
 msgid "      **FAIL**  Bad JobPatchFile attribute in file\n"
 "                REF: Page 24, section 3.4."
-msgstr ""
+msgstr "\t**FAIL**  Неверный JobPatchFile атрибут в файле\n"
+"                REF: Стр. 24, раздел 3.4."
 
 #, c-format
 msgid "      **FAIL**  Bad LanguageEncoding %s - must be ISOLatin1."
-msgstr ""
+msgstr "\t**FAIL**  Неверный LanguageEncoding %s - должен быть ISOLatin1."
 
 #, c-format
 msgid "      **FAIL**  Bad LanguageVersion %s - must be English."
-msgstr ""
+msgstr "\t**FAIL** Неверный LanguageVersion %s - должен быть английский."
 
 #, c-format
 msgid "      **FAIL**  Bad Manufacturer (should be \"%s\")\n"
 "                REF: Page 211, table D.1."
-msgstr ""
+msgstr "\t**FAIL**  Неверный Manufacturer (должен быть \"%s\")\n"
+"                REF: Стр. 211, таблица D.1."
 
 #, c-format
 msgid "      **FAIL**  Bad ModelName - \"%c\" not allowed in string.\n"
 "                REF: Pages 59-60, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  Неверное ModelName – \"%c\" не разрешено в строке.\n"
+"                REF: Стр. 59-60, раздел 5.3."
 
 msgid "      **FAIL**  Bad PSVersion - not \"(string) int\".\n"
 "                REF: Pages 62-64, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  Неверная PSVersion – не «(string) int».\n"
+"                REF: Стр. 62-64, раздел 5.3."
 
 msgid "      **FAIL**  Bad Product - not \"(string)\".\n"
 "                REF: Page 62, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  Неверный Product – не \"(string)\".\n"
+"                REF: Стр. 62, раздел 5.3."
 
 msgid "      **FAIL**  Bad ShortNickName - longer than 31 chars.\n"
 "                REF: Pages 64-65, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  Неверный ShortNickName – длиннее чем 31 симв.\n"
+"                REF: Стр. 64-65, раздел 5.3."
 
 #, c-format
 msgid "      **FAIL**  Bad option %s choice %s\n"
 "                REF: Page 84, section 5.9"
-msgstr ""
+msgstr "\t**FAIL** Неверный параметр %s выбор %s\n"
+"                REF: Стр. 84, раздел 5.9"
 
 #, c-format
 msgid "      **FAIL**  Default option code cannot be interpreted: %s"
-msgstr ""
+msgstr "\t**FAIL**  Не удается опознать код параметра по умолчанию: %s"
 
 #, c-format
 msgid "      **FAIL**  Default translation string for option %s choice %s contains 8-bit characters."
-msgstr ""
+msgstr "\t**FAIL** Стандартный перевод для параметра %s выбора %s содержит 8-битовые символы."
 
 #, c-format
 msgid "      **FAIL**  Default translation string for option %s contains 8-bit characters."
-msgstr ""
+msgstr "\t**FAIL** Стандартный перевод для параметра %s содержит 8-битовые символы."
 
 #, c-format
 msgid "      **FAIL**  Group names %s and %s differ only by case."
-msgstr ""
+msgstr "\t**FAIL** Имена групп %s и %s отличаются только регистром символов."
 
 #, c-format
 msgid "      **FAIL**  Multiple occurrences of option %s choice name %s."
-msgstr ""
+msgstr "\t**FAIL** Для выбора параметра %s имя %s  встречается несколько раз."
 
 #, c-format
 msgid "      **FAIL**  Option %s choice names %s and %s differ only by case."
-msgstr ""
+msgstr "\t**FAIL** Параметр %s с именами %s и %s отличается только регистром символов."
 
 #, c-format
 msgid "      **FAIL**  Option names %s and %s differ only by case."
-msgstr ""
+msgstr "\t**FAIL** Названия параметров %s и %s отличаются только регистром символов."
 
 #, c-format
 msgid "      **FAIL**  REQUIRED Default%s\n"
 "                REF: Page 40, section 4.5."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ Default%s\n"
+"                REF: Стр. 40, раздел 4.5."
 
 msgid "      **FAIL**  REQUIRED DefaultImageableArea\n"
 "                REF: Page 102, section 5.15."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ DefaultImageableArea\n"
+"                REF: Стр. 102, раздел 5.15."
 
 msgid "      **FAIL**  REQUIRED DefaultPaperDimension\n"
 "                REF: Page 103, section 5.15."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ DefaultPaperDimension\n"
+"                REF: Стр. 103, раздел 5.15."
 
 msgid "      **FAIL**  REQUIRED FileVersion\n"
 "                REF: Page 56, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ FileVersion\n"
+"                REF: Стр. 56, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED FormatVersion\n"
 "                REF: Page 56, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ FormatVersion\n"
+"                REF: Стр. 56, раздел 5.3."
 
 #, c-format
 msgid "      **FAIL**  REQUIRED ImageableArea for PageSize %s\n"
 "                REF: Page 41, section 5.\n"
 "                REF: Page 102, section 5.15."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ ImageableArea для PageSize %s\n"
+"                REF: Стр. 41, раздел 5.\n"
+"                REF: Стр. 102, раздел 5.15."
 
 msgid "      **FAIL**  REQUIRED LanguageEncoding\n"
 "                REF: Pages 56-57, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ LanguageEncoding\n"
+"                REF: Стр. 56-57, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED LanguageVersion\n"
 "                REF: Pages 57-58, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ LanguageVersion\n"
+"                REF: Стр. 57-58, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED Manufacturer\n"
 "                REF: Pages 58-59, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ Manufacturer\n"
+"                REF: Стр. 58-59, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED ModelName\n"
 "                REF: Pages 59-60, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ ModelName\n"
+"                REF: Стр. 59-60, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED NickName\n"
 "                REF: Page 60, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ NickName\n"
+"                REF: Стр. 60, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED PCFileName\n"
 "                REF: Pages 61-62, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ PCFileName\n"
+"                REF: Стр. 61-62, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED PSVersion\n"
 "                REF: Pages 62-64, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ PSVersion\n"
+"                REF: Стр. 62-64, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED PageRegion\n"
 "                REF: Page 100, section 5.14."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ PageRegion\n"
+"                REF: Стр. 100, раздел 5.14."
 
 msgid "      **FAIL**  REQUIRED PageSize\n"
 "                REF: Page 41, section 5.\n"
 "                REF: Page 99, section 5.14."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ PageSize\n"
+"                REF: Стр. 41, раздел 5.\n"
+"                REF: Стр. 99, раздел 5.14."
 
 msgid "      **FAIL**  REQUIRED PageSize\n"
 "                REF: Pages 99-100, section 5.14."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ PageSize\n"
+"                REF: Стр. 99-100, раздел 5.14."
 
 #, c-format
 msgid "      **FAIL**  REQUIRED PaperDimension for PageSize %s\n"
 "                REF: Page 41, section 5.\n"
 "                REF: Page 103, section 5.15."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ PaperDimension для PageSize %s\n"
+"                REF: Стр. 41, раздел 5.\n"
+"                REF: Стр. 103, раздел 5.15."
 
 msgid "      **FAIL**  REQUIRED Product\n"
 "                REF: Page 62, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ Product\n"
+"                REF: Стр. 62, раздел 5.3."
 
 msgid "      **FAIL**  REQUIRED ShortNickName\n"
 "                REF: Page 64-65, section 5.3."
-msgstr ""
+msgstr "\t**FAIL**  ТРЕБУЕТСЯ ShortNickName\n"
+"                REF: Стр. 64-65, раздел 5.3."
 
 #, c-format
 msgid "      **FAIL**  Unable to open PPD file - %s on line %d."
-msgstr ""
+msgstr "\t**FAIL**  Не удается открыть PPD-файл – %s в строке %d."
 
 #, c-format
 msgid "    %d ERRORS FOUND"
-msgstr ""
+msgstr "    ОБНАРУЖЕНО ОШИБОК: %d"
 
 msgid "    NO ERRORS FOUND"
-msgstr ""
+msgstr "    ОШИБОК НЕ ОБНАРУЖЕНО"
 
 msgid "  --cr                    End lines with CR (Mac OS 9)."
-msgstr ""
+msgstr "  --cr                    Строки заканчиваются на CR (Mac OS 9)."
 
 msgid "  --crlf                  End lines with CR + LF (Windows)."
-msgstr ""
+msgstr "  --crlf                  Строки заканчиваются на CR + LF (Windows)."
 
 msgid "  --lf                    End lines with LF (UNIX/Linux/macOS)."
 msgstr ""
 
 msgid "  --list-filters          List filters that will be used."
-msgstr ""
+msgstr "  --list-filters          Список фильтров которые должны использоваться."
 
 msgid "  -D                      Remove the input file when finished."
-msgstr ""
+msgstr "  -D                      Удалить входной файл после завершения."
 
 msgid "  -D name=value           Set named variable to value."
-msgstr ""
+msgstr "  -D name=value           Определение переменной."
 
 msgid "  -I include-dir          Add include directory to search path."
-msgstr ""
+msgstr "  -I include-dir          Добавить каталог include в путь поиска."
 
 msgid "  -P filename.ppd         Set PPD file."
-msgstr ""
+msgstr "  -P filename.ppd         Задать PPD-файл."
 
 msgid "  -U username             Specify username."
-msgstr ""
+msgstr "  -U username             Указание имени пользователя."
 
 msgid "  -c catalog.po           Load the specified message catalog."
-msgstr ""
+msgstr "  -c catalog.po           Загружается указанный каталог сообщений."
 
 msgid "  -c cups-files.conf      Set cups-files.conf file to use."
-msgstr ""
+msgstr "  -c cups-files.conf      Использовать заданный cups-files.conf"
 
 msgid "  -d output-dir           Specify the output directory."
-msgstr ""
+msgstr "  -d output-dir           Задать выходной каталог."
 
 msgid "  -d printer              Use the named printer."
-msgstr ""
+msgstr "  -d printer              Использовать заданный принтер."
 
 msgid "  -e                      Use every filter from the PPD file."
-msgstr ""
+msgstr "  -e                      Использовать каждый фильтр из PPD-файла."
 
 msgid "  -i mime/type            Set input MIME type (otherwise auto-typed)."
-msgstr ""
+msgstr "  -i mime/type            Указать MIME-тип данных на входе (иначе автоопред.)."
 
 msgid "  -j job-id[,N]           Filter file N from the specified job (default is file 1)."
-msgstr ""
+msgstr "  -j job-id[,N]           Из указанного задания выбирается файл N (по умолчанию файл 1)."
 
 msgid "  -l lang[,lang,...]      Specify the output language(s) (locale)."
-msgstr ""
+msgstr "  -l lang[,lang,...]      Задать выходной язык(и) (locale)."
 
 msgid "  -m                      Use the ModelName value as the filename."
-msgstr ""
+msgstr "  -m                      В качестве имени файла используется ModelName."
 
 msgid "  -m mime/type            Set output MIME type (otherwise application/pdf)."
-msgstr ""
+msgstr "  -m mime/type            Указать MIME-тип данных на выходе (иначе application/pdf)."
 
 msgid "  -n copies               Set number of copies."
-msgstr ""
+msgstr "  -n copies               Указать количество копий."
 
 msgid "  -o filename.drv         Set driver information file (otherwise ppdi.drv)."
-msgstr ""
+msgstr "  -o filename.drv         Указать файл с информацией о драйвере (иначе ppdi.drv)."
 
 msgid "  -o filename.ppd[.gz]    Set output file (otherwise stdout)."
-msgstr ""
+msgstr "  -o filename.ppd[.gz]    Задать выходной файл (иначе stdout)."
 
 msgid "  -o name=value           Set option(s)."
-msgstr ""
+msgstr "  -o name=value           Задать параметры."
 
 msgid "  -p filename.ppd         Set PPD file."
-msgstr ""
+msgstr "  -p filename.ppd         Задать PPD-файл."
 
 msgid "  -t                      Test PPDs instead of generating them."
-msgstr ""
+msgstr "  -t                      Тест PPDs вместо его создания."
 
 msgid "  -t title                Set title."
-msgstr ""
+msgstr "  -t title                Задать заголовок."
 
 msgid "  -u                      Remove the PPD file when finished."
-msgstr ""
+msgstr "  -u                      Удалить PPD-файл после завершения."
 
 msgid "  -v                      Be verbose."
-msgstr ""
+msgstr "  -v                      Подробный вывод лога."
 
 msgid "  -z                      Compress PPD files using GNU zip."
-msgstr ""
+msgstr "  -z                      Сжимать PPD-файл используя GNU zip."
 
 msgid " FAIL"
 msgstr ""
@@ -863,11 +914,11 @@ msgstr ""
 
 #, c-format
 msgid "%-7s %-7.7s %-7d %-31.31s %.0f bytes"
-msgstr ""
+msgstr "%-7s %-7.7s %-7d %-31.31s %.0f байт"
 
 #, c-format
 msgid "%d x %d mm"
-msgstr ""
+msgstr "%d x %d мм"
 
 #, c-format
 msgid "%g x %g \""
@@ -883,63 +934,63 @@ msgstr ""
 
 #, c-format
 msgid "%s (Borderless)"
-msgstr ""
+msgstr "%s (без полей)"
 
 #, c-format
 msgid "%s (Borderless, %s)"
-msgstr ""
+msgstr "%s (без полей, %s)"
 
 #, c-format
 msgid "%s (Borderless, %s, %s)"
-msgstr ""
+msgstr "%s (без полей, %s, %s)"
 
 #, c-format
 msgid "%s accepting requests since %s"
-msgstr ""
+msgstr "%s принимает запросы с момента %s"
 
 #, c-format
 msgid "%s cannot be changed."
-msgstr ""
+msgstr "%s не может быть изменен."
 
 #, c-format
 msgid "%s is not implemented by the CUPS version of lpc."
-msgstr ""
+msgstr "%s не выполнено версией CUPS для lpc."
 
 #, c-format
 msgid "%s is not ready"
-msgstr ""
+msgstr "%s не готов"
 
 #, c-format
 msgid "%s is ready"
-msgstr ""
+msgstr "%s готов"
 
 #, c-format
 msgid "%s is ready and printing"
-msgstr ""
+msgstr "%s готов и печатает"
 
 #, c-format
 msgid "%s job-id user title copies options [file]"
-msgstr ""
+msgstr "%s задание пользователь название копий параметры [файл]"
 
 #, c-format
 msgid "%s not accepting requests since %s -"
-msgstr ""
+msgstr "%s не принимает запросы с момента %s -"
 
 #, c-format
 msgid "%s not supported."
-msgstr ""
+msgstr "%s не поддерживается."
 
 #, c-format
 msgid "%s/%s accepting requests since %s"
-msgstr ""
+msgstr "%s/%s принимает запросы с момента %s"
 
 #, c-format
 msgid "%s/%s not accepting requests since %s -"
-msgstr ""
+msgstr "%s/%s не принимает запросы с момента %s -"
 
 #, c-format
 msgid "%s: %-33.33s [job %d localhost]"
-msgstr ""
+msgstr "%s: %-33.33s [задание %d localhost]"
 
 #. TRANSLATORS: Message is "subject: error"
 #, c-format
@@ -948,7 +999,7 @@ msgstr ""
 
 #, c-format
 msgid "%s: %s failed: %s"
-msgstr ""
+msgstr "%s: ошибка %s: %s"
 
 #, c-format
 msgid "%s: Bad printer URI \"%s\"."
@@ -956,11 +1007,11 @@ msgstr ""
 
 #, c-format
 msgid "%s: Bad version %s for \"-V\"."
-msgstr ""
+msgstr "%s: Неверная версия %s для \"-V\"."
 
 #, c-format
 msgid "%s: Don't know what to do."
-msgstr ""
+msgstr "%s: Дальнейшие действия неизвестны."
 
 #, c-format
 msgid "%s: Error - %s"
@@ -968,23 +1019,23 @@ msgstr ""
 
 #, c-format
 msgid "%s: Error - %s environment variable names non-existent destination \"%s\"."
-msgstr ""
+msgstr "%s: Ошибка - %s переменная окружения указывает на несуществующее назначение \"%s\"."
 
 #, c-format
 msgid "%s: Error - add '/version=1.1' to server name."
-msgstr ""
+msgstr "%s: Ошибка - добавьте '/version=1.1' к имени сервера."
 
 #, c-format
 msgid "%s: Error - bad job ID."
-msgstr ""
+msgstr "%s: Ошибка - неверный ID задания."
 
 #, c-format
 msgid "%s: Error - cannot print files and alter jobs simultaneously."
-msgstr ""
+msgstr "%s: Ошибка - невозможно печатать файлы и редактировать задания одновременно."
 
 #, c-format
 msgid "%s: Error - cannot print from stdin if files or a job ID are provided."
-msgstr ""
+msgstr "%s: Ошибка - не удается печать из stdin, если предоставлены файлы или ID задания."
 
 #, c-format
 msgid "%s: Error - copies must be 1 or more."
@@ -992,167 +1043,167 @@ msgstr ""
 
 #, c-format
 msgid "%s: Error - expected character set after \"-S\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-S\" должен идти набор символов."
 
 #, c-format
 msgid "%s: Error - expected content type after \"-T\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-T\" должен быть указан тип содержимого."
 
 #, c-format
 msgid "%s: Error - expected copies after \"-#\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-#\" должно быть указано количество копий."
 
 #, c-format
 msgid "%s: Error - expected copies after \"-n\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-n\" должно быть указано количество копий."
 
 #, c-format
 msgid "%s: Error - expected destination after \"-P\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-P\" должно быть указано назначение."
 
 #, c-format
 msgid "%s: Error - expected destination after \"-d\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-d\" должно быть указано назначение."
 
 #, c-format
 msgid "%s: Error - expected form after \"-f\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-f\" должна быть указана форма."
 
 #, c-format
 msgid "%s: Error - expected hold name after \"-H\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-H\" должно быть указано имя хоста."
 
 #, c-format
 msgid "%s: Error - expected hostname after \"-H\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-H\" должно быть указано имя хоста."
 
 #, c-format
 msgid "%s: Error - expected hostname after \"-h\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-h\" должно быть указано имя хоста."
 
 #, c-format
 msgid "%s: Error - expected mode list after \"-y\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-y\" должен быть указан список режимов."
 
 #, c-format
 msgid "%s: Error - expected name after \"-%c\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-%c\" должно быть указано имя."
 
 #, c-format
 msgid "%s: Error - expected option=value after \"-o\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра '-o' должна быть указана строка вида option=value"
 
 #, c-format
 msgid "%s: Error - expected page list after \"-P\" option."
-msgstr ""
+msgstr "%s: Ошибка – после параметра \"-P\" должен идти список страниц."
 
 #, c-format
 msgid "%s: Error - expected priority after \"-%c\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-%c\" должен быть указан приоритет."
 
 #, c-format
 msgid "%s: Error - expected reason text after \"-r\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-r\" должен идти текст причины."
 
 #, c-format
 msgid "%s: Error - expected title after \"-t\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-t\" должен быть указан заголовок."
 
 #, c-format
 msgid "%s: Error - expected username after \"-U\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-U\" должно быть указано имя пользователя."
 
 #, c-format
 msgid "%s: Error - expected username after \"-u\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-u\" должно быть указано имя пользователя."
 
 #, c-format
 msgid "%s: Error - expected value after \"-%c\" option."
-msgstr ""
+msgstr "%s: Ошибка - после параметра \"-%c\" должно быть указано значение."
 
 #, c-format
 msgid "%s: Error - need \"completed\", \"not-completed\", or \"all\" after \"-W\" option."
-msgstr ""
+msgstr "%s: Ошибка - требуется \"завершено\",\"не завершено\" или \"все\" после параметра \"-W\" "
 
 #, c-format
 msgid "%s: Error - no default destination available."
-msgstr ""
+msgstr "%s: Ошибка – нет доступного назначения по умолчанию."
 
 #, c-format
 msgid "%s: Error - priority must be between 1 and 100."
-msgstr ""
+msgstr "%s: Ошибка – приоритет должен быть от 1 до 100."
 
 #, c-format
 msgid "%s: Error - scheduler not responding."
-msgstr ""
+msgstr "%s: Ошибка - планировщик не отвечает."
 
 #, c-format
 msgid "%s: Error - too many files - \"%s\"."
-msgstr ""
+msgstr "%s: Ошибка – слишком много файлов – \"%s\"."
 
 #, c-format
 msgid "%s: Error - unable to access \"%s\" - %s"
-msgstr ""
+msgstr "%s: Ошибка – не удается получить доступ к \"%s\" – %s"
 
 #, c-format
 msgid "%s: Error - unable to queue from stdin - %s."
-msgstr ""
+msgstr "%s: Ошибка – не удается поставить в очередь из stdin - %s."
 
 #, c-format
 msgid "%s: Error - unknown destination \"%s\"."
-msgstr ""
+msgstr "%s: Ошибка - неизвестное назначение \"%s\"."
 
 #, c-format
 msgid "%s: Error - unknown destination \"%s/%s\"."
-msgstr ""
+msgstr "%s: ошибка - неизвестное назначение \"%s/%s\"."
 
 #, c-format
 msgid "%s: Error - unknown option \"%c\"."
-msgstr ""
+msgstr "%s: Ошибка - неизвестный параметр \"%c\"."
 
 #, c-format
 msgid "%s: Error - unknown option \"%s\"."
-msgstr ""
+msgstr "%s: Ошибка - неизвестный параметр \"%s\"."
 
 #, c-format
 msgid "%s: Expected job ID after \"-i\" option."
-msgstr ""
+msgstr "%s: После параметра \"-i\" должен быть указан ID задания."
 
 #, c-format
 msgid "%s: Invalid destination name in list \"%s\"."
-msgstr ""
+msgstr "%s: Недопустимое имя назначения в списке \"%s\"."
 
 #, c-format
 msgid "%s: Invalid filter string \"%s\"."
-msgstr ""
+msgstr "%s: Неверная строка фильтра \"%s\"."
 
 #, c-format
 msgid "%s: Missing filename for \"-P\"."
-msgstr ""
+msgstr "%s: Пропущено имя файла для \"-P\"."
 
 #, c-format
 msgid "%s: Missing timeout for \"-T\"."
-msgstr ""
+msgstr "%s: Пропущен таймаут для \"-T\"."
 
 #, c-format
 msgid "%s: Missing version for \"-V\"."
-msgstr ""
+msgstr "%s: Пропущена версия для \"-V\"."
 
 #, c-format
 msgid "%s: Need job ID (\"-i jobid\") before \"-H restart\"."
-msgstr ""
+msgstr "%s: Необходимо указать ID задания (\"-i jobid\") перед \"-H restart\"."
 
 #, c-format
 msgid "%s: No filter to convert from %s/%s to %s/%s."
-msgstr ""
+msgstr "%s: Отсутствует фильтр, необходимый для преобразования из %s/%s в %s/%s."
 
 #, c-format
 msgid "%s: Operation failed: %s"
-msgstr ""
+msgstr "%s: Операция не удалась: %s"
 
 #, c-format
 msgid "%s: Sorry, no encryption support."
-msgstr ""
+msgstr "%s:  Нет поддержки шифрования."
 
 #, c-format
 msgid "%s: Unable to connect to \"%s:%d\": %s"
@@ -1160,11 +1211,11 @@ msgstr ""
 
 #, c-format
 msgid "%s: Unable to connect to server."
-msgstr ""
+msgstr "%s: Не удается подключиться к серверу."
 
 #, c-format
 msgid "%s: Unable to contact server."
-msgstr ""
+msgstr "%s: Не удается установить связь с сервером."
 
 #, c-format
 msgid "%s: Unable to create PPD file: %s"
@@ -1172,19 +1223,19 @@ msgstr ""
 
 #, c-format
 msgid "%s: Unable to determine MIME type of \"%s\"."
-msgstr ""
+msgstr "%s: Не удается определить тип MIME \"%s\"."
 
 #, c-format
 msgid "%s: Unable to open \"%s\": %s"
-msgstr ""
+msgstr "%s: Не удается открыть \"%s\": %s"
 
 #, c-format
 msgid "%s: Unable to open %s: %s"
-msgstr ""
+msgstr "%s: Не удается открыть %s: %s"
 
 #, c-format
 msgid "%s: Unable to open PPD file: %s on line %d."
-msgstr ""
+msgstr "%s: Не удается открыть PPD-файл: %s в строке %d."
 
 #, c-format
 msgid "%s: Unable to query printer: %s"
@@ -1192,7 +1243,7 @@ msgstr ""
 
 #, c-format
 msgid "%s: Unable to read MIME database from \"%s\" or \"%s\"."
-msgstr ""
+msgstr "%s: Не удается прочитать базу данных MIME из \"%s\" или \"%s\"."
 
 #, c-format
 msgid "%s: Unable to resolve \"%s\"."
@@ -1204,47 +1255,47 @@ msgstr ""
 
 #, c-format
 msgid "%s: Unknown destination \"%s\"."
-msgstr ""
+msgstr "%s: Неизвестное назначение \"%s\"."
 
 #, c-format
 msgid "%s: Unknown destination MIME type %s/%s."
-msgstr ""
+msgstr "%s: Неизвестный MIME-тип назначения %s/%s."
 
 #, c-format
 msgid "%s: Unknown option \"%c\"."
-msgstr ""
+msgstr "%s: Неизвестный параметр \"%c\"."
 
 #, c-format
 msgid "%s: Unknown option \"%s\"."
-msgstr ""
+msgstr "%s: Неизвестный параметр \"%s\"."
 
 #, c-format
 msgid "%s: Unknown option \"-%c\"."
-msgstr ""
+msgstr "%s: Неизвестный параметр \"-%c\"."
 
 #, c-format
 msgid "%s: Unknown source MIME type %s/%s."
-msgstr ""
+msgstr "%s: Неизвестный MIME-тип источника %s/%s."
 
 #, c-format
 msgid "%s: Warning - \"%c\" format modifier not supported - output may not be correct."
-msgstr ""
+msgstr "%s: Внимание - модификатор формата \"%c\" не поддерживается - вывод может быть неправильным."
 
 #, c-format
 msgid "%s: Warning - character set option ignored."
-msgstr ""
+msgstr "%s: Внимание - параметр набора символов пропущен."
 
 #, c-format
 msgid "%s: Warning - content type option ignored."
-msgstr ""
+msgstr "%s: Внимание - параметр типа содержимого пропущен."
 
 #, c-format
 msgid "%s: Warning - form option ignored."
-msgstr ""
+msgstr "%s: Внимание - параметр формы пропущен."
 
 #, c-format
 msgid "%s: Warning - mode option ignored."
-msgstr ""
+msgstr "%s: Внимание - параметр режима пропущен."
 
 msgid "( expressions )         Group expressions"
 msgstr ""
@@ -1961,34 +2012,34 @@ msgid "1"
 msgstr ""
 
 msgid "1 inch/sec."
-msgstr ""
+msgstr "1 дюйм/с"
 
 msgid "1.25x0.25\""
-msgstr ""
+msgstr "1,25x0,25\""
 
 msgid "1.25x2.25\""
-msgstr ""
+msgstr "1,25x2,25\""
 
 msgid "1.5 inch/sec."
-msgstr ""
+msgstr "1,5 дюйма/с"
 
 msgid "1.50x0.25\""
-msgstr ""
+msgstr "1,50x0,25\""
 
 msgid "1.50x0.50\""
-msgstr ""
+msgstr "1,50x0,50\""
 
 msgid "1.50x1.00\""
-msgstr ""
+msgstr "1,50x1,00\""
 
 msgid "1.50x2.00\""
-msgstr ""
+msgstr "1,50x2,00\""
 
 msgid "10"
 msgstr ""
 
 msgid "10 inches/sec."
-msgstr ""
+msgstr "10 дюймов/с"
 
 msgid "10 x 11"
 msgstr ""
@@ -2003,7 +2054,7 @@ msgid "100"
 msgstr ""
 
 msgid "100 mm/sec."
-msgstr ""
+msgstr "100 мм/с"
 
 msgid "105"
 msgstr ""
@@ -2012,7 +2063,7 @@ msgid "11"
 msgstr ""
 
 msgid "11 inches/sec."
-msgstr ""
+msgstr "11 дюймов/с"
 
 msgid "110"
 msgstr ""
@@ -2024,7 +2075,7 @@ msgid "12"
 msgstr ""
 
 msgid "12 inches/sec."
-msgstr ""
+msgstr "12 дюймов/с"
 
 msgid "12 x 11"
 msgstr ""
@@ -2033,7 +2084,7 @@ msgid "120"
 msgstr ""
 
 msgid "120 mm/sec."
-msgstr ""
+msgstr "120 мм/с"
 
 msgid "120x60dpi"
 msgstr ""
@@ -2054,13 +2105,13 @@ msgid "15"
 msgstr ""
 
 msgid "15 mm/sec."
-msgstr ""
+msgstr "15 мм/с"
 
 msgid "15 x 11"
 msgstr ""
 
 msgid "150 mm/sec."
-msgstr ""
+msgstr "150 мм/с"
 
 msgid "150dpi"
 msgstr ""
@@ -2084,73 +2135,73 @@ msgid "2"
 msgstr ""
 
 msgid "2 inches/sec."
-msgstr ""
+msgstr "2 дюйма/с"
 
 msgid "2-Sided Printing"
-msgstr ""
+msgstr "двусторонняя печать"
 
 msgid "2.00x0.37\""
-msgstr ""
+msgstr "2,00x0,37\""
 
 msgid "2.00x0.50\""
-msgstr ""
+msgstr "2,00x0,50\""
 
 msgid "2.00x1.00\""
-msgstr ""
+msgstr "2,00x1,00\""
 
 msgid "2.00x1.25\""
-msgstr ""
+msgstr "2,00x1,25\""
 
 msgid "2.00x2.00\""
-msgstr ""
+msgstr "2,00x2,00\""
 
 msgid "2.00x3.00\""
-msgstr ""
+msgstr "2,00x3,00\""
 
 msgid "2.00x4.00\""
-msgstr ""
+msgstr "2,00x4,00\""
 
 msgid "2.00x5.50\""
-msgstr ""
+msgstr "2,00x5,50\""
 
 msgid "2.25x0.50\""
-msgstr ""
+msgstr "2,25x0,50\""
 
 msgid "2.25x1.25\""
-msgstr ""
+msgstr "2,25x1,25\""
 
 msgid "2.25x4.00\""
-msgstr ""
+msgstr "2,25x4,00\""
 
 msgid "2.25x5.50\""
-msgstr ""
+msgstr "2,25x5,50\""
 
 msgid "2.38x5.50\""
-msgstr ""
+msgstr "2,38x5,50\""
 
 msgid "2.5 inches/sec."
-msgstr ""
+msgstr "2,5 дюйма/с"
 
 msgid "2.50x1.00\""
-msgstr ""
+msgstr "2,50x1,00\""
 
 msgid "2.50x2.00\""
-msgstr ""
+msgstr "2,50x2,00\""
 
 msgid "2.75x1.25\""
-msgstr ""
+msgstr "2,75x1,25\""
 
 msgid "2.9 x 1\""
-msgstr ""
+msgstr "2,9 x 1\""
 
 msgid "20"
 msgstr ""
 
 msgid "20 mm/sec."
-msgstr ""
+msgstr "20 мм/с"
 
 msgid "200 mm/sec."
-msgstr ""
+msgstr "200 мм/с"
 
 msgid "203dpi"
 msgstr ""
@@ -2168,7 +2219,7 @@ msgid "24"
 msgstr ""
 
 msgid "24-Pin Series"
-msgstr ""
+msgstr "Тип 24-Pin"
 
 msgid "240x72dpi"
 msgstr ""
@@ -2177,7 +2228,7 @@ msgid "25"
 msgstr ""
 
 msgid "250 mm/sec."
-msgstr ""
+msgstr "250 мм/с"
 
 msgid "26"
 msgstr ""
@@ -2195,58 +2246,58 @@ msgid "3"
 msgstr ""
 
 msgid "3 inches/sec."
-msgstr ""
+msgstr "3 дюйма/с"
 
 msgid "3 x 5"
 msgstr ""
 
 msgid "3.00x1.00\""
-msgstr ""
+msgstr "3,00x1,00\""
 
 msgid "3.00x1.25\""
-msgstr ""
+msgstr "3,00x1,25\""
 
 msgid "3.00x2.00\""
-msgstr ""
+msgstr "3,00x2,00\""
 
 msgid "3.00x3.00\""
-msgstr ""
+msgstr "3,00x3,00\""
 
 msgid "3.00x5.00\""
-msgstr ""
+msgstr "3,00x5,00\""
 
 msgid "3.25x2.00\""
-msgstr ""
+msgstr "3,25x2,00\""
 
 msgid "3.25x5.00\""
-msgstr ""
+msgstr "3,25x5,00\""
 
 msgid "3.25x5.50\""
-msgstr ""
+msgstr "3,25x5,50\""
 
 msgid "3.25x5.83\""
-msgstr ""
+msgstr "3,25x5,83\""
 
 msgid "3.25x7.83\""
-msgstr ""
+msgstr "3,25x7,83\""
 
 msgid "3.5 x 5"
 msgstr ""
 
 msgid "3.5\" Disk"
-msgstr ""
+msgstr "Диск 3.5\""
 
 msgid "3.50x1.00\""
-msgstr ""
+msgstr "3,50x1,00\""
 
 msgid "30"
 msgstr ""
 
 msgid "30 mm/sec."
-msgstr ""
+msgstr "30 мм/с"
 
 msgid "300 mm/sec."
-msgstr ""
+msgstr "300 мм/с"
 
 msgid "300dpi"
 msgstr ""
@@ -2267,40 +2318,40 @@ msgid "4"
 msgstr ""
 
 msgid "4 inches/sec."
-msgstr ""
+msgstr "4 дюйма/с"
 
 msgid "4.00x1.00\""
-msgstr ""
+msgstr "4,00x1,00\""
 
 msgid "4.00x13.00\""
-msgstr ""
+msgstr "4,00x13,00\""
 
 msgid "4.00x2.00\""
-msgstr ""
+msgstr "4,00x2,00\""
 
 msgid "4.00x2.50\""
-msgstr ""
+msgstr "4,00x2,50\""
 
 msgid "4.00x3.00\""
-msgstr ""
+msgstr "4,00x3,00\""
 
 msgid "4.00x4.00\""
-msgstr ""
+msgstr "4,00x4,00\""
 
 msgid "4.00x5.00\""
-msgstr ""
+msgstr "4,00x5,00\""
 
 msgid "4.00x6.00\""
-msgstr ""
+msgstr "4,00x6,00\""
 
 msgid "4.00x6.50\""
-msgstr ""
+msgstr "4,00x6,50\""
 
 msgid "40"
 msgstr ""
 
 msgid "40 mm/sec."
-msgstr ""
+msgstr "40 мм/с"
 
 msgid "45"
 msgstr ""
@@ -2309,7 +2360,7 @@ msgid "5"
 msgstr ""
 
 msgid "5 inches/sec."
-msgstr ""
+msgstr "5 дюймов/с"
 
 msgid "5 x 7"
 msgstr ""
@@ -2324,34 +2375,34 @@ msgid "6"
 msgstr ""
 
 msgid "6 inches/sec."
-msgstr ""
+msgstr "6 дюймов/с"
 
 msgid "6.00x1.00\""
-msgstr ""
+msgstr "6,00x1,00\""
 
 msgid "6.00x2.00\""
-msgstr ""
+msgstr "6,00x2,00\""
 
 msgid "6.00x3.00\""
-msgstr ""
+msgstr "6,00x3,00\""
 
 msgid "6.00x4.00\""
-msgstr ""
+msgstr "6,00x4,00\""
 
 msgid "6.00x5.00\""
-msgstr ""
+msgstr "6,00x5,00\""
 
 msgid "6.00x6.00\""
-msgstr ""
+msgstr "6,00x6,00\""
 
 msgid "6.00x6.50\""
-msgstr ""
+msgstr "6,00x6,50\""
 
 msgid "60"
 msgstr ""
 
 msgid "60 mm/sec."
-msgstr ""
+msgstr "60 мм/с"
 
 msgid "600dpi"
 msgstr ""
@@ -2369,7 +2420,7 @@ msgid "7"
 msgstr ""
 
 msgid "7 inches/sec."
-msgstr ""
+msgstr "7 дюймов/с"
 
 msgid "7 x 9"
 msgstr ""
@@ -2384,37 +2435,37 @@ msgid "8"
 msgstr ""
 
 msgid "8 inches/sec."
-msgstr ""
+msgstr "8 дюймов/с"
 
 msgid "8 x 10"
 msgstr ""
 
 msgid "8.00x1.00\""
-msgstr ""
+msgstr "8,00x1,00\""
 
 msgid "8.00x2.00\""
-msgstr ""
+msgstr "8,00x2,00\""
 
 msgid "8.00x3.00\""
-msgstr ""
+msgstr "8,00x3,00\""
 
 msgid "8.00x4.00\""
-msgstr ""
+msgstr "8,00x4,00\""
 
 msgid "8.00x5.00\""
-msgstr ""
+msgstr "8,00x5,00\""
 
 msgid "8.00x6.00\""
-msgstr ""
+msgstr "8,00x6,00\""
 
 msgid "8.00x6.50\""
-msgstr ""
+msgstr "8,00x6,50\""
 
 msgid "80"
 msgstr ""
 
 msgid "80 mm/sec."
-msgstr ""
+msgstr "80 мм/с"
 
 msgid "85"
 msgstr ""
@@ -2423,7 +2474,7 @@ msgid "9"
 msgstr ""
 
 msgid "9 inches/sec."
-msgstr ""
+msgstr "9 дюймов/с"
 
 msgid "9 x 11"
 msgstr ""
@@ -2432,7 +2483,7 @@ msgid "9 x 12"
 msgstr ""
 
 msgid "9-Pin Series"
-msgstr ""
+msgstr "Тип 9-Pin"
 
 msgid "90"
 msgstr ""
@@ -2445,11 +2496,11 @@ msgstr ""
 
 #, c-format
 msgid "A class named \"%s\" already exists."
-msgstr ""
+msgstr "Группа с именем \"%s\" уже существует."
 
 #, c-format
 msgid "A printer named \"%s\" already exists."
-msgstr ""
+msgstr "Принтер с именем \"%s\" уже существует."
 
 msgid "A0"
 msgstr ""
@@ -2554,35 +2605,35 @@ msgid "ARCH E Long Edge"
 msgstr ""
 
 msgid "Accept Jobs"
-msgstr ""
+msgstr "Принять задания"
 
 msgid "Accepted"
-msgstr ""
+msgstr "Принято"
 
 msgid "Add Class"
-msgstr ""
+msgstr "Добавить группу"
 
 msgid "Add Printer"
-msgstr ""
+msgstr "Добавить принтер"
 
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 msgid "Administration"
-msgstr ""
+msgstr "Администрирование"
 
 msgid "Always"
-msgstr ""
+msgstr "Всегда"
 
 msgid "AppSocket/HP JetDirect"
 msgstr ""
 
 msgid "Applicator"
-msgstr ""
+msgstr "Исполнительное устройство"
 
 #, c-format
 msgid "Attempt to set %s printer-state to bad value %d."
-msgstr ""
+msgstr "Попытка установить %s printer-state на неверное значение %d"
 
 #, c-format
 msgid "Attribute \"%s\" is in the wrong group."
@@ -2594,7 +2645,7 @@ msgstr ""
 
 #, c-format
 msgid "Attribute groups are out of order (%x < %x)."
-msgstr ""
+msgstr "Атрибут группы не в диапазоне (%x < %x)"
 
 msgid "B0"
 msgstr ""
@@ -2648,16 +2699,16 @@ msgid "Bad CloseUI/JCLCloseUI"
 msgstr ""
 
 msgid "Bad NULL dests pointer"
-msgstr ""
+msgstr "Неверный указатель NULL dests"
 
 msgid "Bad OpenGroup"
-msgstr ""
+msgstr "Неверное значение OpenGroup"
 
 msgid "Bad OpenUI/JCLOpenUI"
-msgstr ""
+msgstr "Неверное значение OpenUI/JCLOpenUI"
 
 msgid "Bad OrderDependency"
-msgstr ""
+msgstr "Неверное значение OrderDependency"
 
 msgid "Bad PPD cache file."
 msgstr ""
@@ -2666,80 +2717,80 @@ msgid "Bad PPD file."
 msgstr ""
 
 msgid "Bad Request"
-msgstr ""
+msgstr "Неверный запрос"
 
 msgid "Bad SNMP version number"
-msgstr ""
+msgstr "Неверный номер версии SNMP"
 
 msgid "Bad UIConstraints"
-msgstr ""
+msgstr "Неверное значение UIConstraints"
 
 msgid "Bad URI."
 msgstr ""
 
 msgid "Bad arguments to function"
-msgstr ""
+msgstr "Неверные аргументы для функции"
 
 #, c-format
 msgid "Bad copies value %d."
-msgstr ""
+msgstr "Неверное значение количества копий %d."
 
 msgid "Bad custom parameter"
-msgstr ""
+msgstr "Неверный индивидуальный параметр"
 
 #, c-format
 msgid "Bad device-uri \"%s\"."
-msgstr ""
+msgstr "Неверное значение device-uri \"%s\"."
 
 #, c-format
 msgid "Bad device-uri scheme \"%s\"."
-msgstr ""
+msgstr "Неверная схема device-uri \"%s\"."
 
 #, c-format
 msgid "Bad document-format \"%s\"."
-msgstr ""
+msgstr "Неверное значение document-format \"%s\"."
 
 #, c-format
 msgid "Bad document-format-default \"%s\"."
-msgstr ""
+msgstr "Неверное значение document-format-default \"%s\"."
 
 msgid "Bad filename buffer"
-msgstr ""
+msgstr "Ошибка в буфере filename"
 
 msgid "Bad hostname/address in URI"
-msgstr ""
+msgstr "Неверный hostname/address в URI"
 
 #, c-format
 msgid "Bad job-name value: %s"
-msgstr ""
+msgstr "Неверное значение job-name: %s"
 
 msgid "Bad job-name value: Wrong type or count."
-msgstr ""
+msgstr "Неверное значение job-name: Wrong type or count."
 
 msgid "Bad job-priority value."
-msgstr ""
+msgstr "Неверное значение job-priority."
 
 #, c-format
 msgid "Bad job-sheets value \"%s\"."
-msgstr ""
+msgstr "Неверное значение job-sheets \"%s\"."
 
 msgid "Bad job-sheets value type."
-msgstr ""
+msgstr "Неверный тип значения job-sheets."
 
 msgid "Bad job-state value."
-msgstr ""
+msgstr "Неверное значение job-state."
 
 #, c-format
 msgid "Bad job-uri \"%s\"."
-msgstr ""
+msgstr "Неверный job-uri \"%s\"."
 
 #, c-format
 msgid "Bad notify-pull-method \"%s\"."
-msgstr ""
+msgstr "Неверное значение notify-pull-method \"%s\"."
 
 #, c-format
 msgid "Bad notify-recipient-uri \"%s\"."
-msgstr ""
+msgstr "Неверный notify-recipient-uri \"%s\"."
 
 #, c-format
 msgid "Bad notify-user-data \"%s\"."
@@ -2747,33 +2798,33 @@ msgstr ""
 
 #, c-format
 msgid "Bad number-up value %d."
-msgstr ""
+msgstr "Неверное значение number-up %d."
 
 #, c-format
 msgid "Bad page-ranges values %d-%d."
-msgstr ""
+msgstr "Неверные значения page-ranges %d-%d."
 
 msgid "Bad port number in URI"
-msgstr ""
+msgstr "Неверный номер порта в URI"
 
 #, c-format
 msgid "Bad port-monitor \"%s\"."
-msgstr ""
+msgstr "Неверное значение port-monitor \"%s\"."
 
 #, c-format
 msgid "Bad printer-state value %d."
-msgstr ""
+msgstr "Неверное значение printer-state %d."
 
 msgid "Bad printer-uri."
-msgstr ""
+msgstr "Неверное значение printer-uri"
 
 #, c-format
 msgid "Bad request ID %d."
-msgstr ""
+msgstr "Неверный ID запроса %d."
 
 #, c-format
 msgid "Bad request version number %d.%d."
-msgstr ""
+msgstr "Неверный номер версии запроса %d.%d."
 
 msgid "Bad resource in URI"
 msgstr ""
@@ -2782,41 +2833,41 @@ msgid "Bad scheme in URI"
 msgstr ""
 
 msgid "Bad username in URI"
-msgstr ""
+msgstr "Неверное имя пользователя в URI"
 
 msgid "Bad value string"
-msgstr ""
+msgstr "Неверная строка значений"
 
 msgid "Bad/empty URI"
-msgstr ""
+msgstr "Неверный или пустой URI"
 
 msgid "Banners"
-msgstr ""
+msgstr "Баннеры"
 
 msgid "Bond Paper"
-msgstr ""
+msgstr "Документная бумага"
 
 msgid "Booklet"
 msgstr ""
 
 #, c-format
 msgid "Boolean expected for waiteof option \"%s\"."
-msgstr ""
+msgstr "Параметр waiteof \"%s\" должен иметь двоичное значение"
 
 msgid "Buffer overflow detected, aborting."
-msgstr ""
+msgstr "Обнаружено переполнение буфера, прерывание."
 
 msgid "CMYK"
 msgstr ""
 
 msgid "CPCL Label Printer"
-msgstr ""
+msgstr "Принтер для печати этикеток CPCL"
 
 msgid "Cancel Jobs"
-msgstr ""
+msgstr "Отменить задания"
 
 msgid "Canceling print job."
-msgstr ""
+msgstr "Отмена задания печати."
 
 msgid "Cannot change printer-is-shared for remote queues."
 msgstr ""
@@ -2825,57 +2876,58 @@ msgid "Cannot share a remote Kerberized printer."
 msgstr ""
 
 msgid "Cassette"
-msgstr ""
+msgstr "Лоток"
 
 msgid "Change Settings"
-msgstr ""
+msgstr "Изменить настройки"
 
 #, c-format
 msgid "Character set \"%s\" not supported."
-msgstr ""
+msgstr "Набор символов \"%s\" не поддерживается."
 
 msgid "Classes"
-msgstr ""
+msgstr "Группы"
 
 msgid "Clean Print Heads"
-msgstr ""
+msgstr "Очистить головки принтера"
 
 msgid "Close-Job doesn't support the job-uri attribute."
-msgstr ""
+msgstr "Close-Job не подерживает атрибут job-uri"
 
 msgid "Color"
-msgstr ""
+msgstr "Цвет"
 
 msgid "Color Mode"
-msgstr ""
+msgstr "Цветной режим"
 
 msgid "Commands may be abbreviated.  Commands are:\n\n"
 "exit    help    quit    status  ?"
-msgstr ""
+msgstr "Команды могут быть сокращены.  Команды:\n\n"
+"exit    help    quit    status  ?"
 
 msgid "Community name uses indefinite length"
-msgstr ""
+msgstr "Для имени сообщества длина не установлена"
 
 msgid "Connected to printer."
-msgstr ""
+msgstr "Подключен к принтеру."
 
 msgid "Connecting to printer."
-msgstr ""
+msgstr "Подключение к принтеру"
 
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 msgid "Continuous"
-msgstr ""
+msgstr "Непрерывно"
 
 msgid "Control file sent successfully."
-msgstr ""
+msgstr "Контрольный файл успешно отправлен."
 
 msgid "Copying print data."
-msgstr ""
+msgstr "Копирование данных печати."
 
 msgid "Created"
-msgstr ""
+msgstr "Создано"
 
 msgid "Credentials do not validate against site CA certificate."
 msgstr ""
@@ -2884,7 +2936,7 @@ msgid "Credentials have expired."
 msgstr ""
 
 msgid "Custom"
-msgstr ""
+msgstr "Индивидуальный"
 
 msgid "CustominCutInterval"
 msgstr ""
@@ -2893,22 +2945,22 @@ msgid "CustominTearInterval"
 msgstr ""
 
 msgid "Cut"
-msgstr ""
+msgstr "Обрезать"
 
 msgid "Cutter"
-msgstr ""
+msgstr "Резак"
 
 msgid "DYMO"
 msgstr ""
 
 msgid "Dark"
-msgstr ""
+msgstr "Темный"
 
 msgid "Darkness"
-msgstr ""
+msgstr "Затемненность"
 
 msgid "Data file sent successfully."
-msgstr ""
+msgstr "Файл данных успешно отправлен."
 
 msgid "Deep Color"
 msgstr ""
@@ -2917,17 +2969,17 @@ msgid "Deep Gray"
 msgstr ""
 
 msgid "Delete Class"
-msgstr ""
+msgstr "Удалить группу"
 
 msgid "Delete Printer"
-msgstr ""
+msgstr "Удалить принтер"
 
 msgid "DeskJet Series"
-msgstr ""
+msgstr "Серия DeskJet"
 
 #, c-format
 msgid "Destination \"%s\" is not accepting jobs."
-msgstr ""
+msgstr "Назначение «%s» не принимает задания."
 
 msgid "Device CMYK"
 msgstr ""
@@ -2948,62 +3000,62 @@ msgid "Device: uri = %s\n"
 msgstr ""
 
 msgid "Direct Thermal Media"
-msgstr ""
+msgstr "Носитель для термопечати"
 
 #, c-format
 msgid "Directory \"%s\" contains a relative path."
-msgstr ""
+msgstr "Каталог \"%s\" содержит относительный путь."
 
 #, c-format
 msgid "Directory \"%s\" has insecure permissions (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "Каталог \"%s\" имеет небезопасные права доступа (0%o/uid=%d/gid=%d)."
 
 #, c-format
 msgid "Directory \"%s\" is a file."
-msgstr ""
+msgstr "Каталог \"%s\" это файл."
 
 #, c-format
 msgid "Directory \"%s\" not available: %s"
-msgstr ""
+msgstr "Каталог \"%s\" недоступен: %s"
 
 #, c-format
 msgid "Directory \"%s\" permissions OK (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "Каталог \"%s\" доступ OK (0%o/uid=%d/gid=%d)."
 
 msgid "Disabled"
-msgstr ""
+msgstr "Отключено"
 
 #, c-format
 msgid "Document #%d does not exist in job #%d."
-msgstr ""
+msgstr "Документ #%d не существует в задании #%d."
 
 msgid "Draft"
 msgstr ""
 
 msgid "Duplexer"
-msgstr ""
+msgstr "Дуплексер"
 
 msgid "EPL1 Label Printer"
-msgstr ""
+msgstr "Принтер для печати этикеток EPL1"
 
 msgid "EPL2 Label Printer"
-msgstr ""
+msgstr "Принтер для печати этикеток EPL2"
 
 msgid "Edit Configuration File"
-msgstr ""
+msgstr "Редактировать файл конфигурации"
 
 msgid "Encryption is not supported."
-msgstr ""
+msgstr "Шифрование не поддерживается."
 
 #. TRANSLATORS: Banner/cover sheet after the print job.
 msgid "Ending Banner"
-msgstr ""
+msgstr "Конечный баннер"
 
 msgid "English"
-msgstr ""
+msgstr "Russian"
 
 msgid "Enter your username and password or the root username and password to access this page. If you are using Kerberos authentication, make sure you have a valid Kerberos ticket."
-msgstr ""
+msgstr "Введите свое имя пользователя и пароль или данные учетной записи root, чтобы получить доступ к этой странице. Если используется проверка подлинности Kerberos, необходимо также иметь действительный билет Kerberos."
 
 msgid "Envelope #10"
 msgstr ""
@@ -3072,7 +3124,7 @@ msgid "Envelope DL"
 msgstr ""
 
 msgid "Envelope Feed"
-msgstr ""
+msgstr "Подача конвертов"
 
 msgid "Envelope Invite"
 msgstr ""
@@ -3171,16 +3223,16 @@ msgid "Epson"
 msgstr ""
 
 msgid "Error Policy"
-msgstr ""
+msgstr "Политика ошибок"
 
 msgid "Error reading raster data."
 msgstr ""
 
 msgid "Error sending raster data."
-msgstr ""
+msgstr "Ошибка отправки данных растра."
 
 msgid "Error: need hostname after \"-h\" option."
-msgstr ""
+msgstr "ERROR: Требуется имя хоста после параметра \"-h\""
 
 msgid "European Fanfold"
 msgstr ""
@@ -3189,77 +3241,77 @@ msgid "European Fanfold Legal"
 msgstr ""
 
 msgid "Every 10 Labels"
-msgstr ""
+msgstr "Каждые 10 этикеток"
 
 msgid "Every 2 Labels"
-msgstr ""
+msgstr "Каждые 2 этикетки"
 
 msgid "Every 3 Labels"
-msgstr ""
+msgstr "Каждые 3 этикетки"
 
 msgid "Every 4 Labels"
-msgstr ""
+msgstr "Каждые 4 этикетки"
 
 msgid "Every 5 Labels"
-msgstr ""
+msgstr "Каждые 5 этикеток"
 
 msgid "Every 6 Labels"
-msgstr ""
+msgstr "Каждые 6 этикеток"
 
 msgid "Every 7 Labels"
-msgstr ""
+msgstr "Каждые 7 этикеток"
 
 msgid "Every 8 Labels"
-msgstr ""
+msgstr "Каждые 8 этикеток"
 
 msgid "Every 9 Labels"
-msgstr ""
+msgstr "Каждые 9 этикеток"
 
 msgid "Every Label"
-msgstr ""
+msgstr "Каждая этикетка"
 
 msgid "Executive"
 msgstr ""
 
 msgid "Expectation Failed"
-msgstr ""
+msgstr "Сбой ожидания"
 
 msgid "Expressions:"
-msgstr ""
+msgstr "Выражение:"
 
 msgid "Fast Grayscale"
 msgstr ""
 
 #, c-format
 msgid "File \"%s\" contains a relative path."
-msgstr ""
+msgstr "Файл \"%s\" содержит относительный путь."
 
 #, c-format
 msgid "File \"%s\" has insecure permissions (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "Файл \"%s\" имеет небезопасные права доступа  (0%o/uid=%d/gid=%d)."
 
 #, c-format
 msgid "File \"%s\" is a directory."
-msgstr ""
+msgstr "Файл \"%s\" является каталогом."
 
 #, c-format
 msgid "File \"%s\" not available: %s"
-msgstr ""
+msgstr "Файл \"%s\" недоступен: %s"
 
 #, c-format
 msgid "File \"%s\" permissions OK (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "Файл \"%s\" права доступа OK (0%o/uid=%d/gid=%d)."
 
 msgid "File Folder"
 msgstr ""
 
 #, c-format
 msgid "File device URIs have been disabled. To enable, see the FileDevice directive in \"%s/cups-files.conf\"."
-msgstr ""
+msgstr "URI-адреса файлового устройства отключены! Чтобы включить их, используйте параметр FileDevice в \"%s/cups-files.conf\"."
 
 #, c-format
 msgid "Finished page %d."
-msgstr ""
+msgstr "Последняя страница %d."
 
 msgid "Finishing Preset"
 msgstr ""
@@ -3268,115 +3320,115 @@ msgid "Fold"
 msgstr ""
 
 msgid "Folio"
-msgstr ""
+msgstr "Фолио"
 
 msgid "Forbidden"
-msgstr ""
+msgstr "Запрещено"
 
 msgid "Found"
 msgstr ""
 
 msgid "General"
-msgstr ""
+msgstr "Основные"
 
 msgid "Generic"
-msgstr ""
+msgstr "Общее"
 
 msgid "Get-Response-PDU uses indefinite length"
-msgstr ""
+msgstr "Для Get-Response-PDU длина не установлена"
 
 msgid "Glossy Paper"
-msgstr ""
+msgstr "Глянцевая бумага"
 
 msgid "Got a printer-uri attribute but no job-id."
-msgstr ""
+msgstr "Получен атрибут printer-uri, но не job-id"
 
 msgid "Grayscale"
-msgstr ""
+msgstr "Оттенки серого"
 
 msgid "HP"
 msgstr ""
 
 msgid "Hanging Folder"
-msgstr ""
+msgstr "Папка подвесного хранения"
 
 msgid "Hash buffer too small."
 msgstr ""
 
 msgid "Help file not in index."
-msgstr ""
+msgstr "Файл справки не проиндексирован."
 
 msgid "High"
 msgstr ""
 
 msgid "IPP 1setOf attribute with incompatible value tags."
-msgstr ""
+msgstr "IPP атрибут 1setOf с недопустимым значением."
 
 msgid "IPP attribute has no name."
-msgstr ""
+msgstr "IPP атрибут не имеет имени."
 
 msgid "IPP attribute is not a member of the message."
-msgstr ""
+msgstr "IPP атрибут не входит в состав сообщения."
 
 msgid "IPP begCollection value not 0 bytes."
-msgstr ""
+msgstr "IPP значение begCollection не 0 байт."
 
 msgid "IPP boolean value not 1 byte."
-msgstr ""
+msgstr "IPP двоичное значение не 1 байт."
 
 msgid "IPP date value not 11 bytes."
-msgstr ""
+msgstr "IPP длина даты не 11 байтов."
 
 msgid "IPP endCollection value not 0 bytes."
-msgstr ""
+msgstr "IPP значение endCollection не 0 байт."
 
 msgid "IPP enum value not 4 bytes."
-msgstr ""
+msgstr "IPP значение enum не 4 байта."
 
 msgid "IPP extension tag larger than 0x7FFFFFFF."
-msgstr ""
+msgstr "IPP extension tag больше чем 0x7FFFFFFF."
 
 msgid "IPP integer value not 4 bytes."
-msgstr ""
+msgstr "IPP тип integer не 4 байта"
 
 msgid "IPP language length overflows value."
-msgstr ""
+msgstr "IPP переполнение значения language length"
 
 msgid "IPP language length too large."
-msgstr ""
+msgstr "IPP language length слишком длинное."
 
 msgid "IPP member name is not empty."
-msgstr ""
+msgstr "IPP member name не пустое."
 
 msgid "IPP memberName value is empty."
-msgstr ""
+msgstr "IPP memberName пустое значение."
 
 msgid "IPP memberName with no attribute."
-msgstr ""
+msgstr "IPP memberName без атрибута."
 
 msgid "IPP name larger than 32767 bytes."
-msgstr ""
+msgstr "IPP имя больше чем 32767 байт."
 
 msgid "IPP nameWithLanguage value less than minimum 4 bytes."
-msgstr ""
+msgstr "IPP значение nameWithLanguage меньше минимума 4 байт."
 
 msgid "IPP octetString length too large."
-msgstr ""
+msgstr "IPP octetString слишком длинное."
 
 msgid "IPP rangeOfInteger value not 8 bytes."
-msgstr ""
+msgstr "IPP rangeOfInteger значение не 8 байт."
 
 msgid "IPP resolution value not 9 bytes."
-msgstr ""
+msgstr "IPP resolution значение не 9 байт."
 
 msgid "IPP string length overflows value."
-msgstr ""
+msgstr "IPP переполнение значения string length."
 
 msgid "IPP textWithLanguage value less than minimum 4 bytes."
-msgstr ""
+msgstr "IPP textWithLanguage меньше минимума 4 байт."
 
 msgid "IPP value larger than 32767 bytes."
-msgstr ""
+msgstr "IPP значение больше чем 32767 байт."
 
 msgid "IPPFIND_SERVICE_DOMAIN  Domain name"
 msgstr ""
@@ -3404,58 +3456,58 @@ msgid "IPPFIND_TXT_*           Value of TXT record key"
 msgstr ""
 
 msgid "ISOLatin1"
-msgstr ""
+msgstr "UTF-8"
 
 msgid "Illegal control character"
-msgstr ""
+msgstr "Недействительный контрольный символ"
 
 msgid "Illegal main keyword string"
-msgstr ""
+msgstr "Недействительная основная строка ключевых слов"
 
 msgid "Illegal option keyword string"
-msgstr ""
+msgstr "Недействительная строка ключевых слов параметра"
 
 msgid "Illegal translation string"
-msgstr ""
+msgstr "Недействительный перевод"
 
 msgid "Illegal whitespace character"
-msgstr ""
+msgstr "Недействительный символ пробела"
 
 msgid "Installable Options"
-msgstr ""
+msgstr "Параметры, разрешенные к установке"
 
 msgid "Installed"
-msgstr ""
+msgstr "Установлено"
 
 msgid "IntelliBar Label Printer"
-msgstr ""
+msgstr "Принтер для печати этикеток IntelliBar"
 
 msgid "Intellitech"
 msgstr ""
 
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Внутренняя Ошибка сервера"
 
 msgid "Internal error"
-msgstr ""
+msgstr "Внутренняя ошибка"
 
 msgid "Internet Postage 2-Part"
-msgstr ""
+msgstr "Наклейки Internet Postage 2-Part"
 
 msgid "Internet Postage 3-Part"
-msgstr ""
+msgstr "Наклейки Internet Postage 3-Part"
 
 msgid "Internet Printing Protocol"
-msgstr ""
+msgstr "Протокол интернет-печати"
 
 msgid "Invalid group tag."
 msgstr ""
 
 msgid "Invalid media name arguments."
-msgstr ""
+msgstr "Неверные аргументы имени бумаги."
 
 msgid "Invalid media size."
-msgstr ""
+msgstr "Неверный размер бумаги."
 
 msgid "Invalid named IPP attribute in collection."
 msgstr ""
@@ -3465,7 +3517,7 @@ msgstr ""
 
 #, c-format
 msgid "Invalid printer command \"%s\"."
-msgstr ""
+msgstr "Неверная команда принтера \"%s\"."
 
 msgid "JCL"
 msgstr ""
@@ -3514,88 +3566,88 @@ msgstr ""
 
 #, c-format
 msgid "Job #%d cannot be restarted - no files."
-msgstr ""
+msgstr "Задание #%d не может быть перезапущено - отсутствуют файлы."
 
 #, c-format
 msgid "Job #%d does not exist."
-msgstr ""
+msgstr "Задание #%d не существует."
 
 #, c-format
 msgid "Job #%d is already aborted - can't cancel."
-msgstr ""
+msgstr "Задание #%d уже прервано – не удается отменить."
 
 #, c-format
 msgid "Job #%d is already canceled - can't cancel."
-msgstr ""
+msgstr "Задание #%d уже отменено – не удается отменить."
 
 #, c-format
 msgid "Job #%d is already completed - can't cancel."
-msgstr ""
+msgstr "Задание #%d уже завершено – не удается отменить."
 
 #, c-format
 msgid "Job #%d is finished and cannot be altered."
-msgstr ""
+msgstr "Задание #%d завершено и не может быть изменено."
 
 #, c-format
 msgid "Job #%d is not complete."
-msgstr ""
+msgstr "Задание #%d не завершено."
 
 #, c-format
 msgid "Job #%d is not held for authentication."
-msgstr ""
+msgstr "Задание #%d не задержано для идентификации."
 
 #, c-format
 msgid "Job #%d is not held."
-msgstr ""
+msgstr "Задание #%d не задержано."
 
 msgid "Job Completed"
-msgstr ""
+msgstr "Задание завершено"
 
 msgid "Job Created"
-msgstr ""
+msgstr "Задание создано"
 
 msgid "Job Options Changed"
-msgstr ""
+msgstr "Параметры задания изменены"
 
 msgid "Job Stopped"
-msgstr ""
+msgstr "Задание остановлено"
 
 msgid "Job is completed and cannot be changed."
-msgstr ""
+msgstr "Задание завершено и не может быть изменено."
 
 msgid "Job operation failed"
-msgstr ""
+msgstr "Сбой операции задания."
 
 msgid "Job state cannot be changed."
-msgstr ""
+msgstr "Состояние задания не может быть изменено."
 
 msgid "Job subscriptions cannot be renewed."
-msgstr ""
+msgstr "Подписки на задание не могут быть обновлены."
 
 msgid "Jobs"
-msgstr ""
+msgstr "Задания"
 
 msgid "LPD/LPR Host or Printer"
-msgstr ""
+msgstr "Хост или принтер LPD/LPR"
 
 msgid "LPDEST environment variable names default destination that does not exist."
 msgstr ""
 
 msgid "Label Printer"
-msgstr ""
+msgstr "Принтер для печати этикеток"
 
 msgid "Label Top"
-msgstr ""
+msgstr "Верхний край этикетки"
 
 #, c-format
 msgid "Language \"%s\" not supported."
-msgstr ""
+msgstr "Язык \"%s\" не поддерживается."
 
 msgid "Large Address"
-msgstr ""
+msgstr "Полный адрес"
 
 msgid "LaserJet Series PCL 4/5"
-msgstr ""
+msgstr "Серия LaserJet, PCL 4/5"
 
 msgid "Letter Oversize"
 msgstr ""
@@ -3604,13 +3656,13 @@ msgid "Letter Oversize Long Edge"
 msgstr ""
 
 msgid "Light"
-msgstr ""
+msgstr "Светлый"
 
 msgid "Line longer than the maximum allowed (255 characters)"
-msgstr ""
+msgstr "Строка длиннее разрешенного предела (255 символов)"
 
 msgid "List Available Printers"
-msgstr ""
+msgstr "Список доступных принтеров"
 
 #, c-format
 msgid "Listening on port %d."
@@ -3620,92 +3672,92 @@ msgid "Local printer created."
 msgstr ""
 
 msgid "Long-Edge (Portrait)"
-msgstr ""
+msgstr "По длинной стороне (книжная)"
 
 msgid "Looking for printer."
-msgstr ""
+msgstr "Поиск принтера."
 
 msgid "Main Roll"
 msgstr ""
 
 msgid "Manual Feed"
-msgstr ""
+msgstr "Ручная подача"
 
 msgid "Media Size"
-msgstr ""
+msgstr "Размер бумаги"
 
 msgid "Media Source"
-msgstr ""
+msgstr "Источник бумаги"
 
 msgid "Media Tracking"
-msgstr ""
+msgstr "Контроль подачи бумаги"
 
 msgid "Media Type"
-msgstr ""
+msgstr "Тип бумаги"
 
 msgid "Medium"
-msgstr ""
+msgstr "Средний"
 
 msgid "Memory allocation error"
-msgstr ""
+msgstr "Ошибка выделения памяти"
 
 msgid "Missing CloseGroup"
-msgstr ""
+msgstr "Пропущен CloseGroup"
 
 msgid "Missing CloseUI/JCLCloseUI"
 msgstr ""
 
 msgid "Missing PPD-Adobe-4.x header"
-msgstr ""
+msgstr "Отсутствует заголовок PPD-Adobe-4.x"
 
 msgid "Missing asterisk in column 1"
-msgstr ""
+msgstr "Отсутствует звездочка в колонке 1"
 
 msgid "Missing document-number attribute."
-msgstr ""
+msgstr "Отсутствует атрибут document-number"
 
 msgid "Missing form variable"
-msgstr ""
+msgstr "Отсутствует переменная формы"
 
 msgid "Missing last-document attribute in request."
-msgstr ""
+msgstr "Отсутствует атрибут last-document в запросе."
 
 msgid "Missing media or media-col."
-msgstr ""
+msgstr "Отсутствует media или media-col."
 
 msgid "Missing media-size in media-col."
-msgstr ""
+msgstr "Отсутствует media-size в media-col."
 
 msgid "Missing notify-subscription-ids attribute."
-msgstr ""
+msgstr "Отсутствует атрибут notify-subscription-ids"
 
 msgid "Missing option keyword"
-msgstr ""
+msgstr "Отсутствует ключевое слово параметра"
 
 msgid "Missing requesting-user-name attribute."
-msgstr ""
+msgstr "Отсутствует атрибут requesting-user-name."
 
 #, c-format
 msgid "Missing required attribute \"%s\"."
 msgstr ""
 
 msgid "Missing required attributes."
-msgstr ""
+msgstr "Отсутствуют обязательные атрибуты."
 
 msgid "Missing resource in URI"
-msgstr ""
+msgstr "Отсутствует resource в URI"
 
 msgid "Missing scheme in URI"
-msgstr ""
+msgstr "Отсутствует scheme в URI"
 
 msgid "Missing value string"
-msgstr ""
+msgstr "Отсутствует строка значения"
 
 msgid "Missing x-dimension in media-size."
-msgstr ""
+msgstr "Отсутствует x-dimension в media-size."
 
 msgid "Missing y-dimension in media-size."
-msgstr ""
+msgstr "Отсутствует y-dimension в media-size."
 
 #, c-format
 msgid "Model:  name = %s\n"
@@ -3715,34 +3767,34 @@ msgid "Model:  name = %s\n"
 msgstr ""
 
 msgid "Modifiers:"
-msgstr ""
+msgstr "Управление:"
 
 msgid "Modify Class"
-msgstr ""
+msgstr "Изменить группу"
 
 msgid "Modify Printer"
-msgstr ""
+msgstr "Изменить принтер"
 
 msgid "Move All Jobs"
-msgstr ""
+msgstr "Переместить все задания"
 
 msgid "Move Job"
-msgstr ""
+msgstr "Переместить задание"
 
 msgid "Moved Permanently"
-msgstr ""
+msgstr "Перемещено окончательно"
 
 msgid "NULL PPD file pointer"
-msgstr ""
+msgstr "Указатель PPD-файла установлен на NULL"
 
 msgid "Name OID uses indefinite length"
-msgstr ""
+msgstr "Для имени OID длина не установлена"
 
 msgid "Nested classes are not allowed."
-msgstr ""
+msgstr "Вложенные группы не допускаются."
 
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
 msgid "New credentials are not valid for name."
 msgstr ""
@@ -3751,181 +3803,181 @@ msgid "New credentials are older than stored credentials."
 msgstr ""
 
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 msgid "No Content"
-msgstr ""
+msgstr "Нет содержимого"
 
 msgid "No IPP attributes."
 msgstr ""
 
 msgid "No PPD name"
-msgstr ""
+msgstr "Нет имени PPD"
 
 msgid "No VarBind SEQUENCE"
-msgstr ""
+msgstr "Нет последовательности VarBind"
 
 msgid "No active connection"
-msgstr ""
+msgstr "Нет рабочего подключения"
 
 msgid "No active connection."
-msgstr ""
+msgstr "Нет рабочего подключения."
 
 #, c-format
 msgid "No active jobs on %s."
-msgstr ""
+msgstr "Нет активных заданий на %s"
 
 msgid "No attributes in request."
-msgstr ""
+msgstr "Нет атрибутов в запросе."
 
 msgid "No authentication information provided."
-msgstr ""
+msgstr "Нет информации для проверки подлинности."
 
 msgid "No common name specified."
 msgstr ""
 
 msgid "No community name"
-msgstr ""
+msgstr "Нет имени сообщества"
 
 msgid "No default destination."
 msgstr ""
 
 msgid "No default printer."
-msgstr ""
+msgstr "Нет принтера по умолчанию."
 
 msgid "No destinations added."
-msgstr ""
+msgstr "Нет добавленных назначений."
 
 msgid "No device URI found in argv[0] or in DEVICE_URI environment variable."
-msgstr ""
+msgstr "Не обнаружено URI устройства в argv[0] или в переменной окружения DEVICE_URI"
 
 msgid "No error-index"
-msgstr ""
+msgstr "Нет значения error-index"
 
 msgid "No error-status"
-msgstr ""
+msgstr "Нет значения error-status"
 
 msgid "No file in print request."
-msgstr ""
+msgstr "Нет файла в запросе на печать."
 
 msgid "No modification time"
-msgstr ""
+msgstr "Не указано время изменения"
 
 msgid "No name OID"
-msgstr ""
+msgstr "Нет имени OID"
 
 msgid "No pages were found."
-msgstr ""
+msgstr "Страницы не были найдены."
 
 msgid "No printer name"
-msgstr ""
+msgstr "Нет имени принтера"
 
 msgid "No printer-uri found"
-msgstr ""
+msgstr "Не указан адрес printer-uri"
 
 msgid "No printer-uri found for class"
-msgstr ""
+msgstr "Не указан адрес printer-uri для группы"
 
 msgid "No printer-uri in request."
-msgstr ""
+msgstr "Нет адреса printer-uri в запросе."
 
 msgid "No request URI."
-msgstr ""
+msgstr "Нет запроса URI."
 
 msgid "No request protocol version."
-msgstr ""
+msgstr "Нет запроса версии протокола."
 
 msgid "No request sent."
-msgstr ""
+msgstr "Не отправлен запрос."
 
 msgid "No request-id"
-msgstr ""
+msgstr "Нет идентификатора request-id"
 
 msgid "No stored credentials, not valid for name."
 msgstr ""
 
 msgid "No subscription attributes in request."
-msgstr ""
+msgstr "Нет атрибутов подписки в запросе."
 
 msgid "No subscriptions found."
-msgstr ""
+msgstr "Подписки не найдены."
 
 msgid "No variable-bindings SEQUENCE"
-msgstr ""
+msgstr "Нет последовательности variable-bindings"
 
 msgid "No version number"
-msgstr ""
+msgstr "Нет номера версии"
 
 msgid "Non-continuous (Mark sensing)"
-msgstr ""
+msgstr "С прерыванием (Mark sensing)"
 
 msgid "Non-continuous (Web sensing)"
-msgstr ""
+msgstr "С прерыванием (Web sensing)"
 
 msgid "None"
 msgstr ""
 
 msgid "Normal"
-msgstr ""
+msgstr "Нормальный"
 
 msgid "Not Found"
-msgstr ""
+msgstr "Не найден"
 
 msgid "Not Implemented"
-msgstr ""
+msgstr "Не реализовано"
 
 msgid "Not Installed"
-msgstr ""
+msgstr "Не установлено"
 
 msgid "Not Modified"
-msgstr ""
+msgstr "Не изменено"
 
 msgid "Not Supported"
-msgstr ""
+msgstr "Не поддерживается"
 
 msgid "Not allowed to print."
-msgstr ""
+msgstr "Не разрешено печатать."
 
 msgid "Note"
-msgstr ""
+msgstr "Примечание"
 
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 msgid "Off (1-Sided)"
-msgstr ""
+msgstr "Выкл. (1-сторонняя печать)"
 
 msgid "Oki"
 msgstr ""
 
 msgid "Online Help"
-msgstr ""
+msgstr "Интернет справка"
 
 msgid "Only local users can create a local printer."
 msgstr ""
 
 #, c-format
 msgid "Open of %s failed: %s"
-msgstr ""
+msgstr "Не удалось открыть %s: %s"
 
 msgid "OpenGroup without a CloseGroup first"
-msgstr ""
+msgstr "OpenGroup без предыдущего CloseGroup"
 
 msgid "OpenUI/JCLOpenUI without a CloseUI/JCLCloseUI first"
-msgstr ""
+msgstr "OpenUI/JCLOpenUI без предыдущего CloseUI/JCLCloseUI"
 
 msgid "Operation Policy"
-msgstr ""
+msgstr "Политика операций"
 
 #, c-format
 msgid "Option \"%s\" cannot be included via %%%%IncludeFeature."
-msgstr ""
+msgstr "Параметр \"%s\" не может быть добавлен через %%%%IncludeFeature."
 
 msgid "Options Installed"
-msgstr ""
+msgstr "Доп.устройства"
 
 msgid "Options:"
-msgstr ""
+msgstr "Параметры:"
 
 msgid "Other Media"
 msgstr ""
@@ -3934,16 +3986,16 @@ msgid "Other Tray"
 msgstr ""
 
 msgid "Out of date PPD cache file."
-msgstr ""
+msgstr "Устаревший файл кеша PPD"
 
 msgid "Out of memory."
-msgstr ""
+msgstr "Недостаточно памяти."
 
 msgid "Output Mode"
-msgstr ""
+msgstr "Режим вывода"
 
 msgid "PCL Laser Printer"
-msgstr ""
+msgstr "Лазерный принтер PCL"
 
 msgid "PRC16K"
 msgstr ""
@@ -3967,10 +4019,10 @@ msgid "PRINTER environment variable names default destination that does not exis
 msgstr ""
 
 msgid "Packet does not contain a Get-Response-PDU"
-msgstr ""
+msgstr "В пакете нет Get-Response-PDU"
 
 msgid "Packet does not start with SEQUENCE"
-msgstr ""
+msgstr "Нет индикатора SEQUENCE в начале пакета"
 
 msgid "ParamCustominCutInterval"
 msgstr ""
@@ -3980,179 +4032,179 @@ msgstr ""
 
 #, c-format
 msgid "Password for %s on %s? "
-msgstr ""
+msgstr "Пароль для %s на %s? "
 
 msgid "Pause Class"
-msgstr ""
+msgstr "Приостановить группу"
 
 msgid "Pause Printer"
-msgstr ""
+msgstr "Приостановить принтер"
 
 msgid "Peel-Off"
-msgstr ""
+msgstr "Съемный слой"
 
 msgid "Photo"
-msgstr ""
+msgstr "Фото"
 
 msgid "Photo Labels"
-msgstr ""
+msgstr "Фотоэтикетки"
 
 msgid "Plain Paper"
-msgstr ""
+msgstr "Обычная бумага"
 
 msgid "Policies"
-msgstr ""
+msgstr "Политики"
 
 msgid "Port Monitor"
-msgstr ""
+msgstr "Мониторинг порта"
 
 msgid "PostScript Printer"
-msgstr ""
+msgstr "Принтер PostScript"
 
 msgid "Postcard"
-msgstr ""
+msgstr "Открытка"
 
 msgid "Postcard Double"
 msgstr ""
 
 msgid "Postcard Double Long Edge"
-msgstr ""
+msgstr "Открытка двойная Long Edge"
 
 msgid "Postcard Long Edge"
-msgstr ""
+msgstr "Открытка Long Edge"
 
 msgid "Preparing to print."
-msgstr ""
+msgstr "Подготовка к печати."
 
 msgid "Print Density"
-msgstr ""
+msgstr "Плотность печати"
 
 msgid "Print Job:"
-msgstr ""
+msgstr "Задание печати:"
 
 msgid "Print Mode"
-msgstr ""
+msgstr "Режим печати"
 
 msgid "Print Quality"
 msgstr ""
 
 msgid "Print Rate"
-msgstr ""
+msgstr "Скорость печати"
 
 msgid "Print Self-Test Page"
-msgstr ""
+msgstr "Напечатать пробную страницу"
 
 msgid "Print Speed"
-msgstr ""
+msgstr "Скорость печати"
 
 msgid "Print Test Page"
-msgstr ""
+msgstr "Напечатать пробную страницу"
 
 msgid "Print and Cut"
-msgstr ""
+msgstr "Напечатать и обрезать"
 
 msgid "Print and Tear"
-msgstr ""
+msgstr "Напечатать и оборвать"
 
 msgid "Print file sent."
-msgstr ""
+msgstr "Файл печати отправлен."
 
 msgid "Print job canceled at printer."
-msgstr ""
+msgstr "Задание отменено на принтере."
 
 msgid "Print job too large."
-msgstr ""
+msgstr "Задание слишком большое."
 
 msgid "Print job was not accepted."
-msgstr ""
+msgstr "Задание не принято."
 
 #, c-format
 msgid "Printer \"%s\" already exists."
 msgstr ""
 
 msgid "Printer Added"
-msgstr ""
+msgstr "Принтер добавлен"
 
 msgid "Printer Default"
-msgstr ""
+msgstr "Принтер выбран по умолчанию"
 
 msgid "Printer Deleted"
-msgstr ""
+msgstr "Принтер удален"
 
 msgid "Printer Modified"
-msgstr ""
+msgstr "Принтер изменен"
 
 msgid "Printer Paused"
-msgstr ""
+msgstr "Принтер приостановлен"
 
 msgid "Printer Settings"
-msgstr ""
+msgstr "Параметры принтера"
 
 msgid "Printer cannot print supplied content."
-msgstr ""
+msgstr "Принтер не может распечатать содержимое."
 
 msgid "Printer cannot print with supplied options."
-msgstr ""
+msgstr "Принтер не может печатать с данными параметрами."
 
 msgid "Printer does not support required IPP attributes or document formats."
 msgstr ""
 
 msgid "Printer:"
-msgstr ""
+msgstr "Принтер:"
 
 msgid "Printers"
-msgstr ""
+msgstr "Принтеры"
 
 #, c-format
 msgid "Printing page %d, %u%% complete."
-msgstr ""
+msgstr "Печать страницы %d, %u%% завершена."
 
 msgid "Punch"
 msgstr ""
 
 msgid "Quarto"
-msgstr ""
+msgstr "Кватро"
 
 msgid "Quota limit reached."
-msgstr ""
+msgstr "Предел квоты достигнут."
 
 msgid "Rank    Owner   Job     File(s)                         Total Size"
-msgstr ""
+msgstr "Ранг    Владелец   Задание     Файл(ы)                     Общий размер"
 
 msgid "Reject Jobs"
-msgstr ""
+msgstr "Отклонить задания"
 
 #, c-format
 msgid "Remote host did not accept control file (%d)."
-msgstr ""
+msgstr "Удаленный хост не принял контрольный файл (%d)."
 
 #, c-format
 msgid "Remote host did not accept data file (%d)."
-msgstr ""
+msgstr "Удаленный хост не принял файл данных (%d)."
 
 msgid "Reprint After Error"
-msgstr ""
+msgstr "Повторить печать после ошибки"
 
 msgid "Request Entity Too Large"
-msgstr ""
+msgstr "Слишком большое содержимое запроса"
 
 msgid "Resolution"
-msgstr ""
+msgstr "Разрешение"
 
 msgid "Resume Class"
-msgstr ""
+msgstr "Возобновить работу группы"
 
 msgid "Resume Printer"
-msgstr ""
+msgstr "Возобновить работу принтера"
 
 msgid "Return Address"
-msgstr ""
+msgstr "Обратный адрес"
 
 msgid "Rewind"
-msgstr ""
+msgstr "Вернуться в начало"
 
 msgid "SEQUENCE uses indefinite length"
-msgstr ""
+msgstr "Для SEQUENCE длина не установлена"
 
 msgid "SSL/TLS Negotiation Error"
 msgstr ""
@@ -4161,7 +4213,7 @@ msgid "Second Roll (DUO/Twin Only)"
 msgstr ""
 
 msgid "See Other"
-msgstr ""
+msgstr "Посмотреть другие"
 
 msgid "See remote printer."
 msgstr ""
@@ -4170,77 +4222,77 @@ msgid "Self-signed credentials are blocked."
 msgstr ""
 
 msgid "Sending data to printer."
-msgstr ""
+msgstr "Отправка данных на принтер."
 
 msgid "Server Restarted"
-msgstr ""
+msgstr "Сервер перезагружен"
 
 msgid "Server Security Auditing"
-msgstr ""
+msgstr "Проверка безопасности сервера"
 
 msgid "Server Started"
-msgstr ""
+msgstr "Сервер загружен"
 
 msgid "Server Stopped"
-msgstr ""
+msgstr "Сервер остановлен"
 
 msgid "Server credentials not set."
-msgstr ""
+msgstr "Учетные данные сервера не заданы."
 
 msgid "Service Unavailable"
-msgstr ""
+msgstr "Служба недоступна"
 
 msgid "Set Allowed Users"
-msgstr ""
+msgstr "Указать допущенных пользователей"
 
 msgid "Set As Server Default"
-msgstr ""
+msgstr "Использовать данный сервер по умолчанию"
 
 msgid "Set Class Options"
-msgstr ""
+msgstr "Настроить параметры группы"
 
 msgid "Set Printer Options"
-msgstr ""
+msgstr "Настроить параметры принтера"
 
 msgid "Set Publishing"
-msgstr ""
+msgstr "Настроить публикацию"
 
 msgid "Shipping Address"
-msgstr ""
+msgstr "Адрес доставки"
 
 msgid "Short-Edge (Landscape)"
-msgstr ""
+msgstr "По короткой стороне (альбомная)"
 
 msgid "Special Paper"
-msgstr ""
+msgstr "Особая бумага"
 
 #, c-format
 msgid "Spooling job, %.0f%% complete."
-msgstr ""
+msgstr "Постановка в очередь, %.0f%% завершено."
 
 msgid "Standard"
-msgstr ""
+msgstr "Стандартный"
 
 msgid "Staple"
 msgstr ""
 
 #. TRANSLATORS: Banner/cover sheet before the print job.
 msgid "Starting Banner"
-msgstr ""
+msgstr "Стартовый баннер"
 
 #, c-format
 msgid "Starting page %d."
-msgstr ""
+msgstr "Главная страница %d."
 
 msgid "Statement"
-msgstr ""
+msgstr "Оператор"
 
 #, c-format
 msgid "Subscription #%d does not exist."
-msgstr ""
+msgstr "Подписка #%d не существует."
 
 msgid "Substitutions:"
-msgstr ""
+msgstr "Замещения:"
 
 msgid "Super A"
 msgstr ""
@@ -4252,7 +4304,7 @@ msgid "Super B/A3"
 msgstr ""
 
 msgid "Switching Protocols"
-msgstr ""
+msgstr "Протоколы переключения"
 
 msgid "Tabloid"
 msgstr ""
@@ -4264,21 +4316,21 @@ msgid "Tabloid Oversize Long Edge"
 msgstr ""
 
 msgid "Tear"
-msgstr ""
+msgstr "Оборвать"
 
 msgid "Tear-Off"
-msgstr ""
+msgstr "Место отрыва"
 
 msgid "Tear-Off Adjust Position"
-msgstr ""
+msgstr "Откорректировать положение места отрыва"
 
 #, c-format
 msgid "The \"%s\" attribute is required for print jobs."
-msgstr ""
+msgstr "Атрибут \"%s\" требуется для печати задания."
 
 #, c-format
 msgid "The %s attribute cannot be provided with job-ids."
-msgstr ""
+msgstr "Атрибут %s не может быть использован с job-ids."
 
 #, c-format
 msgid "The '%s' Job Status attribute cannot be supplied in a job creation request."
@@ -4286,134 +4338,134 @@ msgstr ""
 
 #, c-format
 msgid "The '%s' operation attribute cannot be supplied in a Create-Job request."
-msgstr ""
+msgstr "Атрибут '%s' не может быть подставлен в запрос Create-Job"
 
 #, c-format
 msgid "The PPD file \"%s\" could not be found."
-msgstr ""
+msgstr "Не удается найти PPD-файл \"%s\"."
 
 #, c-format
 msgid "The PPD file \"%s\" could not be opened: %s"
-msgstr ""
+msgstr "Не удалось открыть PPD-файл \"%s\": %s"
 
 msgid "The PPD file could not be opened."
-msgstr ""
+msgstr "Не удалось открыть PPD-файл."
 
 msgid "The class name may only contain up to 127 printable characters and may not contain spaces, slashes (/), or the pound sign (#)."
-msgstr ""
+msgstr "Имя группы может содержать максимально 127 печатных символов и не может содержать пробелы, дроби (/) или знак \"решетки\" (#)."
 
 msgid "The notify-lease-duration attribute cannot be used with job subscriptions."
-msgstr ""
+msgstr "Атрибут notify-lease-duration не может использоваться с подписками на задание."
 
 #, c-format
 msgid "The notify-user-data value is too large (%d > 63 octets)."
-msgstr ""
+msgstr "Значение notify-user-data слишком большое(%d > 63 октета)"
 
 msgid "The printer configuration is incorrect or the printer no longer exists."
-msgstr ""
+msgstr "Неправильная конфигурация принтера, или принтер больше не доступен."
 
 msgid "The printer did not respond."
-msgstr ""
+msgstr "Принтер не отвечает."
 
 msgid "The printer is in use."
-msgstr ""
+msgstr "Принтер используется."
 
 msgid "The printer is not connected."
-msgstr ""
+msgstr "Принтер не подключен."
 
 msgid "The printer is not responding."
-msgstr ""
+msgstr "Принтер не отвечает."
 
 msgid "The printer is now connected."
-msgstr ""
+msgstr "Принтер подключен."
 
 msgid "The printer is now online."
-msgstr ""
+msgstr "Принтер подключен."
 
 msgid "The printer is offline."
-msgstr ""
+msgstr "Принтер выключен."
 
 msgid "The printer is unreachable at this time."
-msgstr ""
+msgstr "В настоящее время принтер недоступен."
 
 msgid "The printer may not exist or is unavailable at this time."
-msgstr ""
+msgstr "Возможно принтер недоступен в настоящее время."
 
 msgid "The printer name may only contain up to 127 printable characters and may not contain spaces, slashes (/ \\), quotes (' \"), question mark (?), or the pound sign (#)."
 msgstr ""
 
 msgid "The printer or class does not exist."
-msgstr ""
+msgstr "Принтер или группа не существует."
 
 msgid "The printer or class is not shared."
-msgstr ""
+msgstr "Принтер или группа без совместного доступа."
 
 #, c-format
 msgid "The printer-uri \"%s\" contains invalid characters."
-msgstr ""
+msgstr "printer-uri \"%s\" содержит недопустимые символы."
 
 msgid "The printer-uri attribute is required."
-msgstr ""
+msgstr "Для printer-uri требуется атрибут."
 
 msgid "The printer-uri must be of the form \"ipp://HOSTNAME/classes/CLASSNAME\"."
-msgstr ""
+msgstr "printer-uri должен иметь форму «ipp://HOSTNAME/classes/CLASSNAME»."
 
 msgid "The printer-uri must be of the form \"ipp://HOSTNAME/printers/PRINTERNAME\"."
-msgstr ""
+msgstr "printer-uri должен иметь форму «ipp://HOSTNAME/printers/PRINTERNAME»."
 
 msgid "The web interface is currently disabled. Run \"cupsctl WebInterface=yes\" to enable it."
-msgstr ""
+msgstr "Web интерфейс сейчас отключен. Выполните \"cupsctl WebInterface=yes\" для  включения."
 
 #, c-format
 msgid "The which-jobs value \"%s\" is not supported."
-msgstr ""
+msgstr "Значение \"%s\" для which-jobs не поддерживается."
 
 msgid "There are too many subscriptions."
-msgstr ""
+msgstr "Слишком много подписок."
 
 msgid "There was an unrecoverable USB error."
-msgstr ""
+msgstr "Обнаружена ошибка USB."
 
 msgid "Thermal Transfer Media"
-msgstr ""
+msgstr "Носитель для печати методом термопереноса"
 
 msgid "Too many active jobs."
-msgstr ""
+msgstr "Слишком много активных заданий."
 
 #, c-format
 msgid "Too many job-sheets values (%d > 2)."
-msgstr ""
+msgstr "Слишком много значений job-sheets (%d>2)"
 
 #, c-format
 msgid "Too many printer-state-reasons values (%d > %d)."
-msgstr ""
+msgstr "Слишком много значений printer-state-reasons (%d > %d)"
 
 msgid "Transparency"
-msgstr ""
+msgstr "Прозрачность"
 
 msgid "Tray"
-msgstr ""
+msgstr "Лоток"
 
 msgid "Tray 1"
-msgstr ""
+msgstr "Лоток 1"
 
 msgid "Tray 2"
-msgstr ""
+msgstr "Лоток 2"
 
 msgid "Tray 3"
-msgstr ""
+msgstr "Лоток 3"
 
 msgid "Tray 4"
-msgstr ""
+msgstr "Лоток 4"
 
 msgid "Trust on first use is disabled."
 msgstr ""
 
 msgid "URI Too Long"
-msgstr ""
+msgstr "Слишком длинный адрес URI"
 
 msgid "URI too large"
-msgstr ""
+msgstr "Слишком большой адрес URI"
 
 msgid "US Fanfold"
 msgstr ""
@@ -4443,217 +4495,217 @@ msgid "US Letter Small"
 msgstr ""
 
 msgid "Unable to access cupsd.conf file"
-msgstr ""
+msgstr "Не удается получить доступ к файлу \"cupsd.conf\""
 
 msgid "Unable to access help file."
-msgstr ""
+msgstr "Не удается получить доступ к файлу помощи."
 
 msgid "Unable to add class"
-msgstr ""
+msgstr "Не удается добавить группу"
 
 msgid "Unable to add document to print job."
-msgstr ""
+msgstr "Не удается добавить документ в задание печати."
 
 #, c-format
 msgid "Unable to add job for destination \"%s\"."
-msgstr ""
+msgstr "Не удается добавить задание для назначения \"%s\""
 
 msgid "Unable to add printer"
-msgstr ""
+msgstr "Не удается добавить принтер"
 
 msgid "Unable to allocate memory for file types."
-msgstr ""
+msgstr "Не удается выделить память для типов файлов."
 
 msgid "Unable to allocate memory for page info"
-msgstr ""
+msgstr "Не удается выделить память для страницы информации"
 
 msgid "Unable to allocate memory for pages array"
-msgstr ""
+msgstr "Не удается выделить память для страниц"
 
 msgid "Unable to allocate memory for printer"
 msgstr ""
 
 msgid "Unable to cancel print job."
-msgstr ""
+msgstr "Не удается отменить задание печати."
 
 msgid "Unable to change printer"
-msgstr ""
+msgstr "Не удается изменить принтер"
 
 msgid "Unable to change printer-is-shared attribute"
-msgstr ""
+msgstr "Не удается изменить атрибут printer-is-shared"
 
 msgid "Unable to change server settings"
-msgstr ""
+msgstr "Не удается изменить настройки сервера"
 
 #, c-format
 msgid "Unable to compile mimeMediaType regular expression: %s."
-msgstr ""
+msgstr "Не удается компилировать mimeMediaType регулярное выражение: %s."
 
 #, c-format
 msgid "Unable to compile naturalLanguage regular expression: %s."
-msgstr ""
+msgstr "Не удается компилировать naturalLanguage регулярное выражение: %s."
 
 msgid "Unable to configure printer options."
-msgstr ""
+msgstr "Не удается настроить параметры принтера."
 
 msgid "Unable to connect to host."
-msgstr ""
+msgstr "Не удается подключиться к хосту."
 
 msgid "Unable to contact printer, queuing on next printer in class."
-msgstr ""
+msgstr "Не удается установить связь с принтером, постановка в очередь на следующем принтере в группе."
 
 #, c-format
 msgid "Unable to copy PPD file - %s"
-msgstr ""
+msgstr "Не удается копировать PPD-файл - %s"
 
 msgid "Unable to copy PPD file."
-msgstr ""
+msgstr "Не удается копировать PPD-файл."
 
 msgid "Unable to create credentials from array."
 msgstr ""
 
 msgid "Unable to create printer-uri"
-msgstr ""
+msgstr "Не удается создать printer-uri"
 
 msgid "Unable to create printer."
 msgstr ""
 
 msgid "Unable to create server credentials."
-msgstr ""
+msgstr "Не удается создать учетные данные сервера."
 
 #, c-format
 msgid "Unable to create spool directory \"%s\": %s"
 msgstr ""
 
 msgid "Unable to create temporary file"
-msgstr ""
+msgstr "Не удается создать временный файл"
 
 msgid "Unable to delete class"
-msgstr ""
+msgstr "Не удается удалить группу"
 
 msgid "Unable to delete printer"
-msgstr ""
+msgstr "Не удается удалить принтер"
 
 msgid "Unable to do maintenance command"
-msgstr ""
+msgstr "Не удается выполнить команду обслуживания"
 
 msgid "Unable to edit cupsd.conf files larger than 1MB"
-msgstr ""
+msgstr "Невозможно редактировать файлы cupsd.conf больше 1 МБ"
 
 #, c-format
 msgid "Unable to establish a secure connection to host (%d)."
 msgstr ""
 
 msgid "Unable to establish a secure connection to host (certificate chain invalid)."
-msgstr ""
+msgstr "Не удается установить защищенное соединение (неправильная цепочка сертификатов)."
 
 msgid "Unable to establish a secure connection to host (certificate not yet valid)."
-msgstr ""
+msgstr "Не удается установить защищенное соединение (недействительный сертификат)."
 
 msgid "Unable to establish a secure connection to host (expired certificate)."
-msgstr ""
+msgstr "Не удается установить защищенное соединение (сертификат просрочен)."
 
 msgid "Unable to establish a secure connection to host (host name mismatch)."
-msgstr ""
+msgstr "Не удается установить защищенное соединение (несовпадение имени хоста)."
 
 msgid "Unable to establish a secure connection to host (peer dropped connection before responding)."
-msgstr ""
+msgstr "Не удается установить защищенное соединение (соединение разорвано удаленной стороной.)"
 
 msgid "Unable to establish a secure connection to host (self-signed certificate)."
-msgstr ""
+msgstr "Не удается установить защищенное соединение (самоподписанный сертификат)."
 
 msgid "Unable to establish a secure connection to host (untrusted certificate)."
-msgstr ""
+msgstr "Не удается установить защищенное соединение (ненадежный сертификат)."
 
 msgid "Unable to establish a secure connection to host."
-msgstr ""
+msgstr "Не удается установить защищенное соединение."
 
 #, c-format
 msgid "Unable to execute command \"%s\": %s"
 msgstr ""
 
 msgid "Unable to find destination for job"
-msgstr ""
+msgstr "Не удается найти назначение для задания"
 
 msgid "Unable to find printer."
-msgstr ""
+msgstr "Не удается найти принтер."
 
 msgid "Unable to find server credentials."
-msgstr ""
+msgstr "Не удается найти учетные данные сервера."
 
 msgid "Unable to get backend exit status."
-msgstr ""
+msgstr "Не удается получить код завершения от backend."
 
 msgid "Unable to get class list"
-msgstr ""
+msgstr "Не удается получить список групп"
 
 msgid "Unable to get class status"
-msgstr ""
+msgstr "Не удается получить статус групп"
 
 msgid "Unable to get list of printer drivers"
-msgstr ""
+msgstr "Не удается получить список драйверов принтера"
 
 msgid "Unable to get printer attributes"
-msgstr ""
+msgstr "Не удается получить атрибуты принтера"
 
 msgid "Unable to get printer list"
-msgstr ""
+msgstr "Не удается получить список принтеров"
 
 msgid "Unable to get printer status"
-msgstr ""
+msgstr "Не удается получить статус принтера"
 
 msgid "Unable to get printer status."
-msgstr ""
+msgstr "Не удается получить статус принтера."
 
 msgid "Unable to load help index."
-msgstr ""
+msgstr "Не удается загрузить содержание справки."
 
 #, c-format
 msgid "Unable to locate printer \"%s\"."
-msgstr ""
+msgstr "Принтер \"%s\" не найден"
 
 msgid "Unable to locate printer."
-msgstr ""
+msgstr "Принтер не найден"
 
 msgid "Unable to modify class"
-msgstr ""
+msgstr "Не удается изменить группу"
 
 msgid "Unable to modify printer"
-msgstr ""
+msgstr "Не удается изменить принтер"
 
 msgid "Unable to move job"
-msgstr ""
+msgstr "Не удается переместить задание"
 
 msgid "Unable to move jobs"
-msgstr ""
+msgstr "Не удается переместить задания"
 
 msgid "Unable to open PPD file"
-msgstr ""
+msgstr "Не удается открыть PPD-файл"
 
 msgid "Unable to open cupsd.conf file:"
-msgstr ""
+msgstr "Не удается открыть файл cupsd.conf:"
 
 msgid "Unable to open device file"
-msgstr ""
+msgstr "Не удается открыть файл устройства"
 
 #, c-format
 msgid "Unable to open document #%d in job #%d."
-msgstr ""
+msgstr "Не удается открыть документ #%d в задании #%d."
 
 msgid "Unable to open help file."
-msgstr ""
+msgstr "Не удается открыть файл справки."
 
 msgid "Unable to open print file"
-msgstr ""
+msgstr "Не удается открыть файл печати"
 
 msgid "Unable to open raster file"
-msgstr ""
+msgstr "Не удается открыть растровый файл"
 
 msgid "Unable to print test page"
-msgstr ""
+msgstr "Не удается напечатать пробную страницу"
 
 msgid "Unable to read print data."
-msgstr ""
+msgstr "Не удается считать данные печати."
 
 #, c-format
 msgid "Unable to register \"%s.%s\": %d"
@@ -4663,51 +4715,51 @@ msgid "Unable to rename job document file."
 msgstr ""
 
 msgid "Unable to resolve printer-uri."
-msgstr ""
+msgstr "Не удается определить printer-uri"
 
 msgid "Unable to see in file"
-msgstr ""
+msgstr "Не удается увидеть в файле"
 
 msgid "Unable to send command to printer driver"
-msgstr ""
+msgstr "Не удается отправить команду драйверу принтера"
 
 msgid "Unable to send data to printer."
-msgstr ""
+msgstr "Не удается отправить данные на принтер."
 
 msgid "Unable to set options"
-msgstr ""
+msgstr "Не удается настроить параметры"
 
 msgid "Unable to set server default"
-msgstr ""
+msgstr "Не удается назначить сервер используемым по умолчанию"
 
 msgid "Unable to start backend process."
-msgstr ""
+msgstr "Не удается запустить фоновый процесс"
 
 msgid "Unable to upload cupsd.conf file"
-msgstr ""
+msgstr "Не удается загрузить файл cupsd.conf"
 
 msgid "Unable to use legacy USB class driver."
-msgstr ""
+msgstr "Не удается использовать устаревший драйвер USB."
 
 msgid "Unable to write print data"
-msgstr ""
+msgstr "Не удается записать данные печати"
 
 #, c-format
 msgid "Unable to write uncompressed print data: %s"
-msgstr ""
+msgstr "Не удается записать несжатые данные печати: %s"
 
 msgid "Unauthorized"
-msgstr ""
+msgstr "В доступе отказано"
 
 msgid "Units"
-msgstr ""
+msgstr "Единицы"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестный"
 
 #, c-format
 msgid "Unknown choice \"%s\" for option \"%s\"."
-msgstr ""
+msgstr "Неизвестный выбор \"%s\" для параметра \"%s\"."
 
 #, c-format
 msgid "Unknown directive \"%s\" on line %d of \"%s\" ignored."
@@ -4715,118 +4767,118 @@ msgstr ""
 
 #, c-format
 msgid "Unknown encryption option value: \"%s\"."
-msgstr ""
+msgstr "Неизвестное значение \"%s\" параметра шифрования."
 
 #, c-format
 msgid "Unknown file order: \"%s\"."
-msgstr ""
+msgstr "Неизвестный порядок файлов \"%s\"."
 
 #, c-format
 msgid "Unknown format character: \"%c\"."
-msgstr ""
+msgstr "Символ неизвестного формата \"%c\"."
 
 msgid "Unknown hash algorithm."
 msgstr ""
 
 msgid "Unknown media size name."
-msgstr ""
+msgstr "Неизвестное имя размера бумаги."
 
 #, c-format
 msgid "Unknown option \"%s\" with value \"%s\"."
-msgstr ""
+msgstr "Неизвестный параметр \"%s\" со значением \"%s\"."
 
 #, c-format
 msgid "Unknown option \"%s\"."
-msgstr ""
+msgstr "Неизвестный параметр \"%s\"."
 
 #, c-format
 msgid "Unknown print mode: \"%s\"."
-msgstr ""
+msgstr "Неизвестный режим печати: \"%s\"."
 
 #, c-format
 msgid "Unknown printer-error-policy \"%s\"."
-msgstr ""
+msgstr "Неизвестная политика printer-error-policy \"%s\"."
 
 #, c-format
 msgid "Unknown printer-op-policy \"%s\"."
-msgstr ""
+msgstr "Неизвестная политика printer-op-policy \"%s\"."
 
 msgid "Unknown request method."
-msgstr ""
+msgstr "Неизвестный метод запроса."
 
 msgid "Unknown request version."
-msgstr ""
+msgstr "Неизвестный запрос версии."
 
 msgid "Unknown scheme in URI"
-msgstr ""
+msgstr "Неизвестный scheme в URI"
 
 msgid "Unknown service name."
-msgstr ""
+msgstr "Неизвестное имя сервиса."
 
 #, c-format
 msgid "Unknown version option value: \"%s\"."
-msgstr ""
+msgstr "Неизвестное значение параметра версии \"%s\"."
 
 #, c-format
 msgid "Unsupported 'compression' value \"%s\"."
-msgstr ""
+msgstr "Неподдерживаемое значение 'compression' \"%s\"."
 
 #, c-format
 msgid "Unsupported 'document-format' value \"%s\"."
-msgstr ""
+msgstr "Неподдерживаемое значение'document-format' \"%s\"."
 
 msgid "Unsupported 'job-hold-until' value."
 msgstr ""
 
 msgid "Unsupported 'job-name' value."
-msgstr ""
+msgstr "Неподдерживаемое значение 'job-name'."
 
 #, c-format
 msgid "Unsupported character set \"%s\"."
-msgstr ""
+msgstr "Неподдерживаемый набор символов \"%s\"."
 
 #, c-format
 msgid "Unsupported compression \"%s\"."
-msgstr ""
+msgstr "Неподдерживаемое сжатие \"%s\"."
 
 #, c-format
 msgid "Unsupported document-format \"%s\"."
-msgstr ""
+msgstr "Неподдерживаемый document-format \"%s\"."
 
 #, c-format
 msgid "Unsupported document-format \"%s/%s\"."
-msgstr ""
+msgstr "Неподдерживаемый document-format \"%s/%s\"."
 
 #, c-format
 msgid "Unsupported format \"%s\"."
-msgstr ""
+msgstr "Неподдерживаемый формат \"%s\"."
 
 msgid "Unsupported margins."
-msgstr ""
+msgstr "Неподдерживаемые поля."
 
 msgid "Unsupported media value."
-msgstr ""
+msgstr "Неподдерживаемое значение бумаги."
 
 #, c-format
 msgid "Unsupported number-up value %d, using number-up=1."
-msgstr ""
+msgstr "Неподдерживаемое значение number-up %d, используется значение number-up=1."
 
 #, c-format
 msgid "Unsupported number-up-layout value %s, using number-up-layout=lrtb."
-msgstr ""
+msgstr "Неподдерживаемое значение number-up-layout %s, используется значение number-up-layout=lrtb."
 
 #, c-format
 msgid "Unsupported page-border value %s, using page-border=none."
-msgstr ""
+msgstr "Неподдерживаемое значение page-border %s, используется значение page-border=none."
 
 msgid "Unsupported raster data."
-msgstr ""
+msgstr "Неподдерживаемые данные растра."
 
 msgid "Unsupported value type"
-msgstr ""
+msgstr "Неподдерживаемый тип значения"
 
 msgid "Upgrade Required"
-msgstr ""
+msgstr "Требуется обновление"
 
 #, c-format
 msgid "Usage: %s [options] destination(s)"
@@ -4861,7 +4913,11 @@ msgid "Usage: ippfind [options] regtype[,subtype][.domain.] ... [expression]\n"
 "       ippfind [options] name[.regtype[.domain.]] ... [expression]\n"
 "       ippfind --help\n"
 "       ippfind --version"
-msgstr ""
+msgstr "Использование:\n"
+"       ippfind [options] regtype[,subtype][.domain.] ... [expression]\n"
+"       ippfind [options] name[.regtype[.domain.]] ... [expression]\n"
+"       ippfind --help\n"
+"       ippfind --version"
 
 msgid "Usage: ipptool [options] URI filename [ ... filenameN ]"
 msgstr ""
@@ -4927,50 +4983,50 @@ msgid "Using spool directory \"%s\"."
 msgstr ""
 
 msgid "Value uses indefinite length"
-msgstr ""
+msgstr "Для значения длина не установлена"
 
 msgid "VarBind uses indefinite length"
-msgstr ""
+msgstr "Для VarBind длина не установлена"
 
 msgid "Version uses indefinite length"
-msgstr ""
+msgstr "Для Version длина не установлена"
 
 msgid "Waiting for job to complete."
-msgstr ""
+msgstr "Ожидание выполнения задания."
 
 msgid "Waiting for printer to become available."
-msgstr ""
+msgstr "Ожидание доступа к принтеру."
 
 msgid "Waiting for printer to finish."
-msgstr ""
+msgstr "Ожидание окончания работы принтера."
 
 msgid "Warning: This program will be removed in a future version of CUPS."
 msgstr ""
 
 msgid "Web Interface is Disabled"
-msgstr ""
+msgstr "Web интерфейс отключен"
 
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 msgid "You cannot access this page."
 msgstr ""
 
 #, c-format
 msgid "You must access this page using the URL https://%s:%d%s."
-msgstr ""
+msgstr "Вы должны получить доступ к этой странице с помощью URL https://%s:%d%s"
 
 msgid "Your account does not have the necessary privileges."
 msgstr ""
 
 msgid "ZPL Label Printer"
-msgstr ""
+msgstr "Принтер для печати этикеток ZPL"
 
 msgid "Zebra"
 msgstr ""
 
 msgid "aborted"
-msgstr ""
+msgstr "прервано"
 
 #. TRANSLATORS: Accuracy Units
 msgid "accuracy-units"
@@ -5081,7 +5137,7 @@ msgid "binding-type.velo"
 msgstr ""
 
 msgid "canceled"
-msgstr ""
+msgstr "отменено"
 
 #. TRANSLATORS: Chamber Humidity
 msgid "chamber-humidity"
@@ -5160,7 +5216,7 @@ msgid "coating-type.translucent"
 msgstr ""
 
 msgid "completed"
-msgstr ""
+msgstr "завершено"
 
 #. TRANSLATORS: Print Confirmation Sheet
 msgid "confirmation-sheet-print"
@@ -5255,10 +5311,10 @@ msgid "covering-name.pre-printed"
 msgstr ""
 
 msgid "cups-deviced failed to execute."
-msgstr ""
+msgstr "Не удалось выполнить cups-deviced."
 
 msgid "cups-driverd failed to execute."
-msgstr ""
+msgstr "Не удалось выполнить cups-driverd."
 
 #, c-format
 msgid "cupsctl: Cannot set %s directly."
@@ -5266,62 +5322,62 @@ msgstr ""
 
 #, c-format
 msgid "cupsctl: Unable to connect to server: %s"
-msgstr ""
+msgstr "cupsctl: Не удается подключиться к серверу: %s"
 
 #, c-format
 msgid "cupsctl: Unknown option \"%s\""
-msgstr ""
+msgstr "cupsctl: Неизвестный параметр \"%s\""
 
 #, c-format
 msgid "cupsctl: Unknown option \"-%c\""
-msgstr ""
+msgstr "cupsctl: Неизвестный параметр \"-%c\""
 
 msgid "cupsd: Expected config filename after \"-c\" option."
-msgstr ""
+msgstr "cupsd: Пропущено имя файла конфигурации после параметра \"-с\""
 
 msgid "cupsd: Expected cups-files.conf filename after \"-s\" option."
-msgstr ""
+msgstr "cupsd: Пропущено имя файла cups-files.conf после параметра \"-s\""
 
 msgid "cupsd: On-demand support not compiled in, running in normal mode."
-msgstr ""
+msgstr "cupsd: Поддержка запуска \"по запросу\" не включена, запуск в нормальном режиме."
 
 msgid "cupsd: Relative cups-files.conf filename not allowed."
 msgstr ""
 
 msgid "cupsd: Unable to get current directory."
-msgstr ""
+msgstr "cupsd: Не удается определить текущий каталог"
 
 msgid "cupsd: Unable to get path to cups-files.conf file."
-msgstr ""
+msgstr "cupsd: Не удается определить путь до cups-files.conf"
 
 #, c-format
 msgid "cupsd: Unknown argument \"%s\" - aborting."
-msgstr ""
+msgstr "cupsd: Неизвестный аргумент \"%s\" - прерывание."
 
 #, c-format
 msgid "cupsd: Unknown option \"%c\" - aborting."
-msgstr ""
+msgstr "cupsd: Неизвестный параметр \"%c\" - прерывание."
 
 #, c-format
 msgid "cupsfilter: Invalid document number %d."
-msgstr ""
+msgstr "cupsfilter: Недопустимый номер документа %d."
 
 #, c-format
 msgid "cupsfilter: Invalid job ID %d."
-msgstr ""
+msgstr "cupsfilter: Недопустимый ID задания %d."
 
 msgid "cupsfilter: Only one filename can be specified."
-msgstr ""
+msgstr "cupsfilter: Может быть указано только одно имя файла."
 
 #, c-format
 msgid "cupsfilter: Unable to get job file - %s"
-msgstr ""
+msgstr "cupsfilter: Не удается получить файл задания - %s"
 
 msgid "cupstestppd: The -q option is incompatible with the -v option."
-msgstr ""
+msgstr "cupstestppd: Параметр -q несовместим с параметром -v"
 
 msgid "cupstestppd: The -v option is incompatible with the -q option."
-msgstr ""
+msgstr "cupstestppd: Параметр -v несовместим с параметром -q"
 
 #. TRANSLATORS: Detailed Status Message
 msgid "detailed-status-message"
@@ -5329,11 +5385,11 @@ msgstr ""
 
 #, c-format
 msgid "device for %s/%s: %s"
-msgstr ""
+msgstr "устройство для %s/%s: %s"
 
 #, c-format
 msgid "device for %s: %s"
-msgstr ""
+msgstr "устройство для %s: %s"
 
 #. TRANSLATORS: Copies
 msgid "document-copies"
@@ -5560,10 +5616,10 @@ msgid "document-state.9"
 msgstr ""
 
 msgid "error-index uses indefinite length"
-msgstr ""
+msgstr "Для error-index длина не установлена"
 
 msgid "error-status uses indefinite length"
-msgstr ""
+msgstr "Для error-status длина не установлена"
 
 msgid "expression --and expression\n"
 "                        Logical AND"
@@ -6581,13 +6637,13 @@ msgid "from-name"
 msgstr ""
 
 msgid "held"
-msgstr ""
+msgstr "задержано"
 
 msgid "help\t\tGet help on commands."
-msgstr ""
+msgstr "help\t\tПолучить справку по командам."
 
 msgid "idle"
-msgstr ""
+msgstr "свободен"
 
 #. TRANSLATORS: Imposition Template
 msgid "imposition-template"
@@ -6619,117 +6675,117 @@ msgstr ""
 
 #, c-format
 msgid "ippfind: Bad regular expression: %s"
-msgstr ""
+msgstr "ippfind: неправильное регулярное выражение: %s"
 
 msgid "ippfind: Cannot use --and after --or."
-msgstr ""
+msgstr "ippfind: не используйте --and после --or."
 
 #, c-format
 msgid "ippfind: Expected key name after %s."
-msgstr ""
+msgstr "ippfind: Ожидается key name после %s."
 
 #, c-format
 msgid "ippfind: Expected port range after %s."
-msgstr ""
+msgstr "ippfind: Ожидается port range после %s."
 
 #, c-format
 msgid "ippfind: Expected program after %s."
-msgstr ""
+msgstr "ippfind: Ожидается program после %s."
 
 #, c-format
 msgid "ippfind: Expected semi-colon after %s."
-msgstr ""
+msgstr "ippfind: Ожидается semi-colon после %s."
 
 msgid "ippfind: Missing close brace in substitution."
-msgstr ""
+msgstr "ippfind: Отсутствует закрывающая фигурная скобка в замене."
 
 msgid "ippfind: Missing close parenthesis."
-msgstr ""
+msgstr "ippfind: Отсутствует закрывающая скобка."
 
 msgid "ippfind: Missing expression before \"--and\"."
-msgstr ""
+msgstr "ippfind: Отсутствует выражение перед \"--and\"."
 
 msgid "ippfind: Missing expression before \"--or\"."
-msgstr ""
+msgstr "ippfind: Отсутствует выражение перед \"--or\"."
 
 #, c-format
 msgid "ippfind: Missing key name after %s."
-msgstr ""
+msgstr "ippfind: Отсутствует key name после %s."
 
 #, c-format
 msgid "ippfind: Missing name after %s."
 msgstr ""
 
 msgid "ippfind: Missing open parenthesis."
-msgstr ""
+msgstr "ippfind: Отсутствует открывающая скобка."
 
 #, c-format
 msgid "ippfind: Missing program after %s."
-msgstr ""
+msgstr "ippfind: Отсутствует program после %s."
 
 #, c-format
 msgid "ippfind: Missing regular expression after %s."
-msgstr ""
+msgstr "ippfind: Отсутствует регулярное выражение после %s."
 
 #, c-format
 msgid "ippfind: Missing semi-colon after %s."
-msgstr ""
+msgstr "ippfind: Отсутствует semi-colon после %s."
 
 msgid "ippfind: Out of memory."
-msgstr ""
+msgstr "ippfind: Недостаточно памяти."
 
 msgid "ippfind: Too many parenthesis."
-msgstr ""
+msgstr "ippfind: Слишком много скобок."
 
 #, c-format
 msgid "ippfind: Unable to browse or resolve: %s"
-msgstr ""
+msgstr "ippfind: Не удается просмотреть или определить: %s"
 
 #, c-format
 msgid "ippfind: Unable to execute \"%s\": %s"
-msgstr ""
+msgstr "ippfind: Не удается выполнить \"%s\": %s"
 
 #, c-format
 msgid "ippfind: Unable to use Bonjour: %s"
-msgstr ""
+msgstr "ippfind: Не удается использовать Bonjour: %s"
 
 #, c-format
 msgid "ippfind: Unknown variable \"{%s}\"."
-msgstr ""
+msgstr "ippfind: Неизвестная переменная \"{%s}\"."
 
 msgid "ipptool: \"-i\" and \"-n\" are incompatible with \"--ippserver\", \"-P\", and \"-X\"."
 msgstr ""
 
 msgid "ipptool: \"-i\" and \"-n\" are incompatible with \"-P\" and \"-X\"."
-msgstr ""
+msgstr "ipptool: Параметры \"-i\" и \"-n\" несовместимы с \"-P\" и \"-X\"."
 
 #, c-format
 msgid "ipptool: Bad URI \"%s\"."
 msgstr ""
 
 msgid "ipptool: Invalid seconds for \"-i\"."
-msgstr ""
+msgstr "ipptool: Неправильные секунды для \"-i\"."
 
 msgid "ipptool: May only specify a single URI."
-msgstr ""
+msgstr "ipptool: Может быть определен лишь один URI."
 
 msgid "ipptool: Missing count for \"-n\"."
-msgstr ""
+msgstr "ipptool: Отсутствует count для \"-n\"."
 
 msgid "ipptool: Missing filename for \"--ippserver\"."
 msgstr ""
 
 msgid "ipptool: Missing filename for \"-f\"."
-msgstr ""
+msgstr "ipptool: Отсутствует имя файла для \"-f\"."
 
 msgid "ipptool: Missing name=value for \"-d\"."
-msgstr ""
+msgstr "ipptool: Отсутствует name=value для \"-d\"."
 
 msgid "ipptool: Missing seconds for \"-i\"."
-msgstr ""
+msgstr "ipptool: Отсутствуют секунды для \"-i\"."
 
 msgid "ipptool: URI required before test file."
-msgstr ""
+msgstr "ipptool: Необходим URI перед указанием тест-файла."
 
 #. TRANSLATORS: Job Account ID
 msgid "job-account-id"
@@ -6944,7 +7000,7 @@ msgid "job-phone-number"
 msgstr ""
 
 msgid "job-printer-uri attribute missing."
-msgstr ""
+msgstr "Атрибут job-printer-uri отсутствует."
 
 #. TRANSLATORS: Job Priority
 msgid "job-priority"
@@ -7447,70 +7503,70 @@ msgid "logo"
 msgstr ""
 
 msgid "lpadmin: Class name can only contain printable characters."
-msgstr ""
+msgstr "lpadmin: Имя группы может содержать только печатаемые символы."
 
 #, c-format
 msgid "lpadmin: Expected PPD after \"-%c\" option."
 msgstr ""
 
 msgid "lpadmin: Expected allow/deny:userlist after \"-u\" option."
-msgstr ""
+msgstr "lpadmin: После параметра '-u' должен быть указан allow/deny:userlist."
 
 msgid "lpadmin: Expected class after \"-r\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-r\" должно быть указано имя группы."
 
 msgid "lpadmin: Expected class name after \"-c\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-c\" должно быть указано имя группы."
 
 msgid "lpadmin: Expected description after \"-D\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-D\" должно быть указано описание."
 
 msgid "lpadmin: Expected device URI after \"-v\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-v\" должен быть указан URI"
 
 msgid "lpadmin: Expected file type(s) after \"-I\" option."
-msgstr ""
+msgstr "После параметра \"-I\" должен(-ны) быть указан(-ы) тип(-ы) файла(-ов)."
 
 msgid "lpadmin: Expected hostname after \"-h\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-h\" должно быть указано имя хоста."
 
 msgid "lpadmin: Expected location after \"-L\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-L\" должно быть указано местоположение."
 
 msgid "lpadmin: Expected model after \"-m\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-m\" должна быть указана модель."
 
 msgid "lpadmin: Expected name after \"-R\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-R\" должно быть указано имя."
 
 msgid "lpadmin: Expected name=value after \"-o\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-o\" должно быть указано name=value"
 
 msgid "lpadmin: Expected printer after \"-p\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-p\" должен быть указан принтер."
 
 msgid "lpadmin: Expected printer name after \"-d\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-d\" должно быть указано имя принтера."
 
 msgid "lpadmin: Expected printer or class after \"-x\" option."
-msgstr ""
+msgstr "lpadmin: После параметра \"-x\" должен быть указан принтер или группа."
 
 msgid "lpadmin: No member names were seen."
-msgstr ""
+msgstr "lpadmin: Имена пользователей не были найдены."
 
 #, c-format
 msgid "lpadmin: Printer %s is already a member of class %s."
-msgstr ""
+msgstr "lpadmin: Принтер %s уже находится в группе %s."
 
 #, c-format
 msgid "lpadmin: Printer %s is not a member of class %s."
-msgstr ""
+msgstr "lpadmin: Принтер %s не находится в группе %s."
 
 msgid "lpadmin: Printer drivers are deprecated and will stop working in a future version of CUPS."
 msgstr ""
 
 msgid "lpadmin: Printer name can only contain printable characters."
-msgstr ""
+msgstr "lpadmin: Имя принтера может содержать только печатаемые символы."
 
 msgid "lpadmin: Raw queues are deprecated and will stop working in a future version of CUPS."
 msgstr ""
@@ -7523,18 +7579,20 @@ msgstr ""
 
 msgid "lpadmin: Unable to add a printer to the class:\n"
 "         You must specify a printer name first."
-msgstr ""
+msgstr "lpadmin: Не удается добавить принтер в группу:\n"
+"\t  Необходимо сначала указать имя принтера."
 
 #, c-format
 msgid "lpadmin: Unable to connect to server: %s"
-msgstr ""
+msgstr "lpadmin: Не удается подключиться к серверу: %s"
 
 msgid "lpadmin: Unable to create temporary file"
-msgstr ""
+msgstr "lpadmin: Не удается создать временный файл"
 
 msgid "lpadmin: Unable to delete option:\n"
 "         You must specify a printer name first."
-msgstr ""
+msgstr "lpadmin: Не удается удалить параметр:\n"
+"\t  Необходимо сначала указать имя принтера."
 
 #, c-format
 msgid "lpadmin: Unable to open PPD \"%s\": %s"
@@ -7546,83 +7604,85 @@ msgstr ""
 
 msgid "lpadmin: Unable to remove a printer from the class:\n"
 "         You must specify a printer name first."
-msgstr ""
+msgstr "lpadmin: Не удается удалить принтер из группы:\n"
+"\t  Необходимо сначала указать имя принтера."
 
 msgid "lpadmin: Unable to set the printer options:\n"
 "         You must specify a printer name first."
-msgstr ""
+msgstr "lpadmin: Не удается настроить параметры принтера:\n"
+"\t  Необходимо сначала указать имя принтера."
 
 #, c-format
 msgid "lpadmin: Unknown allow/deny option \"%s\"."
-msgstr ""
+msgstr "lpadmin: Неизвестный параметр allow/deny \"%s\"."
 
 #, c-format
 msgid "lpadmin: Unknown argument \"%s\"."
-msgstr ""
+msgstr "lpadmin: Неизвестный аргумент \"%s\"."
 
 #, c-format
 msgid "lpadmin: Unknown option \"%c\"."
-msgstr ""
+msgstr "lpadmin: Неизвестный параметр \"%c\"."
 
 msgid "lpadmin: Use the 'everywhere' model for shared printers."
 msgstr ""
 
 msgid "lpadmin: Warning - content type list ignored."
-msgstr ""
+msgstr "lpadmin: Внимание - список типов содержимого пропущен."
 
 msgid "lpc> "
 msgstr ""
 
 msgid "lpinfo: Expected 1284 device ID string after \"--device-id\"."
-msgstr ""
+msgstr "lpinfo: После \"--device-id\" должна идти строка ID устройства 1284"
 
 msgid "lpinfo: Expected language after \"--language\"."
-msgstr ""
+msgstr "lpinfo: После \"--language\" необходимо указать язык."
 
 msgid "lpinfo: Expected make and model after \"--make-and-model\"."
-msgstr ""
+msgstr "lpinfo: После \"--make-and-model\" должна быть указана марка и модель."
 
 msgid "lpinfo: Expected product string after \"--product\"."
-msgstr ""
+msgstr "lpinfo: После \"--product\" должна идти строка продукта."
 
 msgid "lpinfo: Expected scheme list after \"--exclude-schemes\"."
-msgstr ""
+msgstr "lpinfo: После \"--exclude-schemes\" должен идти список схем."
 
 msgid "lpinfo: Expected scheme list after \"--include-schemes\"."
-msgstr ""
+msgstr "lpinfo: После \"--include-schemes\" должен идти список схем."
 
 msgid "lpinfo: Expected timeout after \"--timeout\"."
-msgstr ""
+msgstr "lpinfo: После \"--timeout\" должно быть указано время ожидания"
 
 #, c-format
 msgid "lpmove: Unable to connect to server: %s"
-msgstr ""
+msgstr "lpmove: Не удается подключиться к серверу: %s"
 
 #, c-format
 msgid "lpmove: Unknown argument \"%s\"."
-msgstr ""
+msgstr "lpmove: Неизвестный аргумент \"%s\"."
 
 msgid "lpoptions: No printers."
-msgstr ""
+msgstr "lpoptions: Нет принтеров."
 
 #, c-format
 msgid "lpoptions: Unable to add printer or instance: %s"
-msgstr ""
+msgstr "lpoptions: Не удается добавить принтер или представителя класса: %s"
 
 #, c-format
 msgid "lpoptions: Unable to get PPD file for %s: %s"
-msgstr ""
+msgstr "lpoptions: Не удается получить PPD-файл для %s: %s"
 
 #, c-format
 msgid "lpoptions: Unable to open PPD file for %s."
-msgstr ""
+msgstr "lpoptions: Не удается открыть PPD файл для %s"
 
 msgid "lpoptions: Unknown printer or class."
-msgstr ""
+msgstr "lpoptions: Неизвестный принтер или группа"
 
 #, c-format
 msgid "lpstat: error - %s environment variable names non-existent destination \"%s\"."
-msgstr ""
+msgstr "lpstat: ошибка - %s переменная окружения указывает  несуществующее назначение \"%s\""
 
 #. TRANSLATORS: Amount of Material
 msgid "material-amount"
@@ -9894,7 +9954,7 @@ msgstr ""
 
 #, c-format
 msgid "members of class %s:"
-msgstr ""
+msgstr "члены группы %s:"
 
 #. TRANSLATORS: Multiple Document Handling
 msgid "multiple-document-handling"
@@ -9961,10 +10021,10 @@ msgid "multiple-operation-time-out-action.process-job"
 msgstr ""
 
 msgid "no entries"
-msgstr ""
+msgstr "нет записей"
 
 msgid "no system default destination"
-msgstr ""
+msgstr "Нет назначение системы по умолчанию"
 
 #. TRANSLATORS: Noise Removal
 msgid "noise-removal"
@@ -9983,7 +10043,7 @@ msgid "notify-events"
 msgstr ""
 
 msgid "notify-events not specified."
-msgstr ""
+msgstr "notify-events не указаны."
 
 #. TRANSLATORS: Document Completed
 msgid "notify-events.document-completed"
@@ -10095,11 +10155,11 @@ msgstr ""
 
 #, c-format
 msgid "notify-recipient-uri URI \"%s\" is already used."
-msgstr ""
+msgstr "notify-recipient-uri URI \"%s\" уже используется."
 
 #, c-format
 msgid "notify-recipient-uri URI \"%s\" uses unknown scheme."
-msgstr ""
+msgstr "notify-recipient-uri URI \"%s\" использует неизвестную схему."
 
 #. TRANSLATORS: Notify Sequence Numbers
 msgid "notify-sequence-numbers"
@@ -10418,7 +10478,7 @@ msgid "pclm-source-resolution"
 msgstr ""
 
 msgid "pending"
-msgstr ""
+msgstr "задержка"
 
 #. TRANSLATORS: Platform Shape
 msgid "platform-shape"
@@ -10442,379 +10502,379 @@ msgstr ""
 
 #, c-format
 msgid "ppdc: Adding include directory \"%s\"."
-msgstr ""
+msgstr "ppdc: Добавление каталога \"%s\"."
 
 #, c-format
 msgid "ppdc: Adding/updating UI text from %s."
-msgstr ""
+msgstr "ppdc: Добавление/обновление текста интерфейса из %s."
 
 #, c-format
 msgid "ppdc: Bad boolean value (%s) on line %d of %s."
-msgstr ""
+msgstr "ppdc: Недопустимое двоичное значение (%s) в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Bad font attribute: %s"
-msgstr ""
+msgstr "ppdc: Недопустимый атрибут шрифта: %s"
 
 #, c-format
 msgid "ppdc: Bad resolution name \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc: Недопустимое имя разрешения \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Bad status keyword %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: Недопустимое ключевое слово статуса %s в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Bad variable substitution ($%c) on line %d of %s."
-msgstr ""
+msgstr "ppdc: Недопустимая замена переменной ($%c) в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Choice found on line %d of %s with no Option."
-msgstr ""
+msgstr "ppdc: В строке %d из %s обнаружено значение, не привязанное к параметру"
 
 #, c-format
 msgid "ppdc: Duplicate #po for locale %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: Дубликат #po для региона %s в строке %d из %s"
 
 #, c-format
 msgid "ppdc: Expected a filter definition on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть определение фильтра."
 
 #, c-format
 msgid "ppdc: Expected a program name on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть имя программы."
 
 #, c-format
 msgid "ppdc: Expected boolean value on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть двоичное значение."
 
 #, c-format
 msgid "ppdc: Expected charset after Font on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Font в строке %d из %s должен быть набор символов."
 
 #, c-format
 msgid "ppdc: Expected choice code on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть код выбора."
 
 #, c-format
 msgid "ppdc: Expected choice name/text on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть имя/текст выбора."
 
 #, c-format
 msgid "ppdc: Expected color order for ColorModel on line %d of %s."
-msgstr ""
+msgstr "ppdc: После ColorModel в строке %d из %s должна быть указана цветовая схема."
 
 #, c-format
 msgid "ppdc: Expected colorspace for ColorModel on line %d of %s."
-msgstr ""
+msgstr "ppdc: Для ColorModel в строке %d из %s должно быть указано colorspace."
 
 #, c-format
 msgid "ppdc: Expected compression for ColorModel on line %d of %s."
-msgstr ""
+msgstr "ppdc: Для ColorModel в строке %d из %s должно быть указано сжатие."
 
 #, c-format
 msgid "ppdc: Expected constraints string for UIConstraints on line %d of %s."
-msgstr ""
+msgstr "ppdc: Для UIConstraints в строке %d из %s должна быть указана строка ограничений."
 
 #, c-format
 msgid "ppdc: Expected driver type keyword following DriverType on line %d of %s."
-msgstr ""
+msgstr "ppdc: После DriverType в строке %d из %s должно быть указано ключевое слово типа драйвера."
 
 #, c-format
 msgid "ppdc: Expected duplex type after Duplex on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Duplex в строке %d из %s должен быть указан тип дуплекса."
 
 #, c-format
 msgid "ppdc: Expected encoding after Font on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Font в строке %d из %s должна быть указана кодировка."
 
 #, c-format
 msgid "ppdc: Expected filename after #po %s on line %d of %s."
-msgstr ""
+msgstr "После #po %s в строке %d из %s должно быть указано имя файла."
 
 #, c-format
 msgid "ppdc: Expected group name/text on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть указанно имя группы/текст."
 
 #, c-format
 msgid "ppdc: Expected include filename on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть указано имя файла."
 
 #, c-format
 msgid "ppdc: Expected integer on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть целое число."
 
 #, c-format
 msgid "ppdc: Expected locale after #po on line %d of %s."
-msgstr ""
+msgstr "ppdc: После #po в строке %d из %s должен быть указан регион."
 
 #, c-format
 msgid "ppdc: Expected name after %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: После %s в строке %d из %s должно быть указано имя."
 
 #, c-format
 msgid "ppdc: Expected name after FileName on line %d of %s."
-msgstr ""
+msgstr "ppdc: После FileName в строке %d из %s должно быть указано имя."
 
 #, c-format
 msgid "ppdc: Expected name after Font on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Font в строке %d из %s должно быть указано имя."
 
 #, c-format
 msgid "ppdc: Expected name after Manufacturer on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Manufacturer в строке %d из %s должно быть указано имя."
 
 #, c-format
 msgid "ppdc: Expected name after MediaSize on line %d of %s."
-msgstr ""
+msgstr "ppdc: После MediaSize в строке %d из %s должно быть указано имя."
 
 #, c-format
 msgid "ppdc: Expected name after ModelName on line %d of %s."
-msgstr ""
+msgstr "ppdc: После ModelName в строке %d из %s должно быть указано имя."
 
 #, c-format
 msgid "ppdc: Expected name after PCFileName on line %d of %s."
-msgstr ""
+msgstr "ppdc: После PCFileName в строке %d из %s должно быть указано имя."
 
 #, c-format
 msgid "ppdc: Expected name/text after %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: После %s в строке %d из %s должно быть указано имя/текст."
 
 #, c-format
 msgid "ppdc: Expected name/text after Installable on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Installable в строке %d из %s должно быть указано имя/текст."
 
 #, c-format
 msgid "ppdc: Expected name/text after Resolution on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Resolution в строке %d из %s должно быть указано имя/текст."
 
 #, c-format
 msgid "ppdc: Expected name/text combination for ColorModel on line %d of %s."
-msgstr ""
+msgstr "ppdc: После ColorModel в строке %d из %s должно быть указано имя/текст."
 
 #, c-format
 msgid "ppdc: Expected option name/text on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть указано имя параметра/текст."
 
 #, c-format
 msgid "ppdc: Expected option section on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должен быть указан раздел параметров."
 
 #, c-format
 msgid "ppdc: Expected option type on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должен быть указан тип параметра."
 
 #, c-format
 msgid "ppdc: Expected override field after Resolution on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Resolution в строке %d из %s должно быть поле переопределения."
 
 #, c-format
 msgid "ppdc: Expected quoted string on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должна быть запись в кавычках."
 
 #, c-format
 msgid "ppdc: Expected real number on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должно быть действительное число."
 
 #, c-format
 msgid "ppdc: Expected resolution/mediatype following ColorProfile on line %d of %s."
-msgstr ""
+msgstr "ppdc: После ColorProfile в строке %d из %s должно быть указано разрешение/тип носителя."
 
 #, c-format
 msgid "ppdc: Expected resolution/mediatype following SimpleColorProfile on line %d of %s."
-msgstr ""
+msgstr "ppdc: После SimpleColorProfile в строке %d из %s должно быть указано разрешение/тип носителя."
 
 #, c-format
 msgid "ppdc: Expected selector after %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: После %s в строке %d из %s должен быть selector."
 
 #, c-format
 msgid "ppdc: Expected status after Font on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Font в строке %d из %s должен быть указан статус."
 
 #, c-format
 msgid "ppdc: Expected string after Copyright on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s пропущено значение параметра Copyright."
 
 #, c-format
 msgid "ppdc: Expected string after Version on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s пропущено значение параметра Version."
 
 #, c-format
 msgid "ppdc: Expected two option names on line %d of %s."
-msgstr ""
+msgstr "ppdc: В строке %d из %s должны быть два имени параметра."
 
 #, c-format
 msgid "ppdc: Expected value after %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: После %s в строке %d из %s должно быть значение."
 
 #, c-format
 msgid "ppdc: Expected version after Font on line %d of %s."
-msgstr ""
+msgstr "ppdc: После Font в строке %d из %s должна быть указана версия."
 
 #, c-format
 msgid "ppdc: Invalid #include/#po filename \"%s\"."
-msgstr ""
+msgstr "ppdc: Неверное имя файла #include/#po \"%s\"."
 
 #, c-format
 msgid "ppdc: Invalid cost for filter on line %d of %s."
-msgstr ""
+msgstr "ppdc: Затраты на фильтр в строке %d из %s указаны неверно."
 
 #, c-format
 msgid "ppdc: Invalid empty MIME type for filter on line %d of %s."
-msgstr ""
+msgstr "ppdc: Недопустимый пустой MIME-тип для фильтра в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Invalid empty program name for filter on line %d of %s."
-msgstr ""
+msgstr "ppdc: Недопустимое пустое имя программы для фильтра в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Invalid option section \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неверный раздел параметров \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Invalid option type \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неверный тип параметра \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Loading driver information file \"%s\"."
-msgstr ""
+msgstr "ppdc: Загружается файл с информацией о драйвере \"%s\"."
 
 #, c-format
 msgid "ppdc: Loading messages for locale \"%s\"."
-msgstr ""
+msgstr "ppdc: Загружаю сообщения для региона \"%s\"."
 
 #, c-format
 msgid "ppdc: Loading messages from \"%s\"."
-msgstr ""
+msgstr "ppdc: Загружаю сообщения из \"%s\"."
 
 #, c-format
 msgid "ppdc: Missing #endif at end of \"%s\"."
-msgstr ""
+msgstr "ppdc: Отсутствует #endif в конце \"%s\"."
 
 #, c-format
 msgid "ppdc: Missing #if on line %d of %s."
-msgstr ""
+msgstr "ppdc: Отсутствует #if в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Need a msgid line before any translation strings on line %d of %s."
-msgstr ""
+msgstr "ppdc: Требуется строка msgid перед строкой перевода в строке %d из %s"
 
 #, c-format
 msgid "ppdc: No message catalog provided for locale %s."
-msgstr ""
+msgstr "ppdc: Не указан каталог сообщений для региона %s."
 
 #, c-format
 msgid "ppdc: Option %s defined in two different groups on line %d of %s."
-msgstr ""
+msgstr "ppdc: Параметр %s определен в двух разных группах в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Option %s redefined with a different type on line %d of %s."
-msgstr ""
+msgstr "ppdc: Для параметра %s определен другой тип в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Option constraint must *name on line %d of %s."
-msgstr ""
+msgstr "ppdc: Для ограничения параметра должно быть указано *name в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Too many nested #if's on line %d of %s."
-msgstr ""
+msgstr "ppdc: Слишком много вложенных операторов #if в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unable to create PPD file \"%s\" - %s."
-msgstr ""
+msgstr "ppdc: Не удается создать PPD-файл \"%s\" - %s."
 
 #, c-format
 msgid "ppdc: Unable to create output directory %s: %s"
-msgstr ""
+msgstr "ppdc: Не удается создать каталог для выходных данных %s: %s"
 
 #, c-format
 msgid "ppdc: Unable to create output pipes: %s"
-msgstr ""
+msgstr "ppdc: Не удается создать конвейеры для выходных данных: %s"
 
 #, c-format
 msgid "ppdc: Unable to execute cupstestppd: %s"
-msgstr ""
+msgstr "ppdc: Не удается выполнить cupstestppd: %s"
 
 #, c-format
 msgid "ppdc: Unable to find #po file %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: Не удается найти файл #po %s в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unable to find include file \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc: Не удается найти файл \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unable to find localization for \"%s\" - %s"
-msgstr ""
+msgstr "ppdc: Не удается найти перевод для \"%s\" - %s"
 
 #, c-format
 msgid "ppdc: Unable to load localization file \"%s\" - %s"
-msgstr ""
+msgstr "ppdc: Не удается загрузить файл перевода \"%s\" - %s"
 
 #, c-format
 msgid "ppdc: Unable to open %s: %s"
-msgstr ""
+msgstr "ppdc: Не удается открыть %s: %s"
 
 #, c-format
 msgid "ppdc: Undefined variable (%s) on line %d of %s."
-msgstr ""
+msgstr "ppdc: Не определена переменная (%s) в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unexpected text on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неизвестный текст в %2$s строки %1$d"
 
 #, c-format
 msgid "ppdc: Unknown driver type %s on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неизвестный тип драйвера %s в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unknown duplex type \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неизвестный тип дуплекса \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unknown media size \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неизвестный размер бумаги \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unknown message catalog format for \"%s\"."
-msgstr ""
+msgstr "ppdc: Неизвестный формат каталога сообщений для \"%s\""
 
 #, c-format
 msgid "ppdc: Unknown token \"%s\" seen on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неизвестный маркер  \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unknown trailing characters in real number \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc: Неизвестные конечные символы в вещественном числе \"%s\" в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Unterminated string starting with %c on line %d of %s."
-msgstr ""
+msgstr "ppdc: Не завершена строка, начинающаяся с %c в строке %d из %s."
 
 #, c-format
 msgid "ppdc: Warning - overlapping filename \"%s\"."
-msgstr ""
+msgstr "ppdc: Внимание - дублирующееся имя \"%s\"."
 
 #, c-format
 msgid "ppdc: Writing %s."
-msgstr ""
+msgstr "ppdc: Записывается %s."
 
 #, c-format
 msgid "ppdc: Writing PPD files to directory \"%s\"."
-msgstr ""
+msgstr "ppdc: Записываются PPD-файлы в каталог \"%s\"."
 
 #, c-format
 msgid "ppdmerge: Bad LanguageVersion \"%s\" in %s."
-msgstr ""
+msgstr "ppdmerge: Неверное значение LanguageVersion \"%s\" в %s."
 
 #, c-format
 msgid "ppdmerge: Ignoring PPD file %s."
-msgstr ""
+msgstr "ppdmerge: Пропускается PPD-файл %s."
 
 #, c-format
 msgid "ppdmerge: Unable to backup %s to %s - %s"
-msgstr ""
+msgstr "ppdmerge: Не удается создать резервную копию %s на %s- %s"
 
 #. TRANSLATORS: Pre-dial String
 msgid "pre-dial-string"
@@ -11054,7 +11114,7 @@ msgstr ""
 
 #, c-format
 msgid "printer %s disabled since %s -"
-msgstr ""
+msgstr "принтер %s отключен с момента %s -"
 
 #, c-format
 msgid "printer %s is holding new jobs.  enabled since %s"
@@ -11062,23 +11122,23 @@ msgstr ""
 
 #, c-format
 msgid "printer %s is idle.  enabled since %s"
-msgstr ""
+msgstr "принтер %s свободен. Включен с момента %s"
 
 #, c-format
 msgid "printer %s now printing %s-%d.  enabled since %s"
-msgstr ""
+msgstr "принтер %s сейчас печатает %s-%d. Включен с момента %s"
 
 #, c-format
 msgid "printer %s/%s disabled since %s -"
-msgstr ""
+msgstr "принтер %s/%s отключен с момента %s -"
 
 #, c-format
 msgid "printer %s/%s is idle.  enabled since %s"
-msgstr ""
+msgstr "принтер %s/%s свободен. Включен с момента %s"
 
 #, c-format
 msgid "printer %s/%s now printing %s-%d.  enabled since %s"
-msgstr ""
+msgstr "принтер %s/%s сейчас печатает %s-%d. Включен с момента %s"
 
 #. TRANSLATORS: Printer Kind
 msgid "printer-kind"
@@ -14333,7 +14393,7 @@ msgid "printer-up-time"
 msgstr ""
 
 msgid "processing"
-msgstr ""
+msgstr "обработка"
 
 #. TRANSLATORS: Proof Print
 msgid "proof-print"
@@ -14377,10 +14437,10 @@ msgstr ""
 
 #, c-format
 msgid "request id is %s-%d (%d file(s))"
-msgstr ""
+msgstr "id запроса %s-%d (%d файл.)"
 
 msgid "request-id uses indefinite length"
-msgstr ""
+msgstr "Для request-id длина не определена"
 
 #. TRANSLATORS: Requested Attributes
 msgid "requested-attributes"
@@ -14427,10 +14487,10 @@ msgid "save-name"
 msgstr ""
 
 msgid "scheduler is not running"
-msgstr ""
+msgstr "планировщик не запущен"
 
 msgid "scheduler is running"
-msgstr ""
+msgstr "планировщик запущен"
 
 #. TRANSLATORS: Separator Sheets
 msgid "separator-sheets"
@@ -14478,10 +14538,10 @@ msgstr ""
 
 #, c-format
 msgid "stat of %s failed: %s"
-msgstr ""
+msgstr "не удалось установить %s: %s"
 
 msgid "status\t\tShow status of daemon and queue."
-msgstr ""
+msgstr "статус\t\tпоказать статус демона и очереди"
 
 #. TRANSLATORS: Status Message
 msgid "status-message"
@@ -14540,7 +14600,7 @@ msgid "stitching-reference-edge.top"
 msgstr ""
 
 msgid "stopped"
-msgstr ""
+msgstr "остановлен"
 
 #. TRANSLATORS: Subject
 msgid "subject"
@@ -14592,15 +14652,15 @@ msgstr ""
 
 #, c-format
 msgid "system default destination: %s"
-msgstr ""
+msgstr "назначение системы по умолчанию: %s"
 
 #, c-format
 msgid "system default destination: %s/%s"
-msgstr ""
+msgstr "назначение системы по умолчанию: %s/%s"
 
 #. TRANSLATORS: T33 Subaddress
 msgid "t33-subaddress"
-msgstr ""
+msgstr "T33 Subaddress"
 
 #. TRANSLATORS: To Name
 msgid "to-name"
@@ -14711,13 +14771,13 @@ msgid "trimming-when.after-sheets"
 msgstr ""
 
 msgid "unknown"
-msgstr ""
+msgstr "неизвестный"
 
 msgid "untitled"
-msgstr ""
+msgstr "новый"
 
 msgid "variable-bindings uses indefinite length"
-msgstr ""
+msgstr "Для variable-bindings длина не установлена"
 
 #. TRANSLATORS: X Accuracy
 msgid "x-accuracy"
