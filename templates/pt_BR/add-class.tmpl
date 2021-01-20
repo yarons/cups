@@ -1,4 +1,4 @@
-<H2 CLASS="title">Add Class</H2>
+<H2 CLASS="title">Adicionar classe</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -6,22 +6,22 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Name:</TH>
+<TH CLASS="label">Nome:</TH>
 <TD><input type="TEXT" name="PRINTER_NAME" size="40" maxlength="127"><br>
-<SMALL>(May contain any printable characters except "/", "#", and space)</SMALL></TD>
+<SMALL>(Pode conter qualquer caractere imprim&iacute;vel, exceto "/", "#", e espa&ccedil;o em branco)</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Description:</TH>
+<TH CLASS="label">Descri&ccedil;&atilde;o:</TH>
 <TD><input type="TEXT" name="PRINTER_INFO" size="40" maxlength="127"><br>
-<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
+<SMALL>(Descri&ccedil;&atilde;o leg&iacute;vel para humanos, tal como "HP LaserJet com Duplexador")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Location:</TH>
+<TH CLASS="label">Localiza&ccedil;&atilde;o:</TH>
 <TD><input type="TEXT" name="PRINTER_LOCATION" size="40" maxlength="127"><br>
-<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
+<SMALL>(Localiza&ccedil;&atilde;o leg&iacute;vel para humanos, tal como "Laborat&oacute;rio 1")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Members:</TH>
+<TH CLASS="label">Membros:</TH>
 <TD>
 <SELECT NAME="MEMBER_URIS" SIZE="10" MULTIPLE>
 {[member_uris]<OPTION VALUE="{member_uris}" {?member_selected}>{member_names}}
