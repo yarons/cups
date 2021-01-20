@@ -60,14 +60,14 @@
 
     :<P><B>הגדרות שרת:</B></P>
 
-    <P><A HREF="/admin/?ADVANCEDSETTINGS=YES">Advanced <SMALL>&#x25b6;</SMALL></A><BR>
+    <P><A HREF="/admin/?ADVANCEDSETTINGS=YES">מתקדם <SMALL>&#x25c4;</SMALL></A><BR>
     <INPUT TYPE="HIDDEN" NAME="OP" VALUE="config-server">
-    <INPUT TYPE="CHECKBOX" NAME="SHARE_PRINTERS" ID="SHARE_PRINTERS" {?share_printers}><LABEL FOR="SHARE_PRINTERS"> Share printers connected to this system</LABEL><BR>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT TYPE="CHECKBOX" NAME="REMOTE_ANY" ID="REMOTE_ANY" {?remote_any}><LABEL FOR="REMOTE_ANY">  Allow printing from the Internet</LABEL><BR>
-    <INPUT TYPE="CHECKBOX" NAME="REMOTE_ADMIN" ID="REMOTE_ADMIN" {?remote_admin}><LABEL FOR="REMOTE_ADMIN">  Allow remote administration</LABEL><BR>
-    {have_gssapi?<INPUT TYPE="CHECKBOX" NAME="KERBEROS" ID="KERBEROS" {?kerberos}><LABEL FOR="KERBEROS">  Use Kerberos authentication (<A HREF="/help/kerberos.html?TOPIC=Getting+Started">FAQ</A>)</LABEL><BR>:}
-    <INPUT TYPE="CHECKBOX" NAME="USER_CANCEL_ANY" ID="USER_CANCEL_ANY" {?user_cancel_any}><LABEL FOR="USER_CANCEL_ANY">  Allow users to cancel any job (not just their own)</LABEL><BR>
-    <INPUT TYPE="CHECKBOX" NAME="DEBUG_LOGGING" ID="DEBUG_LOGGING" {?debug_logging}><LABEL FOR="DEBUG_LOGGING">  Save debugging information for troubleshooting</LABEL></P>
+    <INPUT TYPE="CHECKBOX" NAME="SHARE_PRINTERS" ID="SHARE_PRINTERS" {?share_printers}><LABEL FOR="SHARE_PRINTERS"> שיתוף מדפסות שמחוברות למערכת הזאת</LABEL><BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT TYPE="CHECKBOX" NAME="REMOTE_ANY" ID="REMOTE_ANY" {?remote_any}><LABEL FOR="REMOTE_ANY">  לאפשר הדפסה מהאינטרנט</LABEL><BR>
+    <INPUT TYPE="CHECKBOX" NAME="REMOTE_ADMIN" ID="REMOTE_ADMIN" {?remote_admin}><LABEL FOR="REMOTE_ADMIN">  לאפשר ניהול מרחוק</LABEL><BR>
+    {have_gssapi?<INPUT TYPE="CHECKBOX" NAME="KERBEROS" ID="KERBEROS" {?kerberos}><LABEL FOR="KERBEROS">  להשתמש באימות Kerberos (<A HREF="/help/kerberos.html?TOPIC=Getting+Started">שו״ת</A>)</LABEL><BR>:}
+    <INPUT TYPE="CHECKBOX" NAME="USER_CANCEL_ANY" ID="USER_CANCEL_ANY" {?user_cancel_any}><LABEL FOR="USER_CANCEL_ANY">  לאפשר למשתמשים לבטל כל משימה שהיא (לא רק את שלהם)</LABEL><BR>
+    <INPUT TYPE="CHECKBOX" NAME="DEBUG_LOGGING" ID="DEBUG_LOGGING" {?debug_logging}><LABEL FOR="DEBUG_LOGGING">  לשמור את פרטי ניפוי השגיאות לצורכי טיפול בתקלות</LABEL></P>
 
     }
     <P><INPUT TYPE="SUBMIT" NAME="CHANGESETTINGS" VALUE="Change Settings"></P>
