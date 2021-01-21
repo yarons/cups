@@ -13,7 +13,7 @@
 <OPTION VALUE="move-jobs">העברת כל המשימות</OPTION>
 <OPTION VALUE="purge-jobs">ביטול כל המשימות</OPTION>
 </SELECT>
-<INPUT TYPE="SUBMIT" VALUE="Go" STYLE="display: none;">
+<INPUT TYPE="SUBMIT" VALUE="לבצע" STYLE="display: none;">
 </FORM>
 
 <FORM METHOD="POST" ACTION="{admin_uri}" NAME="administration">
@@ -28,7 +28,7 @@
 <OPTION VALUE="set-as-default">הגדרה כבררת המחדל של השרת</OPTION>
 <OPTION VALUE="set-allowed-users">הגדרת משתמשים מורשים</OPTION>
 </SELECT>
-<INPUT TYPE="SUBMIT" VALUE="Go" STYLE="display: none;">
+<INPUT TYPE="SUBMIT" VALUE="לבצע" STYLE="display: none;">
 </FORM>
 
 <TABLE SUMMARY="{printer_name}">
@@ -36,6 +36,6 @@
 <TR><TH ALIGN="RIGHT" VALIGN="TOP">מיקום:</TH><TD>{printer_location}</TD></TR>
 <TR><TH ALIGN="RIGHT" VALIGN="TOP">חברים:</TH><TD>{?member_uris=?אין:{member_uris}}</TD></TR>
 <TR><TH ALIGN="RIGHT" VALIGN="TOP">בררות מחדל:</TH><TD>job-sheets={job_sheets_default}
-media={media_default?{media_default}:unknown}
+media={media_default?{media_default}:לא ידוע}
 {sides_default?sides={sides_default}:}</TD></TR>
 </TABLE>
