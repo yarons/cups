@@ -1,0 +1,37 @@
+<H2 CLASS="title">הוספת מחלקה</H2>
+
+<FORM METHOD="POST" ACTION="/admin">
+<INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
+<INPUT TYPE="HIDDEN" NAME="OP" VALUE="{op}">
+
+<TABLE>
+<TR>
+<TH CLASS="label">שם:</TH>
+<TD><input type="TEXT" name="PRINTER_NAME" size="40" maxlength="127"><br>
+<SMALL>(יכול להכיל את כל התווים שניתן להקליד למעט „/”, „#” ורווח)</SMALL></TD>
+</TR>
+<TR>
+<TH CLASS="label">תיאור:</TH>
+<TD><input type="TEXT" name="PRINTER_INFO" size="40" maxlength="127"><br>
+<SMALL>(תיאור שמובן לבני אדם „HP LaserJet עם הפיכת דפים”)</SMALL></TD>
+</TR>
+<TR>
+<TH CLASS="label">מיקום:</TH>
+<TD><input type="TEXT" name="PRINTER_LOCATION" size="40" maxlength="127"><br>
+<SMALL>(מיקום שמובן לבני אדם כגון „מעבדה 1”)</SMALL></TD>
+</TR>
+<TR>
+<TH CLASS="label">חברים:</TH>
+<TD>
+<SELECT NAME="MEMBER_URIS" SIZE="10" MULTIPLE>
+{[member_uris]<OPTION VALUE="{member_uris}" {?member_selected}>{member_names}}
+</SELECT>
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="הוספת מחלקה"></TD>
+</TR>
+</TABLE>
+
+</FORM>

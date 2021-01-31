@@ -15,24 +15,24 @@
 </TR>}
 <TR>
 <TH CLASS="label">Beschreibung:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_INFO" VALUE="{printer_info}">{printer_info}</TD>
+<TD><input type="HIDDEN" name="PRINTER_INFO" value="{printer_info}">{printer_info}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Ort:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_LOCATION" VALUE="{printer_location}">{printer_location}</TD>
+<TD><input type="HIDDEN" name="PRINTER_LOCATION" value="{printer_location}">{printer_location}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Verbindung:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Freigabe:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_IS_SHARED" VALUE="{?printer_is_shared}">
+<TD><input type="HIDDEN" name="PRINTER_IS_SHARED" value="{?printer_is_shared}">
 Drucker {?printer_is_shared=?nicht:{?printer_is_shared=0?nicht:}} im Netzwerk freigeben</TD>
 </TR>
 <TR>
 <TH CLASS="label">Hersteller:</TH>
-<TD>{PPD_MAKE} <INPUT TYPE="SUBMIT" NAME="SELECT_MAKE" VALUE="Anderen Hersteller/Marke wählen"></TD>
+<TD>{PPD_MAKE} <INPUT TYPE="SUBMIT" NAME="SELECT_MAKE" VALUE="Select Another Make/Manufacturer"></TD>
 </TR>
 <TR>
 <TH CLASS="label">Modell:</TH>
@@ -51,7 +51,7 @@ TYPE="FILE" NAME="PPD_FILE"></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?Drucker hinzufügen:Drucker ändern}"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?Add Printer:Modify Printer}"></TD>
 </TR>
 </TABLE>
 

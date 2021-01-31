@@ -5,13 +5,13 @@
 {HELPTITLE?{HELPTITLE}:{TOPIC?{TOPIC}:todos os documentos}}:</B> <INPUT
 TYPE="SEARCH" NAME="QUERY" VALUE="{?QUERY}" SIZE="40" PLACEHOLDER=""
 AUTOSAVE="org.cups.help" RESULTS="20">
-<INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="Pesquisar">
-<INPUT TYPE="SUBMIT" NAME="CLEAR" VALUE="Limpar"></P>
+<INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="Search">
+<INPUT TYPE="SUBMIT" NAME="CLEAR" VALUE="Clear"></P>
 
 </FORM>
 
 <!-- Bookmarks -->
-<DIV CLASS="sidebar"><TABLE CLASS="inset" SUMMARY="Conte&uacute;do">
+<DIV CLASS="sidebar"><TABLE CLASS="inset" SUMMARY="Contents">
 <TR><TD>
 
 <H3 CLASS="title">Documentos de ajuda online</H3>
@@ -26,12 +26,11 @@ AUTOSAVE="org.cups.help" RESULTS="20">
 
 {QUERY?<P>Pesquisar resultados em {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:Todos os documentos}}\:</P>
 {QTEXT?<UL>
-{[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (em <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
+{[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (in <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
 {QTEXT?</UL>:}
 :<P>Nenhum resultado encontrado.</P>}
 <HR NOSHADE>:}
-{HELPTITLE?<H1>{HELPTITLE}</H1>
-<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="Ver vers&atilde;o imprim&iacute;vel"></FORM>:
+{HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="View Printable Version"></FORM>:
 
 <H1>Ajuda online</H1>
 

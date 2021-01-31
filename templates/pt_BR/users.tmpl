@@ -10,16 +10,16 @@
 <TR>
 <TH CLASS="label">Usu&aacute;rios:</TH>
 <TD>
-<INPUT TYPE='TEXT' NAME='users' SIZE='60' VALUE='{?requesting_user_name_allowed}{?requesting_user_name_denied}'>
-<BR>
-<INPUT TYPE='RADIO' NAME='type' VALUE='requesting-user-name-allowed' ID='requesting-user-name-allowed' {requesting_user_name_allowed?checked:}><LABEL FOR='requesting-user-name-allowed'>Permitir que estes usu&aacute;rios imprimam</LABEL>
+<input type='TEXT' name='users' size='60' value='{?requesting_user_name_allowed}{?requesting_user_name_denied}'>
+<br>
+<input type='RADIO' name='type' value='requesting-user-name-allowed' id='requesting-user-name-allowed' {requesting_user_name_allowed?checked:}><LABEL FOR='requesting-user-name-allowed'>Permitir que estes usu&aacute;rios imprimam</LABEL>
 <INPUT TYPE='RADIO' NAME='type' VALUE='requesting-user-name-denied' ID='requesting-user-name-denied' {requesting_user_name_denied?checked:}><LABEL FOR='requesting-user-name-denied'>Impedir que estes usu&aacute;rios imprimam</LABEL>
 </TD>
 </TR>
 <TR>
 <TD></TD>
 <TD>
-<INPUT TYPE="SUBMIT" VALUE="Definir usu&aacute;rios permitidos">
+<INPUT TYPE="SUBMIT" VALUE="Set Allowed Users">
 </TD>
 </TR>
 </TABLE>

@@ -5,13 +5,13 @@
 {HELPTITLE?{HELPTITLE}:{TOPIC?{TOPIC}:すべてのドキュメント}}内を検索:</B> <INPUT
 TYPE="SEARCH" NAME="QUERY" VALUE="{?QUERY}" SIZE="40" PLACEHOLDER=""
 AUTOSAVE="org.cups.help" RESULTS="20">
-<INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="検索">
-<INPUT TYPE="SUBMIT" NAME="CLEAR" VALUE="クリア"></P>
+<INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="Search">
+<INPUT TYPE="SUBMIT" NAME="CLEAR" VALUE="Clear"></P>
 
 </FORM>
 
 <!-- Bookmarks -->
-<DIV CLASS="sidebar"><TABLE CLASS="inset" SUMMARY="目次">
+<DIV CLASS="sidebar"><TABLE CLASS="inset" SUMMARY="Contents">
 <TR><TD>
 
 <H3 CLASS="title">オンラインヘルプドキュメント</H3>
@@ -30,13 +30,13 @@ AUTOSAVE="org.cups.help" RESULTS="20">
 {QTEXT?</UL>:}
 :<P>マッチするものは見つかりませんでした。</P>}
 <HR NOSHADE>:}
-{HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="印刷可能なバージョンの表示"></FORM>:
+{HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="View Printable Version"></FORM>:
 
 <H1>オンラインヘルプ</H1>
 
 <P>これは、CUPS のオンラインヘルプインターフェイスです。
 オンラインヘルプ情報を表示するには、検索語句を上に入力するか、
-ドキュメントリンクのいずれかをクリックしてください。</P>
+ドキュメントリンクのいずれかをクリックしてください。 Enter search words above or click on any of the documentation links to display online help information.</P>
 
 <P>あなたが CUPS について初心者なら、 "<a
 href="/help/overview.html">CUPS の概要</a>" ページを読んでください。</P>

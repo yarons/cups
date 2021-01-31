@@ -1,0 +1,61 @@
+<H2 CLASS="title">{op=modify-printer?עריכת שינויים ב־{printer_name}:הוספת מדפסת}</H2>
+
+<FORM METHOD="POST" ACTION="/admin" ENCTYPE="multipart/form-data">
+<INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
+<INPUT TYPE="HIDDEN" NAME="OP" VALUE="{op}">
+{printer_name?<INPUT TYPE="HIDDEN" NAME="printer_name" VALUE="{printer_name}">:}
+<INPUT TYPE="HIDDEN" NAME="BAUDRATE" VALUE="{?baudrate}">
+<INPUT TYPE="HIDDEN" NAME="BITS" VALUE="{?bits}">
+<INPUT TYPE="HIDDEN" NAME="PARITY" VALUE="{?parity}">
+<INPUT TYPE="HIDDEN" NAME="FLOW" VALUE="{?flow}">
+
+<TABLE>
+{op=modify-printer?:<TR>
+<TH CLASS="label">שם:</TH>
+<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_NAME" VALUE="{printer_name}">{printer_name}</TD>
+</TR>}
+<TR>
+<TH CLASS="label">תיאור:</TH>
+<TD><input type="HIDDEN" name="PRINTER_INFO" value="{printer_info}">{printer_info}</TD>
+</TR>
+<TR>
+<TH CLASS="label">מיקום:</TH>
+<TD><input type="HIDDEN" name="PRINTER_LOCATION" value="{printer_location}">{printer_location}</TD>
+</TR>
+<TR>
+<TH CLASS="label">חיבור:</TH>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
+</TR>
+<TR>
+<TH CLASS="label">שיתוף:</TH>
+<TD><input type="HIDDEN" name="PRINTER_IS_SHARED" value="{?printer_is_shared}">
+{?printer_is_shared=?לא:{?printer_is_shared=0?לא:}} לשתף את המדפסת הזאת</TD>
+</TR>
+<TR>
+<TH CLASS="label">יצרן:</TH>
+<TD>
+<SELECT NAME="PPD_MAKE" SIZE="10">
+{[ppd_make]<OPTION VALUE="{ppd_make}" {?current_make={ppd_make}?SELECTED:}>{ppd_make}}
+</SELECT>
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="להמשיך"></TD>
+</TR>
+<TR>
+<TD></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TH CLASS="label">או לספק קובץ PPD:</TH>
+<TD><INPUT TYPE="HIDDEN" NAME="MAX_FILE_SIZE" VALUE="262144"><INPUT
+TYPE="FILE" NAME="PPD_FILE"></TD>
+</TR>
+<TR>
+<TD></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?להוסיף מדפסת:להחיל שינויים במדפסת}"></TD>
+</TR>
+</TABLE>
+
+</FORM>

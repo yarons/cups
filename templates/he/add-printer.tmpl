@@ -1,0 +1,44 @@
+<H2 CLASS="title">הוספת מדפסת</H2>
+
+<FORM METHOD="POST" ACTION="/admin">
+<INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
+<INPUT TYPE="HIDDEN" NAME="OP" VALUE="{op}">
+<INPUT TYPE="HIDDEN" NAME="BAUDRATE" VALUE="{?baudrate}">
+<INPUT TYPE="HIDDEN" NAME="BITS" VALUE="{?bits}">
+<INPUT TYPE="HIDDEN" NAME="PARITY" VALUE="{?parity}">
+<INPUT TYPE="HIDDEN" NAME="FLOW" VALUE="{?flow}">
+{?current_make!?<INPUT TYPE="HIDDEN" NAME="CURRENT_MAKE" VALUE="{current_make}">:}
+{?current_make_and_model!?<INPUT TYPE="HIDDEN" NAME="CURRENT_MAKE_AND_MODEL" VALUE="{current_make_and_model}">:}
+
+<TABLE>
+<TR>
+<TH CLASS="label">שם:</TH>
+<TD><input type="TEXT" name="PRINTER_NAME" size="40" maxlength="127" value="{?template_name}"><br>
+<SMALL>(יכול להכיל את כל התווים שניתן להקליד למעט „/”, „#” ורווח)</SMALL></TD>
+</TR>
+<TR>
+<TH CLASS="label">תיאור:</TH>
+<TD><input type="TEXT" name="PRINTER_INFO" size="40" maxlength="127" value="{?PRINTER_INFO}"><br>
+<SMALL>(תיאור שמובן לבני אדם „HP LaserJet עם הפיכת דפים”)</SMALL></TD>
+</TR>
+<TR>
+<TH CLASS="label">מיקום:</TH>
+<TD><input type="TEXT" name="PRINTER_LOCATION" size="40" maxlength="127" value="{?PRINTER_LOCATION}"><br>
+<SMALL>(מיקום שמובן לבני אדם כגון „מעבדה 1”)</SMALL></TD>
+</TR>
+<TR>
+<TH CLASS="label">חיבור:</TH>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
+</TR>
+<TR>
+<TH CLASS="label">שיתוף:</TH>
+<TD><input type="CHECKBOX" name="PRINTER_IS_SHARED" id="PRINTER_IS_SHARED" {printer_is_shared=1?checked:}>
+<LABEL FOR="PRINTER_IS_SHARED">שיתוף המדפסת הזאת</LABEL></TD>
+</TR>
+<TR>
+<TD></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="להמשיך"></TD>
+</TR>
+</TABLE>
+
+</FORM>

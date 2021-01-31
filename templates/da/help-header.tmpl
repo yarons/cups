@@ -5,8 +5,8 @@
 {HELPTITLE?{HELPTITLE}:{TOPIC?{TOPIC}:Alle dokumenter}}:</B> <INPUT
 TYPE="SEARCH" NAME="QUERY" VALUE="{?QUERY}" SIZE="40" PLACEHOLDER=""
 AUTOSAVE="org.cups.help" RESULTS="20">
-<INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="Søg">
-<INPUT TYPE="SUBMIT" NAME="CLEAR" VALUE="Ryd"></P>
+<INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="Search">
+<INPUT TYPE="SUBMIT" NAME="CLEAR" VALUE="Clear"></P>
 
 </FORM>
 
@@ -24,17 +24,17 @@ AUTOSAVE="org.cups.help" RESULTS="20">
 </TD></TR>
 </TABLE></DIV>
 
-{QUERY?<P>Søg efter resultater i {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:Alle dokumenter}}\:</P>
+{QUERY?<P>Search Results in {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:All Documents}}\:</P>
 {QTEXT?<UL>
-{[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (i <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
+{[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (in <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
 {QTEXT?</UL>:}
 :<P>Ingen match fundet.</P>}
 <HR NOSHADE>:}
-{HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="Vis udskrivningsvenlig version"></FORM>:
+{HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="View Printable Version"></FORM>:
 
 <H1>Onlinehjælp</H1>
 
-<P>Dette er grænsefladen til CUPS-onlinehjælp. Indtast søgeord ovenfor eller klik på dokumentationenslinkene for at vise information om onlinehjælp.</P>
+<P>This is the CUPS online help interface. Enter search words above or click on any of the documentation links to display online help information.</P>
 
 <P>Hvis CUPS er nyt for dig, så læs "<a href="/help/overview.html">Oversigt over CUPS</a>"-siden.</P>
 

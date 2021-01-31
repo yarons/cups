@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Modificar {printer_name}:Adicionar impressora}</H2>
+<H2 CLASS="title">{op=modify-printer? Modificar {printer_name}:Adicionar impressora}</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -8,7 +8,7 @@
 <TABLE>
 <TR>
 <TH CLASS="label">Conex&atilde;o:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Taxa de dados (Baud Rate):</TH>
@@ -42,7 +42,7 @@
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Continuar"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 

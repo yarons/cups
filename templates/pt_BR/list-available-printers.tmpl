@@ -2,6 +2,6 @@
 
 {#device_uri=0?<P>Nenhuma impressora encontrada.</P>
 :<UL>{[device_uri]
-<LI><FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="add-printer"><INPUT TYPE="HIDDEN" NAME="TEMPLATE_NAME" VALUE="{template_name}"><INPUT TYPE="HIDDEN" NAME="PRINTER_LOCATION" VALUE="Local Printer"><INPUT TYPE="HIDDEN" NAME="PRINTER_INFO" VALUE="{device_make_and_model}"><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}"><INPUT TYPE="SUBMIT" VALUE="Adicionar esta impressora"></FORM>
+<LI><form action="/admin/" method="POST"><input type="HIDDEN" name="org.cups.sid" value="{$org.cups.sid}"><input type="HIDDEN" name="OP" value="add-printer"><input type="HIDDEN" name="TEMPLATE_NAME" value="{template_name}"><input type="HIDDEN" name="PRINTER_LOCATION" value="Local Printer"><input type="HIDDEN" name="PRINTER_INFO" value="{device_make_and_model}"><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}"><input type="SUBMIT" value="Add This Printer"></form>
 {device_make_and_model} ({device_info})</LI>
 }</UL>}

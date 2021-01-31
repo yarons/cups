@@ -1,0 +1,11 @@
+{#printer_name=0?:
+<TABLE CLASS="list" SUMMARY="Printer List">
+<THEAD>
+<TR><TH>שם התור</TH><TH>תיאור</TH><TH>מיקום</TH><TH>יצרן ודגם</TH><TH>מצב</TH></TR>
+</THEAD>
+<TBODY>
+{[printer_name]
+<TR><TD><A HREF="{printer_uri_supported}">{printer_name}</A></TD><TD>{printer_info}</TD><TD>{printer_location}</TD><TD>{printer_make_and_model}</TD><TD>{printer_state=3?בהמתנה:{printer_state=4?בעיבוד:מושהית}}{printer_state_message? - „{printer_state_message}”:}</TD></TR>
+}
+</TBODY>
+</TABLE></DIV>}

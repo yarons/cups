@@ -13,7 +13,7 @@
 <OPTION VALUE="move-jobs">Mover todos trabalhos</OPTION>
 <OPTION VALUE="purge-jobs">Cancelar todos trabalhos</OPTION>
 </SELECT>
-<INPUT TYPE="SUBMIT" VALUE="Ir" STYLE="display: none;">
+<INPUT TYPE="SUBMIT" VALUE="Go" STYLE="display: none;">
 </FORM>
 
 <FORM METHOD="POST" ACTION="{admin_uri}" NAME="administration">
@@ -28,14 +28,14 @@
 <OPTION VALUE="set-as-default">Definir como servidor padr&atilde;o</OPTION>
 <OPTION VALUE="set-allowed-users">Definir usu&aacute;rios permitidos</OPTION>
 </SELECT>
-<INPUT TYPE="SUBMIT" VALUE="Ir" STYLE="display: none;">
+<INPUT TYPE="SUBMIT" VALUE="Go" STYLE="display: none;">
 </FORM>
 
 <TABLE SUMMARY="{printer_name}">
 <TR><TH ALIGN="RIGHT" VALIGN="TOP">Descri&ccedil;&atilde;o:</TH><TD>{printer_info}</TD></TR>
 <TR><TH ALIGN="RIGHT" VALIGN="TOP">Localiza&ccedil;&atilde;o:</TH><TD>{printer_location}</TD></TR>
-<TR><TH ALIGN="RIGHT" VALIGN="TOP">Membros:</TH><TD>{?member_uris=?None:{member_uris}}</TD></TR>
+<TR><TH ALIGN="RIGHT" VALIGN="TOP">Membros:</TH><TD>{?member_uris=? None:{member_uris}}</TD></TR>
 <TR><TH ALIGN="RIGHT" VALIGN="TOP">Padr&otilde;es:</TH><TD>job-sheets={job_sheets_default}
-media={media_default?{media_default}:desconhecido}
+media={media_default?{media_default}:unknown}
 {sides_default?sides={sides_default}:}</TD></TR>
 </TABLE>

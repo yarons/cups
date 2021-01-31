@@ -1,0 +1,41 @@
+<FORM ACTION="/help/{?HELPFILE}" METHOD="GET">
+{TOPIC?<INPUT TYPE="HIDDEN" NAME="TOPIC" VALUE="{TOPIC}">:}
+
+<P ALIGN="CENTER"><B>חיפוש בתוך
+{HELPTITLE?{HELPTITLE}:{TOPIC?{TOPIC}:כל המסמכים}}:</B> <INPUT
+TYPE="SEARCH" NAME="QUERY" VALUE="{?QUERY}" SIZE="40" PLACEHOLDER=""
+AUTOSAVE="org.cups.help" RESULTS="20">
+<INPUT TYPE="SUBMIT" NAME="SEARCH" VALUE="חיפוש">
+<INPUT TYPE="SUBMIT" NAME="CLEAR" VALUE="מחיקה"></P>
+
+</FORM>
+
+<!-- Bookmarks -->
+<DIV CLASS="sidebar"><TABLE CLASS="inset" SUMMARY="תכנים">
+<TR><TD>
+
+<H3 CLASS="title">מסמכי עזרה מקוונים</H3>
+
+<P CLASS="l0"><A HREF="/help/{QUERY??QUERY={QUERY}:}">כל המסמכים</A></P>
+<HR>
+
+{[BMTEXT]<P CLASS="l{BMINDENT}"><A HREF="{BMLINK}">{BMTEXT}</A></P>
+}
+</TD></TR>
+</TABLE></DIV>
+
+{QUERY?<P>תוצאות חיפוש בתוך {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:כל המסמכים}}\:</P>
+{QTEXT?<UL>
+{[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (in <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
+{QTEXT?</UL>:}
+:<P>אין תוצאות מתאימות.</P>}
+<HR NOSHADE>:}
+{HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="הצגת גרסה מותאמת להדפסה"></FORM>:
+
+<H1>עזרה מקוונת</H1>
+
+<P>זה מנשק העזרה המקוון של CUPS. נא למלא מילות מפתח להלן או ללחוץ על כל אחד מקישורי התיעוד כדי להציג מידע עזרה מקוון.</P>
+
+<P>אם טרם העמקת ב־CUPS, כדאי לקרוא את העמוד „<a href="/help/overview.html">סקירה של CUPS</a>”.</P>
+
+<P><A HREF="http://www.cups.org/">עמוד הבית של CUPS</A> גם כן מספק מגוון משאבים לרבות פורומים עם דיוני משתמש, תשובות לשאלות נפוצות וטופס להגשת דיווחי תקלות ובקשות ליכולות חדשות.</P>}

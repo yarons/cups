@@ -12,27 +12,27 @@
 <TABLE>
 <TR>
 <TH CLASS="label">Descripci&oacute;n:</TH>
-<TD><INPUT TYPE="TEXT" NAME="PRINTER_INFO" VALUE="{?printer_info}" SIZE="40" MAXLENGTH="127"><BR>
+<TD><input type="TEXT" name="PRINTER_INFO" value="{?printer_info}" size="40" maxlength="127"><br>
 <SMALL>(Descripci&oacute;n f&aacute;cilmente le&iacute;ble tal como "HP LaserJet de doble cara")</SMALL></TD>
 </TR>
 <TR>
 <TH CLASS="label">Ubicaci&oacute;n:</TH>
-<TD><INPUT TYPE="TEXT" NAME="PRINTER_LOCATION" VALUE="{?printer_location}" SIZE="40" MAXLENGTH="127"><BR>
+<TD><input type="TEXT" name="PRINTER_LOCATION" value="{?printer_location}" size="40" maxlength="127"><br>
 <SMALL>(Ubicaci&oacute;n f&aacute;cilmente le&iacute;ble tal como "Lab 1")</SMALL></TD>
 </TR>
 <TR>
 <TH CLASS="label">Conexi&oacute;n:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Compartida:</TH>
-<TD><INPUT TYPE="CHECKBOX" NAME="PRINTER_IS_SHARED" ID="PRINTER_IS_SHARED" {PRINTER_IS_SHARED=1?CHECKED:}>
+<TD><input type="CHECKBOX" name="PRINTER_IS_SHARED" id="PRINTER_IS_SHARED" {printer_is_shared=1?checked:}>
 <LABEL FOR="PRINTER_IS_SHARED">Compartir esta impresora</LABEL></TD>
 </TR>
 <TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Siguiente"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 

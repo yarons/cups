@@ -16,19 +16,19 @@
 </TR>}
 <TR>
 <TH CLASS="label">Описание:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_INFO" VALUE="{printer_info}">{printer_info}</TD>
+<TD><input type="HIDDEN" name="PRINTER_INFO" value="{printer_info}">{printer_info}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Расположение:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_LOCATION" VALUE="{printer_location}">{printer_location}</TD>
+<TD><input type="HIDDEN" name="PRINTER_LOCATION" value="{printer_location}">{printer_location}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Подключение:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="DEVICE_URI" VALUE="{device_uri}">{device_uri}</TD>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
 <TH CLASS="label">Совместный доступ:</TH>
-<TD><INPUT TYPE="HIDDEN" NAME="PRINTER_IS_SHARED" VALUE="{?printer_is_shared}">
+<TD><input type="HIDDEN" name="PRINTER_IS_SHARED" value="{?printer_is_shared}">
 {?printer_is_shared=?Нет совместного доступа:{?printer_is_shared=0?Нет совместного доступа:Разрешить совместный доступ}} к этому принтеру</TD>
 </TR>
 <TR>
@@ -41,7 +41,7 @@
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Продолжить"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 <TR>
 <TD></TD>
@@ -54,7 +54,7 @@ TYPE="FILE" NAME="PPD_FILE"></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?Добавить принтер:Сохранить}"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?Add Printer:Modify Printer}"></TD>
 </TR>
 </TABLE>
 

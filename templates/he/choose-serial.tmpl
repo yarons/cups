@@ -1,0 +1,49 @@
+<H2 CLASS="title">{op=modify-printer?עריכת שינויים ב־{printer_name}:הוספת מדפסת}</H2>
+
+<FORM METHOD="POST" ACTION="/admin">
+<INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
+<INPUT TYPE="HIDDEN" NAME="OP" VALUE="{op}">
+{printer_name?<INPUT TYPE="HIDDEN" NAME="printer_name" VALUE="{printer_name}">:}
+
+<TABLE>
+<TR>
+<TH CLASS="label">חיבור:</TH>
+<TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
+</TR>
+<TR>
+<TH CLASS="label">קצב באוד:</TH>
+<TD><SELECT NAME="BAUDRATE">
+{[baudrates]<OPTION {?baudrate={baudrates}?SELECTED:}>{baudrates}}
+</SELECT></TD>
+</TR>
+<TR>
+<TH CLASS="label">זוגיות:</TH>
+<TD><SELECT NAME="PARITY">
+<OPTION VALUE="none" {?parity=none?SELECTED:}>בלי
+<OPTION VALUE="even" {?parity=even?SELECTED:}>זוגי
+<OPTION VALUE="odd" {?parity=odd?SELECTED:}>אי־זוגי
+</SELECT></TD>
+</TR>
+<TR>
+<TH CLASS="label">סיביות נתונים:</TH>
+<TD><SELECT NAME="BITS">
+<OPTION {?bits=8?SELECTED:}>8
+<OPTION {?bits=7?SELECTED:}>7
+</SELECT></TD>
+</TR>
+<TR>
+<TH CLASS="label">בקרת זרימה:</TH>
+<TD><SELECT NAME="FLOW">
+<OPTION VALUE="none" {?flow=none?SELECTED:}>בלי
+<OPTION VALUE="soft" {?flow=soft?SELECTED:}>XON/XOFF (תכנה)
+<OPTION VALUE="hard" {?flow=hard?SELECTED:}>RTS/CTS (חומרה)
+<OPTION VALUE="dtrdsr" {?flow=dtrdsr?SELECTED:}>DTR/DSR (חומרה)
+</SELECT></TD>
+</TR>
+<TR>
+<TD></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="להמשיך"></TD>
+</TR>
+</TABLE>
+
+</FORM>
