@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: cups\n"
 "Report-Msgid-Bugs-To: https://github.com/apple/cups/issues\n"
 "POT-Creation-Date: 2019-12-18 20:19-0500\n"
-"PO-Revision-Date: 2021-01-18 23:44\n"
+"PO-Revision-Date: 2021-02-04 13:50\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he\n"
@@ -18,18 +18,18 @@ msgstr ""
 "X-Crowdin-File-ID: 162\n"
 
 msgid "\t\t(all)"
-msgstr ""
+msgstr "\t\t(הכול)"
 
 msgid "\t\t(none)"
-msgstr ""
+msgstr "\t\t(אין)"
 
 #, c-format
 msgid "\t%d entries"
-msgstr ""
+msgstr "\t%d רשומות"
 
 #, c-format
 msgid "\t%s"
-msgstr ""
+msgstr "\t%s"
 
 msgid "\tAfter fault: continue"
 msgstr ""
