@@ -1,7 +1,7 @@
 <H2 CLASS="title">{title} על גבי {printer_name}</H2>
 
 <P>{job_state>5?:<IMG SRC="/images/wait.gif" WIDTH="16" HEIGHT="16"
-ALIGN="ABSMIDDLE" ALT="מחוון מערכת עסוקה"> }משימת פקודת מדפסת
+ALIGN="ABSMIDDLE" ALT="Busy Indicator"> }משימת פקודת מדפסת
 {job_state=3?ממתינה:{job_state=4?מוחזקת:
 {job_state=5?בעיבוד:{job_state=6?נעצרה:
 {job_state=7?בוטלה:{job_state=8?הופסקה:הושלמה}}}}}}{job_state=9?:{job_printer_state_message?,
