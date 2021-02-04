@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?עריכת שינויים ב־{printer_name}:הוספת מדפסת}</H2>
+<H2 CLASS="title">{op=modify-printer?שינוי {printer_name}:הוספת מדפסת}</H2>
 
 <FORM METHOD="POST" ACTION="/admin" ENCTYPE="multipart/form-data">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -32,7 +32,7 @@
 </TR>
 <TR>
 <TH CLASS="label">יצרן:</TH>
-<TD>{PPD_MAKE} <INPUT TYPE="SUBMIT" NAME="SELECT_MAKE" VALUE="לבחור יצרן אחר"></TD>
+<TD>{PPD_MAKE} <INPUT TYPE="SUBMIT" NAME="SELECT_MAKE" VALUE="Select Another Make/Manufacturer"></TD>
 </TR>
 <TR>
 <TH CLASS="label">דגם:</TH>
@@ -51,7 +51,7 @@ TYPE="FILE" NAME="PPD_FILE"></TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?להוסיף מדפסת:להחיל שינויים במדפסת}"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="{op=add-printer?Add Printer:Modify Printer}"></TD>
 </TR>
 </TABLE>
 
