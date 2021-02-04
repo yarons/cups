@@ -23,7 +23,7 @@ VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
 <TR>
 <TH CLASS="label">מדפסות רשת שהתגלו\:</TH>
 <TD>
-{[device_uri]{device_class=network?{device_uri~[a-z]+://?<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!לא ידוע?|{device_make_and_model}:}"
+{[device_uri]{device_class=network?{device_uri~[a-z]+://?<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}"
 VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
 <LABEL FOR="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">{device_info} {?device_make_and_model!לא ידוע?({device_make_and_model}):}</LABEL><BR>
 :}:}}
@@ -33,15 +33,15 @@ VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
 <TR>
 <TH CLASS="label">מדפסות רשת אחרות\:</TH>
 <TD>
-{[device_uri]{device_class=network?{device_uri~[a-z]+://?:<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!לא ידוע?|{device_make_and_model}:}"
-VALUE="{device_uri}{?device_make_and_model!לא ידוע?|{device_make_and_model}:}">
-<LABEL FOR="{device_uri}{?device_make_and_model!לא ידוע?|{device_make_and_model}:}">{device_info} {?device_make_and_model!לא ידוע?({device_make_and_model}):}</LABEL><BR>
+{[device_uri]{device_class=network?{device_uri~[a-z]+://?:<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}"
+VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
+<LABEL FOR="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">{device_info} {?device_make_and_model!לא ידוע?({device_make_and_model}):}</LABEL><BR>
 }:}}
 </TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="להמשיך"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
 </TR>
 </TABLE>
 
