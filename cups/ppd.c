@@ -1496,7 +1496,7 @@ _ppdOpen(
 	goto error;
       }
 
-      if (!_cups_strcasecmp(option->defchoice, "custom") || !_cups_strncasecmp(option->defchoice, "custom.", 7))
+      if (option && (!_cups_strcasecmp(option->defchoice, "custom") || !_cups_strncasecmp(option->defchoice, "custom.", 7)))
       {
        /*
 	* "*DefaultOption: Custom..." may set the default to a custom value
@@ -1531,7 +1531,7 @@ _ppdOpen(
 	goto error;
       }
 
-      if (!_cups_strcasecmp(option->defchoice, "custom") || !_cups_strncasecmp(option->defchoice, "custom.", 7))
+      if (option && (!_cups_strcasecmp(option->defchoice, "custom") || !_cups_strncasecmp(option->defchoice, "custom.", 7)))
       {
        /*
 	* "*DefaultOption: Custom..." may set the default to a custom value
@@ -2391,8 +2391,16 @@ ppd_add_attr(ppd_file_t *ppd,		/* I - PPD file data */
   * Copy data over...
   */
 
+  if (!_cups_strcasecmp(spec, "custom") || !_cups_strncasecmp(spec, "custom.", 7))
+  {
+    temp->spec[0] = '_';
+    strlcpy(temp->spec + 1, spec, sizeof(temp->spec) - 1);
+  }
+  else {
+      strlcpy(temp->spec, spec, sizeof(temp->spec));
+  }
+
   strlcpy(temp->name, name, sizeof(temp->name));
-  strlcpy(temp->spec, spec, sizeof(temp->spec));
   strlcpy(temp->text, text, sizeof(temp->text));
   temp->value = (char *)value;
 
