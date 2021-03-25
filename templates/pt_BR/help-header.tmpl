@@ -26,11 +26,11 @@ AUTOSAVE="org.cups.help" RESULTS="20">
 
 {QUERY?<P>Pesquisar resultados em {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:Todos os documentos}}\:</P>
 {QTEXT?<UL>
-{[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (in <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
+{[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (em <I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
 {QTEXT?</UL>:}
 :<P>Nenhum resultado encontrado.</P>}
 <HR NOSHADE>:}
-{HELPTITLE?<FORM ACTION="/help/{?HELPFILE}" METHOD="GET"><INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="View Printable Version"></FORM>:
+{HELPTITLE?<H1>{HELPTITLE}<INPUT TYPE="HIDDEN" NAME="PRINTABLE" VALUE="YES"><INPUT TYPE="SUBMIT" VALUE="View Printable Version"></FORM>:
 
 <H1>Ajuda online</H1>
 
