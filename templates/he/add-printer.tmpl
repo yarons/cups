@@ -1,4 +1,4 @@
-<H2 CLASS="title">הוספת מדפסת</H2>
+<H2 CLASS="title">Add Printer</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -12,28 +12,28 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">שם:</TH>
+<TH CLASS="label">Name:</TH>
 <TD><input type="TEXT" name="PRINTER_NAME" size="40" maxlength="127" value="{?template_name}"><br>
-<SMALL>(יכול להכיל את כל התווים שניתן להקליד למעט „/”, „#” ורווח)</SMALL></TD>
+<SMALL>(May contain any printable characters except "/", "#", and space)</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">תיאור:</TH>
+<TH CLASS="label">Description:</TH>
 <TD><input type="TEXT" name="PRINTER_INFO" size="40" maxlength="127" value="{?PRINTER_INFO}"><br>
-<SMALL>(תיאור שמובן לבני אדם „HP LaserJet עם הפיכת דפים”)</SMALL></TD>
+<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">מיקום:</TH>
+<TH CLASS="label">Location:</TH>
 <TD><input type="TEXT" name="PRINTER_LOCATION" size="40" maxlength="127" value="{?PRINTER_LOCATION}"><br>
-<SMALL>(מיקום שמובן לבני אדם כגון „מעבדה 1”)</SMALL></TD>
+<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">חיבור:</TH>
+<TH CLASS="label">Connection:</TH>
 <TD><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}">{device_uri}</TD>
 </TR>
 <TR>
-<TH CLASS="label">שיתוף:</TH>
+<TH CLASS="label">Sharing:</TH>
 <TD><input type="CHECKBOX" name="PRINTER_IS_SHARED" id="PRINTER_IS_SHARED" {printer_is_shared=1?checked:}>
-<LABEL FOR="PRINTER_IS_SHARED">שיתוף המדפסת הזאת</LABEL></TD>
+<LABEL FOR="PRINTER_IS_SHARED">Share This Printer</LABEL></TD>
 </TR>
 <TR>
 <TD></TD>
