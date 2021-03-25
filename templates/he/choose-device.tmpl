@@ -1,4 +1,4 @@
-<H2 CLASS="title">{op=modify-printer?Modify {printer_name}:Add Printer}</H2>
+<H2 CLASS="title">{op=modify-printer?שינוי {printer_name}:הוספת מדפסת}</H2>
 
 {CUPS_GET_DEVICES_DONE?<FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -7,43 +7,43 @@
 
 <TABLE>
 {op=add-printer?:<TR>
-<TH CLASS="label">Current Connection\:</TH>
+<TH CLASS="label">חיבור נוכחי\:</TH>
 <TD><INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{current_device_uri}" VALUE="{current_device_uri}" CHECKED>
 <LABEL FOR="{current_device_uri}">{current_device_uri}</LABEL></TD>
 </TR>}
 <TR>
-<TH CLASS="label">Local Printers\:</TH>
+<TH CLASS="label">מדפסות מקומיות\:</TH>
 <TD>
 {[device_uri]{device_class!network?<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}"
 VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
-<LABEL FOR="{device_uri}">{device_info} {?device_make_and_model!Unknown?({device_make_and_model}):}</LABEL><BR>
+<LABEL FOR="{device_uri}">{device_info} {?device_make_and_model!לא ידוע?({device_make_and_model}):}</LABEL><BR>
 :}}
 </TD>
 </TR>
 <TR>
-<TH CLASS="label">Discovered Network Printers\:</TH>
+<TH CLASS="label">מדפסות רשת שהתגלו\:</TH>
 <TD>
 {[device_uri]{device_class=network?{device_uri~[a-z]+://?<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}"
 VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
-<LABEL FOR="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">{device_info} {?device_make_and_model!Unknown?({device_make_and_model}):}</LABEL><BR>
+<LABEL FOR="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">{device_info} {?device_make_and_model!לא ידוע?({device_make_and_model}):}</LABEL><BR>
 :}:}}
 </TD>
 </TR>
 <TR>
 <TR>
-<TH CLASS="label">Other Network Printers\:</TH>
+<TH CLASS="label">מדפסות רשת אחרות\:</TH>
 <TD>
 {[device_uri]{device_class=network?{device_uri~[a-z]+://?:<INPUT TYPE="RADIO" NAME="DEVICE_URI" ID="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}"
 VALUE="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">
-<LABEL FOR="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">{device_info} {?device_make_and_model!Unknown?({device_make_and_model}):}</LABEL><BR>
+<LABEL FOR="{device_uri}{?device_make_and_model!Unknown?|{device_make_and_model}:}">{device_info} {?device_make_and_model!לא ידוע?({device_make_and_model}):}</LABEL><BR>
 }:}}
 </TD>
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Continue"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="להמשיך"></TD>
 </TR>
 </TABLE>
 
 </FORM>:<P><img src="/images/wait.gif" width="16" height="16" align="ABSMIDDLE"
-alt="Busy Indicator"> Looking for printers...</P>}
+alt="Busy Indicator"> מתבצע איתור מדפסות…</P>}
