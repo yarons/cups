@@ -4,6 +4,7 @@ OpenPrinting CUPS v2.4.0
 ![Version](https://img.shields.io/github/v/release/openprinting/cups?include_prereleases)
 ![Apache 2.0](https://img.shields.io/github/license/openprinting/cups)
 ![Build and Test](https://github.com/OpenPrinting/cups/workflows/Build%20and%20Test/badge.svg)
+[![Crowdin](https://badges.crowdin.net/cups/localized.svg)](https://crowdin.com/project/cups)
 
 
 Introduction
