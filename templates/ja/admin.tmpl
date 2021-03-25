@@ -3,29 +3,29 @@
     <H2 CLASS="title">プリンター</H2>
 
     <P>
-    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="add-printer"><INPUT TYPE="SUBMIT" VALUE="Add Printer"></FORM>
-    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="find-new-printers"><INPUT TYPE="SUBMIT" VALUE="Find New Printers"></FORM>
-    <FORM ACTION="/printers/" METHOD="GET"><INPUT TYPE="SUBMIT" VALUE="Manage Printers"></FORM>
+    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="add-printer"><INPUT TYPE="SUBMIT" VALUE="プリンターの追加"></FORM>
+    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="find-new-printers"><INPUT TYPE="SUBMIT" VALUE="新しいプリンターの検索"></FORM>
+    <FORM ACTION="/printers/" METHOD="GET"><INPUT TYPE="SUBMIT" VALUE="プリンターの管理"></FORM>
     </P>
 
     <H2 CLASS="title">クラス</H2>
 
     <P>
-    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="add-class"><INPUT TYPE="SUBMIT" VALUE="Add Class"></FORM>
-    <FORM ACTION="/classes/" METHOD="GET"><INPUT TYPE="SUBMIT" VALUE="Manage Classes"></FORM>
+    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="add-class"><INPUT TYPE="SUBMIT" VALUE="クラスの追加"></FORM>
+    <FORM ACTION="/classes/" METHOD="GET"><INPUT TYPE="SUBMIT" VALUE="クラスの管理"></FORM>
     </P>
 
     <H2 CLASS="title">ジョブ</H2>
 
     <P>
-    <FORM ACTION="/jobs/" METHOD="GET"><INPUT TYPE="SUBMIT" VALUE="Manage Jobs"></FORM>
+    <FORM ACTION="/jobs/" METHOD="GET"><INPUT TYPE="SUBMIT" VALUE="ジョブの管理"></FORM>
     </P>
   </div>
   <div class="halves">
     <H2 CLASS="title">サーバー</H2>
 
     <P>
-    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="config-server"><INPUT TYPE="SUBMIT" VALUE="Edit Configuration File"></FORM>
+    <FORM ACTION="/admin/" METHOD="POST"><INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}"><INPUT TYPE="HIDDEN" NAME="OP" VALUE="config-server"><INPUT TYPE="SUBMIT" VALUE="設定ファイルの編集"></FORM>
     </P>
 
     {SETTINGS_ERROR?<P>{SETTINGS_MESSAGE}</P>
@@ -70,7 +70,7 @@
     <INPUT TYPE="CHECKBOX" NAME="DEBUG_LOGGING" ID="DEBUG_LOGGING" {?debug_logging}><LABEL FOR="DEBUG_LOGGING"> トラブルシューティングのためにデバッグ情報を保存</LABEL></P>
 
     }
-    <P><INPUT TYPE="SUBMIT" NAME="CHANGESETTINGS" VALUE="Change Settings"></P>
+    <P><INPUT TYPE="SUBMIT" NAME="CHANGESETTINGS" VALUE="設定の変更"></P>
 
     </FORM>}
   </div>
