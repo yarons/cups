@@ -7,12 +7,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9">
     <meta name="viewport" content="width=device-width">
-    <title>דף הבית - CUPS @CUPS_VERSION@@CUPS_REVISION@</title>
+    <title>דף הבית - CUPS @CUPS_VERSION@</title>
   </head>
   <body>
     <div class="header">
       <ul>
-	<li><a href="http://www.cups.org/" target="_blank">CUPS.org</a></li>
+	<li><a href="https://openprinting.github.io/cups/" target="_blank">CUPS מבית OpenPrinting</a></li>
 	<li><a class="active" href="/">דף הבית</a></li>
 	<li><a href="/admin">ניהול</a></li>
 	<li><a href="/classes/">מחלקות</a></li>
@@ -23,15 +23,14 @@
     </div>
     <div class="body">
       <div class="row">
-	<h1>CUPS @CUPS_VERSION@</h1>
-	<p>CUPS היא מערכת הדפסה בקוד פתוח מבוססת תקנים שמפותחת על ידי <a href="http://www.apple.com/">Apple Inc.‎</a> עבור macOS<sup>&reg;</sup>‎ ומערכות דמויות UNIX<sup>&reg;</sup>‎ נוספות.</p>
+	<h1>CUPS @CUPS_VERSION@ מבית OpenPrinting</h1>
+	<p>The standards-based, open source printing system developed by <a class="jumbolink" href="https://openprinting.github.io/" target="_blank">OpenPrinting</a> for Linux® and other Unix®-like operating systems. CUPS uses <a href="https://www.pwg.org/ipp/everywhere.html" target="_blank">IPP Everywhere™</a> to support printing to local and network printers.</p>
       </div>
       <div class="row">
 	<div class="thirds">
 	  <h2>CUPS למשתמשים</h2>
 	  <p><a href="help/overview.html">סקירה של CUPS</a></p>
 	  <p><a href="help/options.html">הדפסה ואפשרויות דרך שורת הפקודה</a></p>
-	  <p><a href="http://www.cups.org/lists.php?LIST=cups">פורום המשתמשים</a></p>
 	</div>
 	<div class="thirds">
 	  <h2>CUPS למנהלים</h2>
@@ -45,10 +44,9 @@
 	  <h2>CUPS למפתחים</h2>
 	  <p><a href="help/cupspm.html">המדריך לפיתוח מול CUPS</a></p>
 	  <p><a href="help/api-filter.html">פיתוח מסננים ומנגנונים</a></p>
-	  <p><a href="http://www.cups.org/lists.php?LIST=cups-devel">פורום המפתחים</a></p>
 	</div>
       </div>
     </div>
-    <div class="footer">CUPS והלוגו של CUPS הם סימני מסחר של <a href="http://www.apple.com">Apple Inc.‎</a> כל הזכויות שמורות &copy; 2007‏-2019 ל־Apple Inc.</div>
+    <div class="footer">כל הזכויות שמורות &copy; 2021 ל־OpenPrinting. כל הזכויות שמורות.</div>
   </body>
 </html>
