@@ -1,6 +1,6 @@
-<H2 CLASS="title">מדפסות זמינות</H2>
+<H2 CLASS="title">Available Printers</H2>
 
-{#device_uri=0?<P>לא נמצאו מדפסות.</P>
+{#device_uri=0?<P>No printers found.</P>
 :<UL>{[device_uri]
 <LI><form action="/admin/" method="POST"><input type="HIDDEN" name="org.cups.sid" value="{$org.cups.sid}"><input type="HIDDEN" name="OP" value="add-printer"><input type="HIDDEN" name="TEMPLATE_NAME" value="{template_name}"><input type="HIDDEN" name="PRINTER_LOCATION" value="Local Printer"><input type="HIDDEN" name="PRINTER_INFO" value="{device_make_and_model}"><input type="HIDDEN" name="DEVICE_URI" value="{device_uri}"><input type="SUBMIT" value="Add This Printer"></form>
 {device_make_and_model} ({device_info})</LI>
