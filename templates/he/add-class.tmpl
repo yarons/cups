@@ -1,4 +1,4 @@
-<H2 CLASS="title">Add Class</H2>
+<H2 CLASS="title">הוספת מחלקה</H2>
 
 <FORM METHOD="POST" ACTION="/admin">
 <INPUT TYPE="HIDDEN" NAME="org.cups.sid" VALUE="{$org.cups.sid}">
@@ -6,22 +6,22 @@
 
 <TABLE>
 <TR>
-<TH CLASS="label">Name:</TH>
+<TH CLASS="label">שם:</TH>
 <TD><input type="TEXT" name="PRINTER_NAME" size="40" maxlength="127"><br>
-<SMALL>(May contain any printable characters except "/", "#", and space)</SMALL></TD>
+<SMALL>(יכול להכיל את כל התווים שניתן להקליד למעט „/”, „#” ורווח)</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Description:</TH>
+<TH CLASS="label">תיאור:</TH>
 <TD><input type="TEXT" name="PRINTER_INFO" size="40" maxlength="127"><br>
-<SMALL>(Human-readable description such as "HP LaserJet with Duplexer")</SMALL></TD>
+<SMALL>(תיאור שמובן לבני אדם „HP LaserJet עם הפיכת דפים”)</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Location:</TH>
+<TH CLASS="label">מיקום:</TH>
 <TD><input type="TEXT" name="PRINTER_LOCATION" size="40" maxlength="127"><br>
-<SMALL>(Human-readable location such as "Lab 1")</SMALL></TD>
+<SMALL>(מיקום שמובן לבני אדם כגון „מעבדה 1”)</SMALL></TD>
 </TR>
 <TR>
-<TH CLASS="label">Members:</TH>
+<TH CLASS="label">חברים:</TH>
 <TD>
 <SELECT NAME="MEMBER_URIS" SIZE="10" MULTIPLE>
 {[member_uris]<OPTION VALUE="{member_uris}" {?member_selected}>{member_names}}
@@ -30,7 +30,7 @@
 </TR>
 <TR>
 <TD></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Add Class"></TD>
+<TD><INPUT TYPE="SUBMIT" VALUE="הוספת מחלקה"></TD>
 </TR>
 </TABLE>
 
