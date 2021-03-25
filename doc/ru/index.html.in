@@ -43,7 +43,7 @@
 	<div class="thirds">
 	  <h2>CUPS для разработчиков</h2>
 	  <p><a href="help/cupspm.html">CUPS Programming Manual</a></p>
-	  <p><a href="help/api-filter.html">Форум разработчиков</a></p>
+	  <p><a href="help/api-filter.html">Filter and Backend Programming</a></p>
 	</div>
       </div>
     </div>
