@@ -6,6 +6,8 @@
 /config.h
 /config.log
 /config.status
+/configure~
+/cups.pc
 /cups-config
 /Makedefs
 /backend/dnssd
