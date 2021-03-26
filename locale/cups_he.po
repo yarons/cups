@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: cups\n"
 "Report-Msgid-Bugs-To: https://github.com/openprinting/cups/issues\n"
 "POT-Creation-Date: 2021-03-07 10:33-0500\n"
-"PO-Revision-Date: 2021-03-25 06:33\n"
+"PO-Revision-Date: 2021-03-26 15:54\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he\n"
@@ -18,25 +18,25 @@ msgstr ""
 "X-Crowdin-File-ID: 428\n"
 
 msgid "\t\t(all)"
-msgstr ""
+msgstr "\t\t(הכול)"
 
 msgid "\t\t(none)"
-msgstr ""
+msgstr "\t\t(אין)"
 
 #, c-format
 msgid "\t%d entries"
-msgstr ""
+msgstr "\t%d רשומות"
 
 #, c-format
 msgid "\t%s"
-msgstr ""
+msgstr "\t%s"
 
 msgid "\tAfter fault: continue"
-msgstr ""
+msgstr "לאחר כשל: להמשיך"
 
 #, c-format
 msgid "\tAlerts: %s"
-msgstr ""
+msgstr "\tהתראות: %s"
 
 msgid "\tBanner required"
 msgstr ""
