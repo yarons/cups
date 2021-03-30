@@ -20,6 +20,7 @@
   -webkit-margin-end: 5px;
   -webkit-padding-start: 0;
 }
+*[dir="rtl"] .header ul li { float: right;}
 .header ul li {
   float: left;
 }
@@ -50,6 +51,9 @@
   padding: 0;
 }
 
+*[dir="rtl"] .footer {
+  right: 0;
+}
 .footer {
   background: rgba(46,46,46,.9);
   bottom: 0;
@@ -75,6 +79,11 @@
   clear: both;
 }
 
+*[dir="rtl"] .row .thirds {
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0;
+}
 .row .thirds {
   float: left;
   margin-left: 0.5%;
@@ -82,16 +91,27 @@
   padding-bottom: 40px;
   width: 33%;
 }
+*[dir="rtl"] .row .thirds:first-child {
+  margin-right: 0;
+}
 .row .thirds:first-child {
   margin-left: 0;
 }
 
+*[dir="rtl"] .row .halves {
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0;
+}
 .row .halves {
   float: left;
   margin-left: 0.5%;
   margin-right: 0;
   padding-bottom: 40px;
   width: 49.75%;
+}
+*[dir="rtl"] .row .halves:first-child {
+  margin-right: 0;
 }
 .row .halves:first-child {
   margin-left: 0;
@@ -255,6 +275,9 @@ form {
   display: inline;
 }
 
+*[dir="rtl"] input[type="text"], textarea {
+  direction: ltr;
+}
 input[type="text"], textarea {
   font-family: monaco, courier, monospace;
 }
@@ -525,6 +548,9 @@ div.tab {
   height: 100%;
   overflow-y: auto;
   width: 100%;
+}
+*[dir="rtl"] div.tab {
+  float: right;
 }
 
 /* API documentation styles... */
