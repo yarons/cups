@@ -7,13 +7,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9">
     <meta name="viewport" content="width=device-width">
-    <title>דף הבית - CUPS @CUPS_VERSION@</title>
+    <title>בית - CUPS @CUPS_VERSION@</title>
   </head>
   <body>
     <div class="header">
       <ul>
 	<li><a href="https://openprinting.github.io/cups/" target="_blank">CUPS מבית OpenPrinting</a></li>
-	<li><a class="active" href="/">דף הבית</a></li>
+	<li><a class="active" href="/">בית</a></li>
 	<li><a href="/admin">ניהול</a></li>
 	<li><a href="/classes/">מחלקות</a></li>
 	<li><a href="/help/">עזרה</a></li>
