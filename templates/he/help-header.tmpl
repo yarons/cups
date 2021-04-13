@@ -1,7 +1,7 @@
 <FORM ACTION="/help/{?HELPFILE}" METHOD="GET">
 {TOPIC?<INPUT TYPE="HIDDEN" NAME="TOPIC" VALUE="{TOPIC}">:}
 
-<P ALIGN="CENTER"><B>חיפוש בתוך
+<P ALIGN="CENTER"><B>חיפוש בין
 {HELPTITLE?{HELPTITLE}:{TOPIC?{TOPIC}:כל המסמכים}}:</B> <INPUT
 TYPE="SEARCH" NAME="QUERY" VALUE="{?QUERY}" SIZE="40" PLACEHOLDER=""
 AUTOSAVE="org.cups.help" RESULTS="20">
@@ -24,7 +24,7 @@ AUTOSAVE="org.cups.help" RESULTS="20">
 </TD></TR>
 </TABLE></DIV>
 
-{QUERY?<P>תוצאות חיפוש בתוך {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:כל המסמכים}}\:</P>
+{QUERY?<P>תוצאות חיפוש בין {HELPFILE?{HELPTITLE}:{TOPIC?{TOPIC}:כל המסמכים}}\:</P>
 {QTEXT?<UL>
 {[QTEXT]<LI><A HREF="{QLINK}">{QTEXT}</A>{QPTEXT? (ב־<I><A HREF="{QPLINK}">{QPTEXT}</A></I>):}</LI>}
 {QTEXT?</UL>:}
